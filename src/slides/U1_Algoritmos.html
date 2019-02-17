@@ -8,19 +8,41 @@
 </include>
 
 <section>
-    <h2>Concepto</h2>
+    <h2>Libro:</h2>
+    <img class="noBorder" src="img/html/libro.png"/>
+    <p>
+        “Metodología de la Programación: Algoritmos, diagramas de flujo y programas” <br>
+        de Osvaldo Cairó
+    </p>
+</section>
+
+<section>
+    <h2>Introducción a los Algoritmos</h2>
+    <p>
+        ¿Qué les parece que es un algoritmo?
+    </p>
+    <p>
+        ¿Cómo lo definirían son sus palabras?
+    </p>
+</section>
+
+<section>
+    <h2>Introducción a los Algoritmos</h2>
+    <ol>
+        <li>Cotidiano: desayunar, ir a la facu</li>
+        <li>Como una receta</li>
+    </ol>
+</section>
+
+<section>
+    <h2>Algoritmo: Concepto</h2>
     <p>
         Conjunto de pasos, procedimientos o acciones que nos permiten alcanzar un resultado o resolver un problema.
     </p>
 </section>
 
-<!--section>
-    <img class="noBorder" src="images/configSO/drivers.png" style="margin: auto">
-</section-->
-
-
 <section>
-    <h2>Metodología para la Solución de Problemas</h2>
+    <h2>Etapas para la Solución de Problemas</h2>
     <ol>
         <li>Análisis Profundo del Problema</li>
         <li>Contrucción del Algoritmo</li>
@@ -45,6 +67,20 @@
             siempre debe arrojar los mismos resultados.</li>
         <li><b>Finitud: </b> El algoritmo siempre debe ser de longitud finita</li>
     </ul>
+</section>
+
+<section>
+    <h2>Metodología para la solución de Problemas basados en la Computadora</h2>
+    <ol>
+        <li>Formulación o enunciación del problema</li>
+        <li>Elección de un método o procedimiento (algoritmo)</li>
+        <li>Codificación</li>
+        <li>Prueba de escritorio</li>
+        <li>Compilación y Ejecución</li>
+        <li>Prueba y Depuración</li>
+        <li>Interpretación de los resultados</li>
+        <li>Documentación y Mantenimiento</li>
+    </ol>
 </section>
 
 <section>
@@ -74,7 +110,7 @@
             <td>Marcar el inicio y el fin del diagrama de flujo.</td>
         </tr>
         <tr>
-            <td><img src="images/U1_Algoritmos/sim_lectura.png"></td>
+            <td><img class="noBorder" src="images/unidad1_Algoritmos/sim_lectura.png"></td>
             <td>Introducir los datos de entrada.  Expresa lectura.</td>
         </tr>
         <tr>
@@ -118,6 +154,134 @@
     </table>
 </section>
 
+<section>
+    <h2>Etapas de un Diagrama de Flujo</h2>
+    <p>
+        <img src="images/U1_Algoritmos/etapas_diagrama_flujo.png">
+    </p>
+</section>
+
+<section>
+    <h2>Reglas para la construcción de un Diagrama de Flujo</h2>
+    <ol>
+        <li>Todo diagrama de flujo debe tener un inicio y un fin.</li>
+        <li>Las líneas utilizadas para indicar la dirección del flujo del diagrama deben ser rectas, verticales y horizontales.</li>
+        <li> Todas las líneas utilizadas para indicar la dirección del flujo del diagrama de­ben estar conectadas.
+            La conexión puede ser a un símbolo que exprese lectura, proceso, decisión, impresión, conexión o fin de diagrama.</li>
+        <li>El diagrama de flujo debe ser construido de arriba hacia abajo (top-down) y de izquierda a derecha (right to left).</li>
+        <li>La notación utilizada en el diagrama de flujo debe ser independiente del lenguaje de programación.
+            La solución presentada en el diagrama puede escri­birse posteriormente y fácilmente en diferentes lenguajes de programación.</li>
+        <li>Es  conveniente  cuando  realizamos  una tarea compleja poner comentarios que expresen o ayuden a entender lo que hicimos.</li>
+        <li>Si el diagrama de flujo requiriera más de una hoja para su construcción, debemos utilizar los conectores adecuados y enumerar las páginas convenientemente.</li>
+        <li>No puede llegar más de una línea a un símbolo.</li>
+    </ol>
+</section>
+
+<section>
+    <h2>Pseudocódigo</h2>
+    <p>
+        ¿Qué les parece que es el pseudocódigo?
+    </p>
+    <p>
+        ¿Cómo lo definirían son sus palabras?
+    </p>
+    <p>
+        ¿Conocen la etimología de la palabra?
+    </p>
+</section>
+
+<section>
+    <h2>Pseudocódigo: Concepto</h2>
+    <p>
+        Es un "falso lenguaje", que apela a las normas de estructura de un lenguaje de programación aunque se encuentra
+        desarrollado para que pueda ser leído por un ser humano y no interpretado por una máquina.
+    </p>
+</section>
+
+<section>
+    <h2>Pseudocódigo: Ejemplo</h2>
+    <pre><code data-trim>
+    Inicio
+       a = 0;
+       b = 0;
+       repita
+          imprimir "Introduzca el primer número"
+          leer -> a
+          si a no es un numero entonces
+             imprimir a " no es un valor válido, intente de nuevo."
+          fin si
+       hasta a es un numero
+       repita
+          imprimir "Introduzca el segundo número"
+          leer -> b
+          si b no es un numero entonces
+             imprimir b " no es un valor válido, intente de nuevo."
+          fin si
+       hasta b es un numero
+       c = a + b
+       imprimir "La suma de " a " y " b " es " c
+    Fin
+</code></pre>
+</section>
+
+<section>
+    <h2>Pseudocódigo: Ejercicio</h2>
+    <p>
+        Traducir el anterior Pseudocódigo a un diagrama de flujo.
+    </p>
+</section>
+
+<section>
+    <h2>Programa: Definición</h2>
+    <p>
+        Conjunto de instrucciones que sigue la computadora para alcanzar un resultado específico.
+        El programa se escribe en un lenguaje de programación a partir de un diagrama de flujo diseñado con anterioridad.
+    </p>
+</section>
+
+<section>
+    <h2>Lenguaje de Programación: Definición</h2>
+    <p>
+        Conjunto de reglas sintácticas (especifica la formación de instrucciones válidas) y semánticas
+        (especifica el significado de estas instrucciones), que hacen posible escribir un programa.
+    </p>
+</section>
+
+<section>
+    <h2>Lenguaje de Programación: Tipos</h2>
+    <ul>
+        <li>
+            Programación estructurada
+            <ul>
+                <li>Pascal</li>
+                <li>C</li>
+                <li>Basic</li>
+                <li>Fortran</li>
+                <li>Cobol</li>
+            </ul>
+        </li>
+        <li>
+            Programación orientada a objetos
+            <ul>
+                <li>C++</li>
+                <li>Smalltalk</li>
+                <li>Java</li>
+            </ul>
+        </li>
+        <li>
+            Programación Simbólica
+            <ul>
+                <li>Lisp</li>
+            </ul>
+        </li>
+        <li>
+            Programación Lógica
+            <ul>
+                <li>Prolog</li>
+            </ul>
+        </li>
+    </ul>
+</section>
 
 <section>
     <h2>¿Dudas, Preguntas, Comentarios?</h2>
