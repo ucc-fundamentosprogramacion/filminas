@@ -1,3 +1,9 @@
+img {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
 .noBorder {
     background: none !important;
     box-shadow: none !important;
