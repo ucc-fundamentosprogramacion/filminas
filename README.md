@@ -3,7 +3,7 @@
 Filminas de la materia Laboratorio de Computación II
 ====================================================
 
-Se pueden ver online en https://ucc-labcompu2.github.io/filminas/
+Se pueden ver online en https://ucc-fundamentosprogramacion.github.io/filminas/
 
 
 Steps:

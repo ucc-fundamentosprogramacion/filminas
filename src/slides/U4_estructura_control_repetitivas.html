@@ -1,0 +1,202 @@
+<include src="../templates/header.html"
+         titulo="Estructura de Control Repetitiva o Iterativa"
+         descripcion="Estructura de Control Repetitiva o Iterativa">
+    Agus Edme Aliciardi
+</include>
+
+<include src="../templates/slide1.html" titulo="Estructura de Control Repetitiva o Iterativa">
+    <h3>Conceptos básicos</h3>
+</include>
+
+<section>
+    <h2>Libro:</h2>
+    <img class="noBorder" src="images/book.png"/>
+    <p>
+        “Metodología de la Programación: Algoritmos, diagramas de flujo y programas” <br>
+        de Osvaldo Cairó
+    </p>
+</section>
+
+<section>
+    <h2>Estructuras Repetitivas o Iterativas</h2>
+    <p>
+        Este tipo de estructura de algoritmos que permite repetir una o varias acciones un número determinado de veces.
+    </p>
+    <p>
+        Se denominan BUCLES, LAZO o LOOP, y cada repetición del bucle se llama iteración.
+    </p>
+    <p>
+        Todo bucle tiene que llevar asociada una condición, que es la que va a determinar
+        cuándo se repite el bucle y cuando deja de repetirse.
+    </p>
+</section>
+
+<section>
+    <p>
+        <img src="images/warning.png" style="width: 50%">
+    </p>
+    <p>
+        Bajo ninguna circunstancia hagas un loop infinito! LA COMPU VA A AUTODESTRUIRSE!!!
+    </p>
+    <p>
+        Bah, no es para tanto, pero nunca va a terminar el programa xD
+    </p>
+</section>
+
+<section>
+    <h2>Tipo de Bucles</h2>
+    <p>
+    <ul>
+        <li>While (mientras)</li>
+        <li>Do While (hacer mientras)</li>
+        <li>For (para)</li>
+    </ul>
+    </p>
+</section>
+
+<section>
+    <section>
+        <h2>While</h2>
+        <p>
+            <img src="images/U4_coltrol_repetitivo/while.png">
+        </p>
+    </section>
+
+    <section>
+        <h2>While</h2>
+        <p>
+            Esta estructura repetitiva “mientras”, es en la que el cuerpo del bucle se repite
+            siempre que se cumpla una determinada condición.
+        </p>
+        <p>
+        <pre><code data-trim>
+Mientras &ltcond&gt hacer
+     &ltacciones&gt
+fin mientras
+</code></pre>
+        </p>
+    </section>
+
+    <section>
+        <h2>While: Ejemplo</h2>
+        <pre><code data-trim>
+INICIO
+   BOOLEANO tanqueLleno = falso
+   MIENTRAS (tanqueLleno == falso)   HACER:
+      llenar tanque
+   FIN_MIENTRAS   // el tanque ya está lleno :)
+FIN
+</code></pre>
+        </p>
+    </section>
+
+    <section>
+        <h2>Trap While</h2>
+        <p>
+            <img src="images/U4_coltrol_repetitivo/its_trap_flow.png">
+        </p>
+    </section>
+</section>
+
+<section>
+    <section>
+        <h2>Do While</h2>
+        <p>
+            <img src="images/U4_coltrol_repetitivo/do_while.png">
+        </p>
+    </section>
+
+    <section>
+        <h2>Do While</h2>
+        <p>
+            Esta estructura es muy similar a la anterior, sólo que a diferencia del while el contenido del bucle se
+            ejecuta siempre al menos una vez, ya que la evaluación de la condición se encuentra al final.
+        </p>
+        <p>
+            De esta forma garantizamos que las acciones dentro de este bucle sean llevadas a cabo,
+            aunque sea una vez independientemente del valor de la condición.
+        </p>
+    </section>
+
+    <section>
+        <h2>Do While</h2>
+        <p>
+        <pre><code data-trim>
+Hacer
+   &ltacciones&gt
+Mientras &ltcond&gt
+fin mientras
+</code></pre>
+        </p>
+    </section>
+
+    <section>
+        <h2>While: Ejemplo</h2>
+        <pre><code data-trim>
+INICIO
+     BOOLEANO llegadaColectivo=false;
+     HACER: esperar en la parada
+     MIENTRAS (llegadaColectivo == false)
+     FIN_MIENTRAS FIN
+</code></pre>
+        </p>
+    </section>
+</section>
+
+<section>
+    <section>
+        <h2>For</h2>
+        <p>
+            <img src="images/U4_coltrol_repetitivo/for.png">
+        </p>
+    </section>
+
+    <section>
+        <h2>For</h2>
+        <p>
+            Permite ejecutar un conjunto de acciones para cada elemento de una lista,
+            o para cada paso de un conjunto de  elementos.
+        </p>
+        <p>
+            Podemos identificar tres componentes:
+        <ul>
+            <li>inicialización</li>
+            <li>condición de corte</li>
+            <li>incremento</li>
+        </ul>
+        </p>
+    </section>
+
+    <section>
+        <h2>For</h2>
+        <p>
+        <pre><code data-trim>
+Para (inicialización; condición de corte; incremento)
+   &ltacciones&gt
+Fin para
+</code></pre>
+        </p>
+    </section>
+
+    <section>
+        <h2>For: Ejemplo</h2>
+        <p>
+        <pre><code data-trim>
+INICIO
+   PARA (ENTERO RUEDA = 1; RUEDA <= 4; RUEDA++)
+      inflar_rueda (RUEDA)
+FIN_PARA FIN
+</code></pre>
+        </p>
+        <p>
+            Cuantas veces se llama a la función inflar_rueda?
+        </p>
+    </section>
+</section>
+
+<section>
+    <h2>¿Dudas, Preguntas, Comentarios?</h2>
+    <img class="noBorder" src="images/pregunta.gif" style="width:30%;border-radius: 20%;">
+</section>
+
+<include src="../templates/footer.html"></include>
