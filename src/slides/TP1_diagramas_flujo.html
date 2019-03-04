@@ -1,0 +1,152 @@
+<include src="../templates/header.html"
+         titulo="TP1: Diagramas de Flujo"
+         descripcion="TP1: Diagramas de Flujo">
+    Agus Edme Aliciardi
+</include>
+
+<include src="../templates/slide1.html" titulo="TP1: Diagramas de Flujo">
+    <h3>Conceptos básicos</h3>
+</include>
+
+<section>
+    <h2>Libro:</h2>
+    <img class="noBorder" src="images/book.png"/>
+    <p>
+        “Guía de Ejercicios Prácticos para el Módulo Técnicas de Programación”
+    </p>
+</section>
+
+<section>
+    <h3 class="ejercicio">Ejercicio: Estructura de <br> Control Secuencial</h3>
+    <p>
+        Disenar el digrama de flujo y realizar una prueba de escritorio.
+    </p>
+    <p>
+        Permita leer dos números desde el teclado (ancho y alto de un rectángulo);
+        mostrar el perímetro y el área por pantalla.
+    </p>
+</section>
+
+<section>
+    <p>
+        <img src="images/tp1/flow_sim.png"
+    </p>
+</section>
+
+<section>
+    <h2>Pruebas de Escritorio</h2>
+    <p>
+        Sirve para validar un algoritmo utilizando datos reales cómo ejemplo,
+        para comprobar si se obtiene el resultado deseado.
+    </p>
+    <p>
+        El proceso para realizar una prueba de escritorio consiste en hacer seguimiento de un algoritmo recorriendo
+        sus líneas secuencialmente,  simulando  el  funcionamiento  de  la  computadora.
+    </p>
+    <p>
+        A medida que se van recorriendo las líneas se anotan en una tabla auxiliar los valores que van tomando las variables.
+    </p>
+</section>
+
+<section>
+    <h2>Pruebas de Escritorio</h2>
+    <p>
+    <ul>Para elaborarlo se deben distinguir las variables:
+        <li>Entrada</li>
+        <li>Auxiliares</li>
+        <li>Salida</li>
+    </ul>
+    </p>
+    <p>
+        Se debe distinguir el valor que toma cada una de ellas a medida que se realizan las operaciones del algoritmo.
+    </p>
+</section>
+
+<section>
+    <h2>Pruebas de Escritorio</h2>
+    <p>
+    <table>
+        <thead>
+        <tr>
+            <th>Tipo de Variable</th>
+            <th>Tipo de Dato</th>
+            <th>Nombre</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Entrada</td>
+            <td>int</td>
+            <td>Edad</td>
+        </tr>
+        <tr>
+            <td>Auxiliar</td>
+            <td>float</td>
+            <td>pasarNum</td>
+        </tr>
+        <tr>
+            <td>Salida</td>
+            <td>char</td>
+            <td>"Solicitud Aceptada"</td>
+        </tr>
+        </tbody>
+    </table>
+    </p>
+</section>
+
+<section>
+    <p>
+        <img src="images/tp1/tipo_variables.png"
+    </p>
+</section>
+
+<section>
+    <h2>Pruebas de Escritorio</h2>
+    <p>
+    <table style="font-size: .6em; border: 1px white solid; border-collapse: collapse; text-align: center">
+        <thead>
+        <tr>
+            <th rowspan="2">Num Prueba</th>
+            <th colspan="2">Entrada</th>
+            <th colspan="2">Asignación</th>
+            <th colspan="2">Operacion</th>
+            <th colspan="2">Salida</th>
+        </tr>
+        <tr>
+            <th>num_1_ing</th>
+            <th>num_2_ing</th>
+            <th>num_1</th>
+            <th>num_2</th>
+            <th>suma</th>
+            <th>resta</th>
+            <th>Mensaje1</th>
+            <th>Mensaje2</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>5</td>
+            <td>2</td>
+            <td>5</td>
+            <td>2</td>
+            <td>7</td>
+            <td>3</td>
+            <td>"La suma es:"+7</td>
+            <td>"La resta es:"+3</td>
+        </tr>
+        </tbody>
+    </table>
+    </p>
+</section>
+
+
+
+
+
+<section>
+    <h2>¿Dudas, Preguntas, Comentarios?</h2>
+    <img class="noBorder" src="images/pregunta.gif" style="width:30%;border-radius: 20%;">
+</section>
+
+<include src="../templates/footer.html"></include>
