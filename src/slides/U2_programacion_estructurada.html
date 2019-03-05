@@ -9,23 +9,63 @@
 </include>
 
 <section>
-    <h2>Libro:</h2>
-    <img class="noBorder" src="images/book.png"/>
+    <h2>Tipo de Datos</h2>
     <p>
-        “Metodología de la Programación: Algoritmos, diagramas de flujo y programas” <br>
-        de Osvaldo Cairó
+        Los datos a procesar por una computadora pueden clasificarse en:
+    <ul>
+        <li><b>Simples:</b> enteros, reales, caracteres, booleanos</li>
+        <li><b>Estructurados:</b> arreglos, cadenas de caracteres, registros y conjuntos</li>
+    </ul>
     </p>
 </section>
 
 <section>
-    <h2>Datos</h2>
+    <h2>Datos Numéricos</h2>
     <p>
-        Durante la ejecución de un programa necesitamos almacenar los <b>datos</b> en la <b>memoria RAM</b>.
-    </p>
-    <p>
-        Para hacerlo podemos usar 2 elementos: <b>variables</b> ó <b>constantes</b>.
+    <ul>
+        <li><b>Enteros:</b> Números que pueden estar precedidos del signo + o y que no tienen parte decimal. <br>
+            Ej. 128     -743      16225     -16780</li>
+        <li><b>Reales:</b> números que pueden estar precedidos del signo + o y que tienen una parte decimal. <br>
+            Ej. 7.5     -37.865     129.7     -15.0</li>
+    </ul>
     </p>
 </section>
+
+<section>
+    <h2>Datos Alfanuméricos</h2>
+    <p>
+    <ul>
+        <li><b>Caracter (simple):</b> pueden ser letras del abecedario (a,b,c,...,z), dígitos (0, 1, 2 ..... 9) o
+            símbolos especiales (#, $, * ,* , %, /,..., etc.) <br>
+            Los números no se pueden emplear para operaciones aritméticas. <br>
+            Se debe escribir con apóstrofe: 'a'   'B'    '3'    '#'</li>
+        <li><b>Cadena de Caracteres (estructurado):</b> Conjunto de catacteres. <br>
+            Se escribe con comillas "abcd"   "9#hj&"    "Juan Perez"    "756-678"</li>
+    </ul>
+    </p>
+</section>
+
+<section>
+    <h2>Identificadores</h2>
+    <p>
+        Nombre que se les da a las casillas o celdas de memoria donde se almacenan los datos a procesar por la computadora.
+    </p>
+</section>
+
+<section>
+    <h2>Identificadores</h2>
+    <p>
+        Reglas para los nombres de los identificadores:
+    <ul>
+        <li>El primer caracter debe ser una letra (a, b, c, z).</li>
+        <li>Los demás caracteres pueden ser letras (a,b,c,...,z), dígitos (0,1,2,...,9) o el
+            símbolo especial: _ </li>
+        <li>No puede contener palabras reservadas.</li>
+        <li>Debe ser representativo.</li>
+    </ul>
+    </p>
+</section>
+
 
 <section>
     <h2>Variables y Constantes</h2>
@@ -401,6 +441,45 @@
         </tbody>
     </table>
     </p>
+</section>
+
+<section>
+    <section>
+        <h2>Jerarquía de Operadores</h2>
+        <p>
+            Si tenemos en una expresión más de un operador, debemos aplicar primero el operador de mayor jerarquía,
+            resolver esa operación, y así sucesivamente.
+        </p>
+    </section>
+
+    <section>
+        <h2>Jerarquía de Operadores</h2>
+        <p>
+        <ul>
+            <li>Paréntesis ()</li>
+            <li>!</li>
+            <li>* , / y %</li>
+            <li>+   y   -</li>
+            <li>=, &lt &gt, &lt= &gt=</li>
+            <li>&& , ||</li>
+        </ul>
+        </p>
+    </section>
+
+    <section>
+        <h2>Reglas Jerarquía de Operadores</h2>
+        <p>
+        <ol>
+            <li>Si una expresión contiene subexpresiones entre paréntesis, éstas se evalúan
+                primero; respetando claro está la jerarquía de los operadores aritméticos en
+                esta subexpresión. Si las subexpresiones se encuentran anidadas por paréntesis,
+                primero se evalúan las subexpresiones que se encuentran en el último nivel
+                de anidamiento.</li>
+            <li>Los operadores aritméticos se aplican teniendo en cuenta la jerarquía y de izquierda
+                a derecha.</li>
+        </ol>
+        </p>
+    </section>
 </section>
 
 <section>
