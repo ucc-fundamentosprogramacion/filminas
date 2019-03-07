@@ -64,3 +64,7 @@ img {
     vertical-align: middle;
     padding: 15px !important;
 }
+
+td img{
+    vertical-align: middle !important;
+}

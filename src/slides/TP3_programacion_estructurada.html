@@ -16,6 +16,229 @@
 </section>
 
 <section>
+    <h3>C</h3>
+    <p>
+        Lenguaje de programación de tipo estructurado, cuyo enfoque de solución de los problemas se disena
+        de arriba hacia abajo (top-down), y de izquierda a derecha (left to right).
+    </p>
+</section>
+
+<section>
+    <h3>C: Ejemplo</h3>
+    <p>
+    <pre><code>#include &ltstdio.h&gt
+/*Programa 1.1
+Imprime un mensaje por pantalla*/
+
+void main(void){
+    printf("Mi primer programa en C");
+
+}
+</code></pre>
+    </p>
+</section>
+
+<section>
+    <h3>C: Primeros Pasos</h3>
+    <p>La función <b>main</b> es de donde se comienza a ejecutar el programa principal.</p>
+    <p>El primer <b>void</b> indica que el programa no arrojará resultados de un tipo de datos.</p>
+    <p>El segundo <b>void</b> especifica que el programa no tiene parámetros.</p>
+    <p>Todas las intrsucciones tienen que estar dentro del bloque <b>{}</b> y finalizar con <b>;</b>, excepto si son
+        estructuras selectivas o repetitivas.</p>
+</section>
+
+<section>
+    <h3>C: Caracteres de control</h3>
+    <p>
+    <table>
+        <thead>
+        <tr>
+            <th>Caracter de Control</th>
+            <th>Explicación</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>\n</td>
+            <td>Permite pasar a una nueva línea.</td>
+        </tr>
+        <tr>
+            <td>\t</td>
+            <td>Permite tabular horizontalmente.</td>
+        </tr>
+        <tr>
+            <td>\v</td>
+            <td>Permite tabular verticalmente.</td>
+        </tr>
+        <tr>
+            <td>\f</td>
+            <td>Indica avance de página.</td>
+        </tr>
+        <tr>
+            <td>\a</td>
+            <td>Indica sonido de alerta.</td>
+        </tr>
+        <tr>
+            <td>\'</td>
+            <td>Escribe un apóstrofe.</td>
+        </tr>
+        <tr>
+            <td>\"</td>
+            <td>Escribe comillas.</td>
+        </tr>
+        <tr>
+            <td>\\</td>
+            <td>Escribe diagonal invertida.</td>
+        </tr>
+        </tbody>
+    </table>
+    </p>
+</section>
+
+<section>
+    <h3>C: Formato de Variables</h3>
+    <p>
+        El formato de lectura y escritura de variables cambia de acuerdo al tipo de datos que estas puedan tener.
+    </p>
+    <p>
+        La especificación de formato es obligatora al escribir instrucciones de lectura <b>scanf</b> y de escritura
+        <b>printf</b>
+    </p>
+</section>
+
+<section>
+    <h3>C: Formato de Variables</h3>
+    <p>
+    <table>
+        <thead>
+        <tr>
+            <th>Formato</th>
+            <th>Explicación</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>%u</td>
+            <td>Escribe enteros sin signo de 2 bytes (unsigned int)</td>
+        </tr>
+        <tr>
+            <td>%d %i</td>
+            <td>Escribe enteros 2 bytes (int)</td>
+        </tr>
+        <tr>
+            <td>/ld</td>
+            <td>Imprime enteros de largo alcance (long)</td>
+        </tr>
+        <tr>
+            <td>%f</td>
+            <td>Escribe reales de 4 bytes (float)</td>
+        </tr>
+        <tr>
+            <td>%lf</td>
+            <td>Escribe reales de doble precisión, 8 bytes (double)</td>
+        </tr>
+        <tr>
+            <td>%e</td>
+            <td>Imprime en forma exponencial</td>
+        </tr>
+        <tr>
+            <td>%g</td>
+            <td>Imprime en %f o %e en función del tamano del número.</td>
+        </tr>
+        <tr>
+            <td>%c</td>
+            <td>Escribe un caracter de byte (char)</td>
+        </tr>
+        <tr>
+            <td>%s</td>
+            <td>Escribe una cadena de caracteres, que termina con '\0'</td>
+        </tr>
+        </tbody>
+    </table>
+    </p>
+</section>
+
+<section>
+    <h3>C: Formato de Variables</h3>
+    <p>
+    <pre><code>float x=6.2555, z=7.2576;
+int y=4, t=-5;
+
+printf("%f %d %f %d", x,y,z,t);
+printf("%f \n %d \t %f \n %d", x,y,z,t);
+</code></pre>
+    Produce la siguiente salida: 6.255500 4 7.257600 -5
+    </p>
+</section>
+
+<section>
+    <h3>C: Modificadores de Símbolos</h3>
+    <p>
+    <table>
+        <thead>
+        <tr>
+            <th>Formato</th>
+            <th>Explicación</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>%5d</td>
+            <td>Escribe un entero utilizando un campo de 5 dígitos. Justificación a la derecha.</td>
+        </tr>
+        <tr>
+            <td>%-6d</td>
+            <td>Escribe enteros utilizando un campo de 6 dígitos. Justificación a la izquierda.</td>
+        </tr>
+        <tr>
+            <td>%4.2f</td>
+            <td>Escribe un real utilizando un campo de 4 dígitos. 2 de ellos son decimales.</td>
+        </tr>
+        <tr>
+            <td>%-5.2f</td>
+            <td>Escribe un real utilizando un campo de 4 dígitos. 2 de ellos decimales. Justificación a la izquierda.</td>
+        </tr>
+        </tbody>
+    </table>
+    </p>
+</section>
+
+<section>
+    <h3>C: Modificadores de Símbolos</h3>
+    <p>
+    <pre><code>float x=6.2555, z=7.2576;
+int y=4, t=-5;
+
+printf("%4.2f \n %5.2e \n %5d \n %d", x,z,y,t);
+</code></pre>
+    Produce la siguiente salida: 6.25 7.26e+00 4 -5
+    </p>
+</section>
+
+<section>
+    <h3>C: Ejemplo Invertir</h3>
+    <p>
+        <img src="images/tp3/ejemplo_invertir.png">
+    </p>
+</section>
+
+<section>
+    <h3>C: Ejemplo Invertir</h3>
+    <p>
+    <pre><code>#include &ltstdio.h&gt;
+/*El programa, al recibir como dato un conjunto de datos de entrada, invierteel oden de los mismos cuando los imprime*/
+
+void main(){
+    int A, B, C, D;
+    printf("Ingrese cuatro datos de tipo entero: ");
+    scanf("%d %d %d %d %d", &A, &B, &C, &D);
+    printf("\n %d %d %d %d", D, C, B, A);
+}
+</code></pre>
+    </p>
+</section>
+
+<section>
     <section>
         <h2>Contador</h2>
         <p>
@@ -137,14 +360,14 @@
 <section>
     <h3>Programa</h3>
     <p>
-<pre><code>/*NOMBRE DEL PROGRAMA
+    <pre><code>/*NOMBRE DEL PROGRAMA
 * Descripción de que hace
 * Version: 2.1
 * Fecha: 04/03/2019
 */
 
-    #include <stdio.h>
-#include <stdlib.h>
+    #include &ltstdio.h&gt
+#include &ltstdlib.h&gt
 
 int main() {
     //Comentario en línea independiente. Declaración de la variable edad
@@ -156,6 +379,12 @@ int main() {
     return 0; /*Sentencia return de terminación, comentario en bloque en una sola línea*/
 }
 </code></pre>
+    </p>
+</section>
+
+<section>
+    <p>
+        <img src="images/U2_programacion/proyecto.jpg">
     </p>
 </section>
 
