@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/UCC-LabCompu2/filminas.svg?branch=master)](https://travis-ci.org/UCC-LabCompu2/filminas)
+[![Build Status](https://travis-ci.org/ucc-fundamentosprogramacio/filminas.svg?branch=master)](https://travis-ci.org/ucc-fundamentosprogramacio/filminas)
 
 Filminas de la materia Laboratorio de Computación II
 ====================================================
