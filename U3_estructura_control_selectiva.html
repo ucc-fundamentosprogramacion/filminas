@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="es">
+<head>
+
+    <link href='images/code.ico' rel='shortcut icon' type='image/x-icon'>
+    <meta charset="utf-8">
+
+    <title>Estructura de Control Selectiva</title>
+    <meta name="description" content="Estructura de Control Selectiva">
+    <meta name="author" content="
+    Agus Edme Aliciardi
+">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/filminas.css">
+    <script type="text/javascript" src="js/pruebas.js"></script>
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+<section>
+    <h1>Estructura de Control Selectiva</h1>
+    
+    <h3>Conceptos básicos</h3>
+
+    <p>
+        <small>Created by
+            <a href="https://t.me/edme88" target="_blank">
+            <i class="fa fa-telegram"></i>edme88
+            </a>
+        </small>
+    </p>
+</section>
+
+<section>
+    <h2>Estructuras Selectivas</h2>
+    <p>
+        Estructura de  control de  gran  utilidad  para  cuando  el  algoritmo  a  desarrollar presenta  un número de
+        posibles alternativas que resultan de la evaluación de una determinada condición.
+    </p>
+    <p>
+        Este  tipo  de  estructuras  son  utilizadas  para  tomar decisiones  lógicas,  por ello  también  se denominan
+        estructuras de decisión o alternativa.
+    </p>
+</section>
+
+<section>
+    <h2>Estructuras Selectivas</h2>
+    <p>
+        Hay situaciones en las que la toma de decisiones se realiza en cascada. Es decir
+        se toma una decisión, se marca la rama correspondiente a seguir, se vuelve a
+        tomar otra decisión y así sucesivamente. Por lo que para alcanzar la solución de
+        un problema o subproblema debemos aplicar prácticamente un árbol de decisión.
+    </p>
+</section>
+
+<section>
+    <h2>Tipo de Estructura</h2>
+    <p>
+    <ul>Las estructuras selectivas/alternativas pueden ser:
+        <li>Simples (Si-Entonces)</li>
+        <li>Dobles (Si-Entonces/Sino)</li>
+        <li>Múltiples (Si multiple)</li>
+    </ul>
+    </p>
+</section>
+
+<section>
+    <section>
+        <h2>Alternativa Simple</h2>
+        <p>
+            <img src="images/U3_coltrol_selectiva/alternativa_simple.png">
+        </p>
+    </section>
+
+    <section>
+        <h2>Alternativa Simple (si-entonces/if-then)</h2>
+        <p>
+            Lleva   a   cabo   una   acción   al cumplirse    una    determinada    condición.
+        </p>
+        <p>
+            La selección si-entonces evalúa la condición y:
+        <ul>
+            <li>Si la condición es verdadera, ejecuta la operación</li>
+            <li>Si la condición es falsa, no ejecuta nada.</li>
+        </ul>
+        </p>
+    </section>
+
+    <section>
+        <h2>Alternativa Simple</h2>
+        <p>
+        <table>
+            <tr>
+                <th>En Espanol</th>
+                <th>En Inglés</th>
+            </tr>
+            <tr>
+                <td>Si &ltcondicion&gt <br> Entonces &ltacción S1&gt <br> Fin_Si</td>
+                <td>If &ltcondicion&gt <br> Then &ltacción S1&gt <br> End_If</td>
+            </tr>
+        </table>
+        </p>
+    </section>
+
+    <section>
+        <h2>Alternativa Simple</h2>
+        <p>
+        <pre><code data-trim>
+INICIO
+    ENTERO edad = 18
+    SI (edad > 18)
+    ENTONCES:
+         puede manejar un auto
+FIN_SI FIN
+</code></pre>
+        </p>
+    </section>
+</section>
+
+<section>
+    <section>
+        <h2>Alternativa Doble</h2>
+        <p>
+            <img src="images/U3_coltrol_selectiva/alternativa_doble.png">
+        </p>
+    </section>
+
+    <section>
+        <h2>Alternativa Doble (si-entonces-sino/if-then-else)</h2>
+        <p>
+            Permite elegir  dos  opciones  o  alternativas  posibles,  de  acuerdo  al  cumplimiento  o  no  de  una
+            determinada condición:
+        <ul>
+            <li>Si la condición es verdadera, se ejecuta la operación S1 </li>
+            <li>Si la condición es falsa, se ejecuta la operación S2</li>
+        </ul>
+        </p>
+    </section>
+
+    <section>
+        <h2>Alternativa Doble</h2>
+        <p>
+        <table>
+            <tr>
+                <th>En Espanol</th>
+                <th>En Inglés</th>
+            </tr>
+            <tr>
+                <td>Si &ltcondicion&gt <br> Entonces &ltacción S1&gt <br> sino &ltacción S2&gt <br> Fin_Si</td>
+                <td>If &ltcondicion&gt <br> Then &ltacción S1&gt <br> else &ltacción S2&gt <br> End_If</td>
+            </tr>
+        </table>
+        </p>
+    </section>
+
+    <section>
+        <h2>Alternativa Doble</h2>
+        <p>
+        <pre><code data-trim>
+INICIO
+     BOOLEANO afueraLlueve = verdadero
+     SI (afueraLlueve es verdadero)
+     ENTONCES:
+        me quedo viendo Netflix
+     SINO:
+        salgo al parque a tomar mates
+     FIN_SI
+FIN
+</code></pre>
+        </p>
+    </section>
+</section>
+
+<section>
+    <section>
+        <h2>Alternativa Múltiple</h2>
+        <p>
+            <img src="images/U3_coltrol_selectiva/alternativa_multiple.png">
+        </p>
+    </section>
+
+    <section>
+        <h2>Alternativa Múltiple (según sea, caso de/case)</h2>
+        <p>
+            Se  utiliza  cuando  existen  más  de  dos  alternativas  para  elegir.
+        </p>
+        <p>
+            Esto  podría  solucionarse  por  medio  de estructuras alternativas simples o dobles, anidadas o en cascada.
+            Esto puede plantear serios problemas de escritura del algoritmo, de comprensión y de legibilidad,
+            si el número de alternativas esgrande.
+        </p>
+    </section>
+
+    <section>
+        <h2>Alternativa Múltiple (según sea, caso de/case)</h2>
+        <p>
+            En esta estructura se evalúa una condición o expresión que puede tomar n valores. Según el valor que la
+            expresión tenga en cada momento se ejecutan las acciones correspondientes al valor.
+        </p>
+    </section>
+
+    <section>
+        <h2>Alternativa Múltiple</h2>
+        <p> Pseudpocódigo
+<pre><code data-trim>
+Según sea &ltexpresión&gt
+     &ltValor1&gt: &ltAcción1&gt
+     &ltValor2&gt: &ltAcción2&gt
+     ...........................
+        [&ltOtro&gt: &ltacciones&gt]
+FIN Según
+</code></pre>
+        </p>
+    </section>
+
+    <section>
+        <h2>Alternativa Múltiple</h2>
+        <p> Ejemplo en Pseudpocódigo
+        <pre><code data-trim>
+INICIO
+     ENTERO posicionDeLlegada = 3
+     SEGUN SEA posicionDeLlegada
+        1: entregar medalla de oro
+        2: entregar medalla de plata
+        3: entregar medalla de bronce
+        otro: entregar mención especial
+FIN
+</code></pre>
+        </p>
+    </section>
+
+    <section>
+        <h2>Alternativa Doble</h2>
+        <p>
+            Cómo desarrollarían el anterior ejemplo en un diagrama de flujo empleando if-then-else?
+            Cómo sería el pseudocódigo?
+        </p>
+    </section>
+
+    <section>
+        <h2>Alternativa Doble</h2>
+        <p> Ejemplo en Pseudpocódigo
+        <pre><code data-trim>
+INICIO
+   ENTERO posicionDeLlegada = 3
+   SI (posicionDeLlegada = 1)
+   ENTONCES:
+      entregar medalla de oro
+   SINO:
+      SI (posicionDeLlegada = 2)
+      ENTONCES:
+         entregar medalla de plata
+      SINO:
+         SI (posicionDeLlegada = 3)
+         ENTONCES:
+            entregar medalla de bronce
+         SINO:
+            entregar mención especial
+         FIN_SI
+      FIN_SI
+   FIN_SI
+FIN
+</code></pre>
+        </p>
+    </section>
+</section>
+
+<section>
+    <h2>Estructuras Selectivas en Cascada</h2>
+    <p>
+        Luego de tomar una decisión y marcar el camino correspondiente a seguir, es
+        necesario tomar otra decisión.
+    </p>
+</section>
+
+<section>
+    <h2>Cascada: Ejemplo</h2>
+    <p>
+        <img src="images/U3_coltrol_selectiva/alternativa_cascada.png">
+    </p>
+</section>
+
+<section>
+    <h2>Cascada: Ejemplo</h2>
+    <p>
+        <img src="images/U3_coltrol_selectiva/alternativa_cascada2.png">
+    </p>
+</section>
+
+<section>
+    <h2>Cascada: Ejemplo</h2>
+    <p>
+        <img src="images/U3_coltrol_selectiva/alternativa_cascada3.png">
+    </p>
+</section>
+<section>
+    <h2>¿Dudas, Preguntas, Comentarios?</h2>
+    <img class="noBorder" src="images/pregunta.gif" style="width:30%;border-radius: 20%;">
+</section>
+
+</div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+	// More info https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+		history: true,
+
+		// More info https://github.com/hakimel/reveal.js#dependencies
+		dependencies: [
+			{src: 'plugin/markdown/marked.js'},
+			{src: 'plugin/markdown/markdown.js'},
+			{src: 'plugin/notes/notes.js', async: true},
+			{
+				src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+				hljs.initHighlightingOnLoad();
+			}
+			}
+		]
+	});
+</script>
+</body>
+</html>
+
