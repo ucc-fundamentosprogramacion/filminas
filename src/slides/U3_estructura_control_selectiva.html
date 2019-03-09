@@ -11,11 +11,11 @@
 <section>
     <h2>Estructuras Selectivas</h2>
     <p>
-        Estructura de  control de  gran  utilidad  para  cuando  el  algoritmo  a  desarrollar presenta  un número de
+        Estructura de control de gran utilidad para cuando el algoritmo a desarrollar presenta un número de
         posibles alternativas que resultan de la evaluación de una determinada condición.
     </p>
     <p>
-        Este  tipo  de  estructuras  son  utilizadas  para  tomar decisiones  lógicas,  por ello  también  se denominan
+        Este tipo de estructuras son utilizadas para tomar decisiones lógicas, por ello también se denominan
         estructuras de decisión o alternativa.
     </p>
 </section>
@@ -34,9 +34,9 @@
     <h2>Tipo de Estructura</h2>
     <p>
     <ul>Las estructuras selectivas/alternativas pueden ser:
-        <li>Simples (Si-Entonces)</li>
-        <li>Dobles (Si-Entonces/Sino)</li>
-        <li>Múltiples (Si multiple)</li>
+        <li>Simples: if (Si-Entonces)</li>
+        <li>Dobles: if-else (Si-Entonces/Sino)</li>
+        <li>Múltiples: switch (Si multiple)</li>
     </ul>
     </p>
 </section>
@@ -52,7 +52,7 @@
     <section>
         <h2>Alternativa Simple (si-entonces/if-then)</h2>
         <p>
-            Lleva   a   cabo   una   acción   al cumplirse    una    determinada    condición.
+            Lleva a cabo una acción al cumplirse una determinada condición.
         </p>
         <p>
             La selección si-entonces evalúa la condición y:
@@ -92,6 +92,17 @@ FIN_SI FIN
 </code></pre>
         </p>
     </section>
+
+    <section>
+        <h2>Alternativa Simple</h2>
+        <p>
+        <pre><code data-trim>
+if(condicion){
+    operación;
+}
+</code></pre>
+        </p>
+    </section>
 </section>
 
 <section>
@@ -105,11 +116,11 @@ FIN_SI FIN
     <section>
         <h2>Alternativa Doble (si-entonces-sino/if-then-else)</h2>
         <p>
-            Permite elegir  dos  opciones  o  alternativas  posibles,  de  acuerdo  al  cumplimiento  o  no  de  una
+            Permite elegir dos opciones o alternativas posibles, de acuerdo al cumplimiento o no de una
             determinada condición:
         <ul>
-            <li>Si la condición es verdadera, se ejecuta la operación S1 </li>
-            <li>Si la condición es falsa, se ejecuta la operación S2</li>
+            <li>Si la condición es verdadera, se ejecuta la operación1 </li>
+            <li>Si la condición es falsa, se ejecuta la operación2</li>
         </ul>
         </p>
     </section>
@@ -131,9 +142,9 @@ FIN_SI FIN
     </section>
 
     <section>
-        <h2>Alternativa Doble</h2>
-        <p>
-        <pre><code data-trim>
+    <h2>Alternativa Doble</h2>
+    <p>
+    <pre><code data-trim>
 INICIO
      BOOLEANO afueraLlueve = verdadero
      SI (afueraLlueve es verdadero)
@@ -143,6 +154,20 @@ INICIO
         salgo al parque a tomar mates
      FIN_SI
 FIN
+</code></pre>
+    </p>
+</section>
+
+    <section>
+        <h2>Alternativa Doble: C</h2>
+        <p>
+        <pre><code data-trim>
+if(condición){
+   operación1;
+}
+else{
+   operación2;
+}
 </code></pre>
         </p>
     </section>
@@ -159,12 +184,12 @@ FIN
     <section>
         <h2>Alternativa Múltiple (según sea, caso de/case)</h2>
         <p>
-            Se  utiliza  cuando  existen  más  de  dos  alternativas  para  elegir.
+            Se utiliza cuando existen más de dos alternativas para elegir.
         </p>
         <p>
-            Esto  podría  solucionarse  por  medio  de estructuras alternativas simples o dobles, anidadas o en cascada.
+            Esto podría solucionarse por medio de estructuras alternativas simples o dobles, anidadas o en cascada.
             Esto puede plantear serios problemas de escritura del algoritmo, de comprensión y de legibilidad,
-            si el número de alternativas esgrande.
+            si el número de alternativas es grande.
         </p>
     </section>
 
@@ -237,6 +262,24 @@ INICIO
       FIN_SI
    FIN_SI
 FIN
+</code></pre>
+        </p>
+    </section>
+
+    <section>
+        <h2>Alternativa Múltiple</h2>
+        <p> Ejemplo en Pseudpocódigo
+        <pre><code data-trim>
+switch(selector){
+    case &ltvalor&gt: &ltacción&gt;
+         break; //Evita evaluar los otros casos
+    case &ltvalor2&gt: &ltacción2&gt;
+         break;
+    ....
+    default: &ltacciónN&gt;
+         break;
+}
+
 </code></pre>
         </p>
     </section>
