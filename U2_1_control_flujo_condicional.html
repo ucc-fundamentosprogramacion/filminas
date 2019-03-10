@@ -5,8 +5,8 @@
     <link href='images/code.ico' rel='shortcut icon' type='image/x-icon'>
     <meta charset="utf-8">
 
-    <title>Estructura de Control Selectiva</title>
-    <meta name="description" content="Estructura de Control Selectiva">
+    <title>Estructura de Control de Flujo Condicional</title>
+    <meta name="description" content="Estructura de Control de Flujo Condicional">
     <meta name="author" content="
     Agus Edme Aliciardi
 ">
@@ -45,7 +45,7 @@
     <div class="slides">
 
 <section>
-    <h1>Estructura de Control Selectiva</h1>
+    <h1>Estructura de Control de Flujo Condicional</h1>
     
     <h3>Conceptos básicos</h3>
 
@@ -55,6 +55,18 @@
             <i class="fa fa-telegram"></i>edme88
             </a>
         </small>
+    </p>
+</section>
+
+<section>
+    <h2>Estructura de un Programa</h2>
+    <p>
+        Un programa puede ser escrito utilizando tres tipos de estructuras de control:
+    <ul>
+        <li>Secuenciales</li>
+        <li>Selectivas o de decisión</li>
+        <li>Repetitivas</li>
+    </ul>
     </p>
 </section>
 
@@ -95,7 +107,7 @@
     <section>
         <h2>Alternativa Simple</h2>
         <p>
-            <img src="images/U3_coltrol_selectiva/alternativa_simple.png">
+            <img src="images/U2_control_flujo/alternativa_simple.png">
         </p>
     </section>
 
@@ -142,24 +154,13 @@ FIN_SI FIN
 </code></pre>
         </p>
     </section>
-
-    <section>
-        <h2>Alternativa Simple</h2>
-        <p>
-        <pre><code data-trim>
-if(condicion){
-    operación;
-}
-</code></pre>
-        </p>
-    </section>
 </section>
 
 <section>
     <section>
         <h2>Alternativa Doble</h2>
         <p>
-            <img src="images/U3_coltrol_selectiva/alternativa_doble.png">
+            <img src="images/U2_control_flujo/alternativa_doble.png">
         </p>
     </section>
 
@@ -192,9 +193,9 @@ if(condicion){
     </section>
 
     <section>
-    <h2>Alternativa Doble</h2>
-    <p>
-    <pre><code data-trim>
+        <h2>Alternativa Doble</h2>
+        <p>
+        <pre><code data-trim>
 INICIO
      BOOLEANO afueraLlueve = verdadero
      SI (afueraLlueve es verdadero)
@@ -205,20 +206,6 @@ INICIO
      FIN_SI
 FIN
 </code></pre>
-    </p>
-</section>
-
-    <section>
-        <h2>Alternativa Doble: C</h2>
-        <p>
-        <pre><code data-trim>
-if(condición){
-   operación1;
-}
-else{
-   operación2;
-}
-</code></pre>
         </p>
     </section>
 </section>
@@ -227,7 +214,7 @@ else{
     <section>
         <h2>Alternativa Múltiple</h2>
         <p>
-            <img src="images/U3_coltrol_selectiva/alternativa_multiple.png">
+            <img src="images/U2_control_flujo/alternativa_multiple.png">
         </p>
     </section>
 
@@ -254,7 +241,7 @@ else{
     <section>
         <h2>Alternativa Múltiple</h2>
         <p> Pseudpocódigo
-<pre><code data-trim>
+        <pre><code data-trim>
 Según sea &ltexpresión&gt
      &ltValor1&gt: &ltAcción1&gt
      &ltValor2&gt: &ltAcción2&gt
@@ -315,54 +302,205 @@ FIN
 </code></pre>
         </p>
     </section>
+</section>
+
+<section>
+    <section>
+        <h2>Estructuras Selectivas en Cascada</h2>
+        <p>
+            Luego de tomar una decisión y marcar el camino correspondiente a seguir, es
+            necesario tomar otra decisión.
+        </p>
+    </section>
 
     <section>
-        <h2>Alternativa Múltiple</h2>
-        <p> Ejemplo en Pseudpocódigo
-        <pre><code data-trim>
-switch(selector){
-    case &ltvalor&gt: &ltacción&gt;
-         break; //Evita evaluar los otros casos
-    case &ltvalor2&gt: &ltacción2&gt;
-         break;
-    ....
-    default: &ltacciónN&gt;
-         break;
-}
+        <h2>Cascada: Ejemplo</h2>
+        <p>
+            <img src="images/U2_control_flujo/alternativa_cascada.png">
+        </p>
+    </section>
 
-</code></pre>
+    <section>
+        <h2>Cascada: Ejemplo</h2>
+        <p>
+            <img src="images/U2_control_flujo/alternativa_cascada2.png">
+        </p>
+    </section>
+
+    <section>
+        <h2>Cascada: Ejemplo</h2>
+        <p>
+            <img src="images/U2_control_flujo/alternativa_cascada3.png">
         </p>
     </section>
 </section>
 
 <section>
-    <h2>Estructuras Selectivas en Cascada</h2>
-    <p>
-        Luego de tomar una decisión y marcar el camino correspondiente a seguir, es
-        necesario tomar otra decisión.
-    </p>
+    <section>
+        <h2>Operadores</h2>
+        <p>
+            Son símbolos especiales que sirven para ejecutar una determinada operación, devolviendo el resultado de la misma.
+        </p>
+        <p>
+            Existen diferentes tipos de operadores:
+        <ul>
+            <li>de Asignación</li>
+            <li>Aritméticos</li>
+            <li>Unitarios</li>
+            <li>Condicionales</li>
+            <li>Relacionales</li>
+            <li>Lógicos</li>
+        </ul>
+        </p>
+    </section>
+    <section>
+        <h2>Operadores Relacionales</h2>
+        <p>
+            Sirven para realizar comparaciones de igualdad, desigualdad y relación de menor o mayor.
+        </p>
+        <p>
+        <table style="font-size: .8em">
+            <thead>
+            <tr>
+                <th>Operador</th>
+                <th>Descripción</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>==</td>
+                <td>Igual a</td>
+            </tr>
+            <tr>
+                <td>!=</td>
+                <td>No igual a</td>
+            </tr>
+            <tr>
+                <td>&gt</td>
+                <td>Mayor que</td>
+            </tr>
+            <tr>
+                <td>&gt=</td>
+                <td>Mayor o igual que</td>
+            </tr>
+            <tr>
+                <td>&lt</td>
+                <td>Menor que</td>
+            </tr>
+            <tr>
+                <td>&lt=</td>
+                <td>Menor o igual que</td>
+            </tr>
+            </tbody>
+        </table>
+        </p>
+    </section>
+
+    <section>
+        <h2>Operadores Relacionales</h2>
+        <p>
+        <table style="font-size: .7em">
+            <thead>
+            <tr>
+                <th>Expresión</th>
+                <th>Operador</th>
+                <th>Descripción</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td> a &gt b</td>
+                <td>&gt</td>
+                <td>true: si a es mayor que b <br> false: si a es menor que b</td>
+            </tr>
+            <tr>
+                <td>a &gt= b</td>
+                <td>&gt=</td>
+                <td>true:si a es mayor o igual que b <br> false: si a es menor que </td>
+            </tr>
+            <tr>
+                <td>a &lt b</td>
+                <td>&lt</td>
+                <td>true: si a es menor que b <br> false: si a es mayor que b</td>
+            </tr>
+            <tr>
+                <td>a &lt= b</td>
+                <td>&lt=</td>
+                <td>true: si a es menor o igual que b <br> false: si a es mayor que b.</td>
+            </tr>
+            <tr>
+                <td>a == b</td>
+                <td>==</td>
+                <td>true: si a y b son iguales.<br> false: si a y b son diferentes</td>
+            </tr>
+            <tr>
+                <td>a != b</td>
+                <td>!=</td>
+                <td>true: si a y b son diferentes <br> false: si a y b son iguales.</td>
+            </tr>
+            </tbody>
+        </table>
+        </p>
+    </section>
+
+    <section>
+        <h2>Operadores Lógicos</h2>
+        <p>
+            Los operadores lógicos (AND, OR y NOT), sirven para evaluar condiciones complejas.
+        </p>
+        <p>
+            Se utilizan para construir  expresiones  lógicas,  combinando  valores  lógicos  (true  y/o  false)  o
+            los  resultados  de  los operadores relacionales.
+        </p>
+    </section>
+
+    <section>
+        <h2>Operadores Lógicos</h2>
+        <p>
+        <table style="font-size: .8em">
+            <thead>
+            <tr>
+                <th>Expresión</th>
+                <th>Nombre Operador</th>
+                <th>Operador</th>
+                <th>Resultado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>!a</td>
+                <td>NOT</td>
+                <td>!</td>
+                <td>true: si a es falso. <br> false: si a es verdadero</td>
+            </tr>
+            <tr>
+                <td>a && b</td>
+                <td>AND</td>
+                <td>&&</td>
+                <td>true: si a y b son verdaderos. <br> false: si a es falso, o si b es falso, o si a y b son falsos</td>
+            </tr>
+            <tr>
+                <td>a || b</td>
+                <td>OR</td>
+                <td>||</td>
+                <td>true: si a es verdadero, o si b es verdadero, o si a y b son verdaderos. <br> false: si a y b son falsos</td>
+            </tr>
+            </tbody>
+        </table>
+        </p>
+    </section>
 </section>
 
 <section>
-    <h2>Cascada: Ejemplo</h2>
+    <h2>Expresión</h2>
     <p>
-        <img src="images/U3_coltrol_selectiva/alternativa_cascada.png">
+        Es una secuencia de operaciones y operandos que especifica un cálculo.
+    </p>
+    <p>
+        Ejemplo: 3 + 5. En esta expresión, el símbolo más (+) es el operador de suma, y los números 3 y 5 se llaman operandos.
     </p>
 </section>
 
-<section>
-    <h2>Cascada: Ejemplo</h2>
-    <p>
-        <img src="images/U3_coltrol_selectiva/alternativa_cascada2.png">
-    </p>
-</section>
-
-<section>
-    <h2>Cascada: Ejemplo</h2>
-    <p>
-        <img src="images/U3_coltrol_selectiva/alternativa_cascada3.png">
-    </p>
-</section>
 <section>
     <h2>¿Dudas, Preguntas, Comentarios?</h2>
     <img class="noBorder" src="images/pregunta.gif" style="width:30%;border-radius: 20%;">

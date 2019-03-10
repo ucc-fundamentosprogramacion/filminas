@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="es">
+<head>
+
+    <link href='images/code.ico' rel='shortcut icon' type='image/x-icon'>
+    <meta charset="utf-8">
+
+    <title>Pseudocódigo</title>
+    <meta name="description" content="Pseudocódigo">
+    <meta name="author" content="
+    Agus Edme Aliciardi
+">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href="css/filminas.css">
+    <script type="text/javascript" src="js/pruebas.js"></script>
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+
+<section>
+    <h1>Pseudocódigo</h1>
+    
+    <h3>Pseudocódigo</h3>
+
+    <p>
+        <small>Created by
+            <a href="https://t.me/edme88" target="_blank">
+            <i class="fa fa-telegram"></i>edme88
+            </a>
+        </small>
+    </p>
+</section>
+
+<section>
+    <h2>Pseudocódigo</h2>
+    <p>
+        ¿Qué les parece que es el pseudocódigo?
+    </p>
+    <p>
+        ¿Cómo lo definirían con sus palabras?
+    </p>
+    <p>
+        ¿Conocen la etimología de la palabra?
+    </p>
+</section>
+
+<section>
+    <h2>Pseudocódigo: Concepto</h2>
+    <p>
+        Es un "falso lenguaje", que tiene  una  estructura  muy similar al lenguaje natural y sirve para poder expresar
+        algoritmos y programas de forma independiente del lenguaje de programación.
+    </p>
+</section>
+
+<section>
+    <h2>Pseudocódigo: Ejemplo</h2>
+    <pre><code data-trim>
+    Inicio
+       a = 0;
+       b = 0;
+       repita
+          imprimir "Introduzca el primer número"
+          leer -> a
+          si a no es un numero entonces
+             imprimir a " no es un valor válido, intente de nuevo."
+          fin si
+       hasta a es un numero
+       repita
+          imprimir "Introduzca el segundo número"
+          leer -> b
+          si b no es un numero entonces
+             imprimir b " no es un valor válido, intente de nuevo."
+          fin si
+       hasta b es un numero
+       c = a + b
+       imprimir "La suma de " a " y " b " es " c
+    Fin
+</code></pre>
+</section>
+
+<section>
+    <h2>Pseudocódigo: Ventajas</h2>
+    <ul>
+        <li>Comunicar y representar ideas que puedan ser entendidas por programadores que conozcan distintos lenguajes.</li>
+        <li>El programador puede concentrarse en la lógica y estructuras de control y no preocuparse de las reglas de
+            un lenguaje de programación específico.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Pseudocódigo: Ejercicio</h2>
+    <p>
+        Traducir el anterior Pseudocódigo a un diagrama de flujo.
+    </p>
+    <p>Es un algoritmo escrito en algún lenguaje de programación de computadoras. </p>
+</section>
+
+<section>
+    <h2>Estructura de un Programa</h2>
+    <p>
+        Un programa puede ser escrito utilizando tres tipos de estructuras de control:
+    <ul>
+        <li>Secuenciales</li>
+        <li>Selectivas o de decisión</li>
+        <li>Repetitivas</li>
+    </ul>
+    </p>
+</section>
+
+<section>
+    <h2>Estructura de un Programa</h2>
+    <p>
+        Las  Estructuras  de  Control  determinan  el  orden  en  que  deben  ejecutarse  las  instrucciones  de  un algoritmo:
+        si serán recorridas una luego de la otra, si habrá que tomar decisiones sobre si ejecutar o no alguna acción o si habrá repeticiones.
+    </p>
+</section>
+
+<section>
+    <h2>Estructura Secuencial</h2>
+    <p>
+        Es la estructura en donde una acción (instrucción) sigue a otra de manera secuencial.
+    </p>
+    <p>
+        Las tareas se dan de tal forma que la salida de una es la entrada de la que sigue y así en lo sucesivo
+        hasta cumplir con todo el proceso.
+    </p>
+    <p>
+        Esta estructura de control es la más simple, permite que las instrucciones que la constituyen se ejecuten
+        una tras otra en el orden en que se listan.
+    </p>
+</section>
+
+<section>
+    <h2>Estructura Secuencial</h2>
+    <p>
+        <img src="images/U1_resolucion_problemas/diagrama_flujo_secuencial.png">
+    </p>
+</section>
+
+<section>
+    <h2>¿Dudas, Preguntas, Comentarios?</h2>
+    <img class="noBorder" src="images/pregunta.gif" style="width:30%;border-radius: 20%;">
+</section>
+
+</div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+	// More info https://github.com/hakimel/reveal.js#configuration
+	Reveal.initialize({
+		history: true,
+
+		// More info https://github.com/hakimel/reveal.js#dependencies
+		dependencies: [
+			{src: 'plugin/markdown/marked.js'},
+			{src: 'plugin/markdown/markdown.js'},
+			{src: 'plugin/notes/notes.js', async: true},
+			{
+				src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+				hljs.initHighlightingOnLoad();
+			}
+			}
+		]
+	});
+</script>
+</body>
+</html>
+
