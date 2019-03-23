@@ -9,9 +9,19 @@
 </include>
 
 <section>
-    <h2>Arreglo: Definición</h2>
+    <h2>Arreglo</h2>
     <p>
-        Colección finita, homogénea y ordenada de ele­mentos.
+        Conjunto de datos que se almacenan en memoria de manera contigua con el mismo nombre.
+    </p>
+    <p>
+        Para diferenciar los elementos de un arreglo se utilizan índices detrás del nombre del arreglo y encerrados por [].
+    </p>
+</section>
+
+<section>
+    <h2>Arreglo</h2>
+    <p>
+        Colección finita, homogénea y ordenada de elementos.
     <ul>
         <li><b>Finita:</b> todo arreglo tiene un límite, es decirse debe determinar cuál será el número máximo de
             elementos que podrán formar parte del arreglo.</li>
@@ -19,10 +29,11 @@
             pero nunca una combinación de distintos tipos). </li>
         <li><b>Ordenada:</b> Se puede determinar cuál es el primer elemento,  el segundo, el tercero,... y el n-ésimo elemento</li>
     </ul>
+    </p>
 </section>
 
 <section>
-    <h2>Arreglo: </h2>
+    <h2>Arreglo </h2>
     <p>
         <img src="images/U5_arreglos/arreglo_unidimensional.png">
     </p>
@@ -35,6 +46,83 @@
         <li><b>Componentes:</b> Elementos que lo forman.</li>
         <li><b>Índice:</b> Índice de elemento</li>
     </ul>
+    <img src="images/U5_arreglos/arreglo_partes.png">
+    </p>
+</section>
+
+<section>
+    <h2>Arreglo </h2>
+    <p>
+    <pre><code>
+int arr[3];
+int arr[]={2,32,89};
+</code></pre>
+    </p>
+</section>
+
+<section>
+    <h2>Arreglo: Operaciones</h2>
+    <p>
+    <ul>
+        <li>Lectura/Escritura</li>
+        <li>Asignación</li>
+        <li>Actualización (inserción, eliminación, modificación)</li>
+        <li>Ordenación</li>
+        <li>Búsqueda</li>
+    </ul>
+    <img src="images/U5_arreglos/arreglo_partes.png">
+    </p>
+</section>
+
+<section>
+    <h2>Operación: Lectura</h2>
+    <p>
+        Leer el valor de cada uno de sus elementos.
+    </p>
+    <p>
+    <pre><code>
+int arr[]={3,4,6,7,8,9};
+
+for(int i=0;i &lt 6; i++){
+    printf("%d ", arr[i]);
+}
+</code></pre>
+    </p>
+</section>
+
+<section>
+    <h2>Operación: Escritura</h2>
+    <p>
+        Escribir el valor de cada uno de sus elementos.
+    </p>
+    <p>
+    <pre><code>
+int arr[5];
+
+for(int i=0;i &lt 5; i++){
+    scanf("%d", &arr[i]);
+}
+</code></pre>
+    </p>
+</section>
+
+<section>
+    <h2>Operación: Asignación</h2>
+    <p>
+        No es posible asignar directamente un valor a todo el arreglo,
+        sino que se debe asignar el valor deseado a cada componente.
+    </p>
+</section>
+
+<section>
+    <h2>Tipo de Arreglos</h2>
+    <p>
+    <ul>
+        <li><b>Unidimensionales o Lineales:</b> Cualquier elemento es referenciado por un único  índice.</li>
+        <li><b>Multidimensionales:</b>  El número de dimensiones (índices) que se deben de utilizar en un arreglo
+            depende del problema que debemos resolver</li>
+    </ul>
+    </p>
 </section>
 
 <section>
