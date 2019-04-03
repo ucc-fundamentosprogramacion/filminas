@@ -59,6 +59,13 @@
 </section>
 
 <section>
+    <p>
+        Qué es un programa?
+    </p>
+    <p>Cómo lo definirian con sus palabras?</p>
+</section>
+
+<section>
     <h2>Programa: Definición</h2>
     <p>
         Conjunto de instrucciones que sigue la computadora para alcanzar un resultado específico.
@@ -68,6 +75,13 @@
     </p>
     <p>Tanto el lenguaje de programación como la computadora son los medios para obtener un fin:
         conseguir que el algoritmo se ejecute y se efectúe el proceso correspondiente. </p>
+</section>
+
+<section>
+    <p>
+        Qué es un lenguaje de programación?
+    </p>
+    <p>Cómo lo definirian con sus palabras?</p>
 </section>
 
 <section>
@@ -486,7 +500,7 @@ int main()
         <pre><code>void main (void){
 int va1, va2; //Creación sin asignación
 float re1;
-floar re2 = 12.4; //Creación y asignación
+float re2 = 12.4; //Creación y asignación
 
 va1 = 10; //Asignación post-creación
 va2 = va1+5;
@@ -524,7 +538,8 @@ const int edad=24;
     <section>
         <h2>Constantes enum</h2>
         <p>
-        <pre><code>enum{va0, va1, va2, va3} //define 4 varaibles enteras
+        <pre><code>enum{va0, va1, va2, va3} //define 4 constantes enteras
+/*Es lo mismo que realizar esto*/
 const int va0=0;
 const int va1=1;
 const int va2=2;
@@ -690,15 +705,86 @@ const int va3=3;</code></pre>
     </section>
 
     <section>
-        <h2>Operadores Condicionales</h2>
+        <h2>Operadores Condicionales o Relacionales</h2>
         <p>
-            Son  aquellos  operadores  que  sirven  para  comparar  valores.
+            Sirven para realizar comparaciones de igualdad, desigualdad y relación de menor o mayor.
         </p>
         <p>
-            Siempre  devuelven  valores  booleanos: TRUE O FALSE. Pueden ser Relacionales o Lógicos.
+        <table style="font-size: .8em">
+            <thead>
+            <tr>
+                <th>Operador</th>
+                <th>Descripción</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>==</td>
+                <td>Igual a</td>
+            </tr>
+            <tr>
+                <td>!=</td>
+                <td>No igual a</td>
+            </tr>
+            <tr>
+                <td>&gt</td>
+                <td>Mayor que</td>
+            </tr>
+            <tr>
+                <td>&gt=</td>
+                <td>Mayor o igual que</td>
+            </tr>
+            <tr>
+                <td>&lt</td>
+                <td>Menor que</td>
+            </tr>
+            <tr>
+                <td>&lt=</td>
+                <td>Menor o igual que</td>
+            </tr>
+            </tbody>
+        </table>
+        </p>
+    </section>
+
+    <section>
+        <h2>Operadores Lógicos</h2>
+        <p>
+        <table style="font-size: .8em">
+            <thead>
+            <tr>
+                <th>Expresión</th>
+                <th>Nombre Operador</th>
+                <th>Operador</th>
+                <th>Resultado</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>!a</td>
+                <td>NOT</td>
+                <td>!</td>
+                <td>true: si a es falso. <br> false: si a es verdadero</td>
+            </tr>
+            <tr>
+                <td>a && b</td>
+                <td>AND</td>
+                <td>&&</td>
+                <td>true: si a y b son verdaderos. <br> false: si a es falso, o si b es falso, o si a y b son falsos</td>
+            </tr>
+            <tr>
+                <td>a || b</td>
+                <td>OR</td>
+                <td>||</td>
+                <td>true: si a es verdadero, o si b es verdadero, o si a y b son verdaderos. <br> false: si a y b son falsos</td>
+            </tr>
+            </tbody>
+        </table>
         </p>
     </section>
 </section>
+
+
 
 <section>
     <section>
@@ -738,6 +824,14 @@ const int va3=3;</code></pre>
         </ol>
         </p>
     </section>
+</section>
+
+<section>
+    <h2>Soft:</h2>
+    <img class="noBorder" src="images/codeBlocks.png"/>
+    <p>
+        <a href="http://www.codeblocks.org/" target="_blank">Code::Blocks</a>
+    </p>
 </section>
 
 <section>
