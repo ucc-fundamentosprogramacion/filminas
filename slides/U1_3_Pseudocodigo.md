@@ -13,7 +13,7 @@ Created by <i class="fab fa-telegram"></i>
 </small>
 
 ---
-## DPseudocódigo
+## Pseudocódigo
 
 ¿Qué les parece que es el pseudocódigo?
 
