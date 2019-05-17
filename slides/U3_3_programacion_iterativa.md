@@ -20,7 +20,7 @@ Created by <i class="fab fa-telegram"></i>
 
 ---
 ## While
-![Control Repetitivo](images/U4_coltrol_repetitivo/while.png)
+![Control Repetitivo](images/U2_control_flujo/while.png)
 
 ---
 ## While: C/C++
@@ -32,7 +32,7 @@ while(condición){
 
 ---
 ## Do While
-![Do While](images/U4_coltrol_repetitivo/do_while.png)
+![Do While](images/U2_control_flujo/do_while.png)
 
 ---
 ## Do While: C
@@ -40,18 +40,18 @@ while(condición){
 do{
     acciones;
 }
-while(condicion)
+while(condicion);
 ````
 
 ---
 ## For
-![Control Repetitivo](images/U4_coltrol_repetitivo/for.png)
+![Control Repetitivo](images/U2_control_flujo/for.png)
 
 ---
 ## For: C/C++
 ````javascript
-for(int i=0; i &lt 100; i++){
-    printf("Esta es la iteración número %d", i);
+for(int i=0; i < 100; i++){
+    cout<<"Esta es la iteración número"<<i);
 }
 ````
 
