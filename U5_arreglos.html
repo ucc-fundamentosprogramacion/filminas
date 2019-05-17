@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Fundamentos de la Programación</title>
+    <link rel="stylesheet" href="./css/reveal.css" />
+    <link rel="stylesheet" href="./css/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="./_assets/slides/css/filminas.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+# Arreglos
+<small>
+Created by <i class="fab fa-telegram"></i>
+[edme88]("https://t.me/edme88") & 
+<i class="fab fa-telegram"></i>
+[rmarku]("https://t.me/rmarku")
+</small>
+
+</script></section><section  data-markdown><script type="text/template">
+## Arreglo
+Conjunto de datos del mismo tipo que se almacenan en memoria de manera contigua con el mismo nombre.
+
+Para diferenciar los elementos de un arreglo se utilizan índices detrás del nombre del arreglo y encerrados por [].
+
+</script></section><section  data-markdown><script type="text/template">
+## Arreglo
+Si es arreglo se llama **a**, a[0] es el elemento que está en la posición **0**, a[1] está en la posición 1, a[i-1] está en la posición i-ésima.
+Los elementos vas de a[0], a[1],...,a[n-1]
+
+````javascript
+tipo nombreArray[numeroDeElementos];
+````
+
+</script></section><section  data-markdown><script type="text/template">
+## Arreglo
+Colección finita, homogénea y ordenada de elementos.
+* **Finita:** todo arreglo tiene un límite, es decirse debe determinar cuál será el número máximo de elementos que podrán formar parte del arreglo.
+* **Homogénea:** todos los elementos de  un arreglo son del mismo tipo (todos enteros, todos reales, etc., pero nunca una combinación de distintos tipos). 
+* **Ordenada:** Se puede determinar cuál es el primer elemento,  el segundo, el tercero,... y el n-ésimo elemento
+
+</script></section><section  data-markdown><script type="text/template">
+## Arreglo 
+![Arreglo Unidimensional](images/U5_arreglos/arreglo_unidimensional.png)
+
+</script></section><section  data-markdown><script type="text/template">
+## Arreglo: Partes
+* **Componentes:** Elementos que lo forman.
+* **Índice:** Índice de elemento
+
+![Arreglo Partes](images/U5_arreglos/arreglo_partes.png)
+
+</script></section><section  data-markdown><script type="text/template">
+## Arreglo 
+````javascript
+int arr[3];
+int arr[]={2,32,89};
+//Es lo mismo que decir
+arr[0]=3;
+arr[1]=32;
+arr[2]=89;
+````
+
+</script></section><section  data-markdown><script type="text/template">
+## Arreglo 
+````javascript
+//Se pueden asignar constantes simbólicas como valores numéricos
+const int ENE=31, FEB=28, MAR=31, ABR=30, MAY=31, JUN=30, JUL=31, AGO=31, SEP=30, OCT=31, NOV=30, DIC=31;
+
+int meses[12]={ENE, FEB, MAR, ABR, MAY, JUN, JUL, AGO, SEP, OCT, NOV, DIC};
+````
+
+</script></section><section  data-markdown><script type="text/template">
+## Arreglo: Operaciones
+* Lectura/Escritura
+* Asignación
+* Actualización (inserción, eliminación, modificación)
+* Ordenación
+* Búsqueda
+
+![Arreglo Partes](images/U5_arreglos/arreglo_partes.png)
+
+</script></section><section  data-markdown><script type="text/template">
+## Operación: Lectura
+Leer el valor de cada uno de sus elementos.
+
+````javascript
+int arr[]={3,4,6,7,8,9};
+
+for(int i=0;i < 6; i++){
+    cout<<arr[i]<<endl;
+}
+````
+
+</script></section><section  data-markdown><script type="text/template">
+## Operación: Escritura
+Escribir el valor de cada uno de sus elementos.
+
+````javascript
+int arr[5];
+
+for(int i=0;i < 5; i++){
+    cin>>&arr[i];
+}
+````
+
+</script></section><section  data-markdown><script type="text/template">
+## Operación: Asignación
+No es posible asignar directamente un valor a todo el arreglo, sino que se debe asignar el valor deseado a cada componente.
+
+</script></section><section  data-markdown><script type="text/template">
+## Tipo de Arreglos
+* **Unidimensionales o Lineales:** Cualquier elemento es referenciado por un único  índice.
+* **Multidimensionales:**  El número de dimensiones (índices) que se deben de utilizar en un arreglo depende del problema que debemos resolver
+
+</script></section><section  data-markdown><script type="text/template">
+## Array Bidimensionales
+También se conocen como Tablas o Matrices.
+````javascript
+tipo nombreArray[numeroFilas][numeroColumnas];
+int a[4][6];
+````
+
+</script></section><section  data-markdown><script type="text/template">
+## Array Bidimensionales
+| a[4][7] | C | O | L | U | M | N | A |
+| F | a[0][0] | a[0][1] | ... | ... | ... | a[0][5] | a[0][6] | 
+| I | ... | ... | ... | ... | ... | ... | ... |
+| L | ... | ... | ... | ... | ... | ... | ... |
+| A | a[3][0] | a[3][1] | ... | ... | ... | a[3][5] | a[3][6] | 
+
+</script></section><section  data-markdown><script type="text/template">
+## Array Bidimensionales
+````javascript
+int ejemplo[2][3] = {1,2,3,4,5,6};
+int ejemplo[2][3] = {{1,2,3},{4,5,6}};
+````
+
+</script></section><section  data-markdown><script type="text/template">
+## Array Bidimensionales: Leer
+````javascript
+int ejemplo[2][3] = {{1,2,3},{4,5,6}};
+
+for(int f=0;f < 2; f++){
+    for(int c=0; c<3; c++){
+        cout<<ejemplo[f][c];
+    }
+}
+````
+
+</script></section><section  data-markdown><script type="text/template">
+## Array en funciones
+Los arrays se pasan por referencia.
+````javascript
+float suma(float a[5]);
+float calcula(float a[], int n);
+````
+
+</script></section><section  data-markdown><script type="text/template">
+## ¿Dudas, Preguntas, Comentarios?
+![DUDAS](images/pregunta.gif)</script></section></div>
+    </div>
+
+    <script src="./lib/js/head.min.js"></script>
+    <script src="./js/reveal.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // Optional libraries used to extend on reveal.js
+      var deps = [
+        { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: './plugin/zoom-js/zoom.js', async: true },
+        { src: './plugin/notes/notes.js', async: true },
+        { src: './plugin/math/math.js', async: true }
+      ];
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        dependencies: deps
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal.getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"controls":true,"progress":true,"slideNumber":true}, queryOptions);
+    </script>
+
+    <script src="./_assets/slides/js/init.js"></script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>

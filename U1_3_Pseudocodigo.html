@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Fundamentos de la Programación</title>
+    <link rel="stylesheet" href="./css/reveal.css" />
+    <link rel="stylesheet" href="./css/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="./_assets/slides/css/filminas.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+# Pseudocódigo
+<small>
+Created by <i class="fab fa-telegram"></i>
+[edme88]("https://t.me/edme88") & 
+<i class="fab fa-telegram"></i>
+[rmarku]("https://t.me/rmarku")
+</small>
+
+</script></section><section  data-markdown><script type="text/template">
+## Pseudocódigo
+
+¿Qué les parece que es el pseudocódigo?
+
+¿Cómo lo definirían con sus palabras?
+
+¿Conocen la etimología de la palabra?
+
+</script></section><section  data-markdown><script type="text/template">
+## Pseudocódigo: Concepto
+Es un "falso lenguaje", que tiene  una  estructura  muy similar al lenguaje natural y sirve para poder expresar algoritmos y programas de forma independiente del lenguaje de programación.
+
+</script></section><section  data-markdown><script type="text/template">
+## Pseudocódigo: Ejemplo
+````javascript
+Inicio
+   a = 0;
+   b = 0;
+   repita
+imprimir "Introduzca el primer número"
+leer -> a
+si a no es un numero entonces
+    imprimir a " no es un valor válido, intente de nuevo."
+fin si
+       hasta a es un numero
+       repita
+imprimir "Introduzca el segundo número"
+leer -> b
+si b no es un numero entonces
+    imprimir b " no es un valor válido, intente de nuevo."
+fin si
+hasta b es un numero
+   c = a + b
+   imprimir "La suma de " a " y " b " es " c
+Fin
+````
+</script></section><section  data-markdown><script type="text/template">
+## Pseudocódigo: Ventajas
+* Comunicar y representar ideas que puedan ser entendidas por programadores que conozcan distintos lenguajes.
+* El programador puede concentrarse en la lógica y estructuras de control y no preocuparse de las reglas de un lenguaje de programación específico.
+
+</script></section><section  data-markdown><script type="text/template">
+## Pseudocódigo: Ejercicio
+Traducir el anterior Pseudocódigo a un diagrama de flujo.
+
+</script></section><section  data-markdown><script type="text/template">
+## Estructura de un Programa
+Un programa puede ser escrito utilizando tres tipos de estructuras de control:
+* Secuenciales
+* Selectivas o de decisión
+* Repetitivas
+
+</script></section><section  data-markdown><script type="text/template">
+## Estructura de un Programa
+Las  Estructuras  de  Control  determinan  el  orden  en  que  deben  ejecutarse  las  instrucciones  de  un algoritmo: si serán recorridas una luego de la otra, si habrá que tomar decisiones sobre si ejecutar o no alguna acción o si habrá repeticiones.
+
+</script></section><section  data-markdown><script type="text/template">
+## Estructura Secuencial
+Es la estructura en donde una acción (instrucción) sigue a otra de manera secuencial.
+
+Las tareas se dan de tal forma que la salida de una es la entrada de la que sigue y así en lo sucesivo hasta cumplir con todo el proceso.
+
+Esta estructura de control es la más simple, permite que las instrucciones que la constituyen se ejecuten una tras otra en el orden en que se listan.
+
+</script></section><section  data-markdown><script type="text/template">
+## Estructura Secuencial
+
+![Diagrama Flujo Secuencial](images/U1_resolucion_problemas/diagrama_flujo_secuencial.png)
+
+</script></section><section  data-markdown><script type="text/template">
+## ¿Dudas, Preguntas, Comentarios?
+![DUDAS](images/pregunta.gif)
+</script></section></div>
+    </div>
+
+    <script src="./lib/js/head.min.js"></script>
+    <script src="./js/reveal.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // Optional libraries used to extend on reveal.js
+      var deps = [
+        { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: './plugin/zoom-js/zoom.js', async: true },
+        { src: './plugin/notes/notes.js', async: true },
+        { src: './plugin/math/math.js', async: true }
+      ];
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        dependencies: deps
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal.getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"controls":true,"progress":true,"slideNumber":true}, queryOptions);
+    </script>
+
+    <script src="./_assets/slides/js/init.js"></script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>

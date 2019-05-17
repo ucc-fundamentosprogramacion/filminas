@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title>Fundamentos de la Programación</title>
+    <link rel="stylesheet" href="./css/reveal.css" />
+    <link rel="stylesheet" href="./css/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="./_assets/slides/css/filminas.css" />
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+# Ejercicios
+# C/C ++
+<small>
+Created by <i class="fab fa-telegram"></i>
+[edme88]("https://t.me/edme88") & 
+<i class="fab fa-telegram"></i>
+[rmarku]("https://t.me/rmarku")
+</small>
+
+</script></section><section  data-markdown><script type="text/template">
+### DF Creación programa
+![Flow Creacion Programa](images/tp3/flujo_creacion_programa.png)
+
+</script></section><section  data-markdown><script type="text/template">
+## Contador
+A la izquierda de una sentencia de asignación sólo puede figurar una constante ó variable.
+    
+Lo que está a la derecha de la sentencia de asignación se valúa y el valor obtenido se le asigna a la constante o variable que figura a la izquierda de la misma.
+    
+</script></section><section  data-markdown><script type="text/template">
+## Sumador
+Es una variable que se utiliza para ir sumando o acumulando datos.
+
+Cuando se trabaja con sumadores, siempre se les debe asignar un valor inicial (inicializar).
+
+Después de inicializados, se van sumando los valores deseados.
+
+</script></section><section  data-markdown><script type="text/template">
+## Sumador: Ejemplo
+| Asignación | Valor de SUMA |
+|------------|---------------|
+| Suma = 0 | 0 |
+| Suma = suma+20 | 20 |
+| Suma = suma+30 | 50 |
+| Suma = suma+10 | 60 |
+
+</script></section><section  data-markdown><script type="text/template">
+### Programa
+Todo programa tiene un nombre que lo define y debe ser representativo de la función que cumplen.
+
+Es recomendable escribir un párrafo como comentario de lo que realiza el programa.
+
+También se pueden definir las constantes y variables que utilizaremos en el desarrollo de la solución.
+
+</script></section><section  data-markdown><script type="text/template">
+### Programa
+````javascript
+/*NOMBRE DEL PROGRAMA
+* Descripción de que hace
+* Version: 2.1
+* Fecha: 04/03/2019
+*/
+
+#include <iostream>
+
+int main() {
+    //Comentario en línea independiente. Declaración de la variable edad
+    int edad;
+    edad=54; //Comentario en línea junto a código. Asignación de valor a la variable edad
+    cout<<"La edad es "<<edad<<endl;
+    cout<<"Gracias por utilizar este programa"<<endl;
+    /* Finalizamos el programa, comentario en bloque en una sola línea */
+    return 0; /*Sentencia return de terminación, comentario en bloque en una sola línea*/
+}
+
+````
+    
+</script></section><section  data-markdown><script type="text/template">
+![Proyecto](images/U3_programacion/proyecto.jpg)
+
+</script></section><section  data-markdown><script type="text/template">
+## ¿Dudas, Preguntas, Comentarios?
+![DUDAS](images/pregunta.gif)
+</script></section></div>
+    </div>
+
+    <script src="./lib/js/head.min.js"></script>
+    <script src="./js/reveal.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // Optional libraries used to extend on reveal.js
+      var deps = [
+        { src: './lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: './plugin/zoom-js/zoom.js', async: true },
+        { src: './plugin/notes/notes.js', async: true },
+        { src: './plugin/math/math.js', async: true }
+      ];
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        dependencies: deps
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal.getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"controls":true,"progress":true,"slideNumber":true}, queryOptions);
+    </script>
+
+    <script src="./_assets/slides/js/init.js"></script>
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
+</html>
