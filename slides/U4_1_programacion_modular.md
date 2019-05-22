@@ -104,7 +104,7 @@ double promedio(double x1, double x2){
 
 ---
 ### Parámetros de una Función
-Hay 2 métodos para pasar variables(parámetros) a funciones:
+Hay diferentes métodos para pasar variables(parámetros) a funciones:
 * Parámetros por **valor** o por **copia**
 * Parámetros por **referencia**
 * Parámetros por **omisión** o **defecto**
