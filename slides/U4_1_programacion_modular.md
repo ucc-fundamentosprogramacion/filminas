@@ -27,32 +27,31 @@ Cuando se ejecuta la sentebcia **return** o termina el código de la función, s
 
 ---
 ### Estructura de una Función
-````javascript
+```cpp
 tipo_de_retorno nombre_funcion(lista_de_parametros_formales){
-    cuerpo de la función;
+    "cuerpo de la función";
     return expresión;
 }
-````
-| Detalle | Descripción |
-|-----------------|--------------------------------------------------------------------------------------------------------------|
-| tipo_de_retorno | Tipo de valor devuelto por la función o la palabra reservada **void** si la función no devuelve ningún valor |
-| nombre_funcion | Identificador o nombre de la función. |
-| lista_de_parametros_formales | Lista de declaraciones de las parámetros de la función separados por coma.
-| expresión | valor que devuelve la función | 
+```
+
+* **tipo_de_retorno:** <sub><sup>Tipo de valor devuelto por la función o la palabra reservada **void** si la función no devuelve ningún valor </sup></sub>
+* **nombre_funcion:** <sub><sup>Identificador o nombre de la función. </sup></sub>
+* **lista_de_parametros_formales:** <sub><sup>Lista de declaraciones de las parámetros de la función separados por coma.</sup></sub>
+* **expresión:** <sub><sup>valor que devuelve la función</sup></sub>
 
 ---
 ### Ejemplo: Función
-````javascript
+```cpp
 float producto(float num1, float num2){
     float pro;
     pro = num1*num2;
     return pro;
 }
-````
+```
 
 ---
 ### Ejemplo: Uso de Función
-````javascript
+````cpp
 #include <iostream>
 using namespace std;
 
@@ -64,10 +63,9 @@ float producto(float num1, float num2){
 
 int main(){
     float m,n, resultado;
-    cout<<"Ingrese 2 números"<<endl;
-    cin>>m>>n;
-    cout<<"El producto es: "<<producto(m, n);
-    
+    cout << "Ingrese 2 números"<<endl;
+    cin >> m >> n;
+    cout << "El producto es: " << producto(m, n);
 }
 ````
 ---
@@ -81,7 +79,7 @@ Los prototipos se situan normalmente al principio de un programa, antes del **ma
 
 ---
 ### Ejemplo: Prototipo
-````javascript
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -90,17 +88,17 @@ double promedio(double x1, double x2); //Prototipo
 int main(){
     double med, numero1, numero2;
     
-    cout<<"Introducza 2 numeros: "<<endl;
-    cin>>numero1>>numero2;
+    cout << "Introducza 2 numeros: " << endl;
+    cin >> numero1 >> numero2;
     
     med = promedio(numero1, numero2); //Llamada a la función
-    cout<<"La media es: "<<med<<endl;
+    cout << "La media es: " << med << endl;
 }
 
 double promedio(double x1, double x2){
     return (x1+x2)/2;
 }
-````
+```
 
 ---
 ### Parámetros de una Función
@@ -116,21 +114,21 @@ La función receptora no puede modificar los parámetros de la función (paramet
 
 ---
 ### Parámetros por Valor
-````javascript
+```cpp
 void func_1(int y){
-    cout<<y<<endl;
-    y=y+1;
-    cout<<y<<endl;
+    cout << y << endl;
+    y = y + 1;
+    cout << y << endl;
     return y;
 }
 
 int main(){
-    int x=6;
-    cout<<x<<endl; //6
-    func_1(x); //6 y 7
-    cout<<x<<endl; //6
+    int x = 6;
+    cout << x << endl; // 6
+    func_1(x); // 6 y 7
+    cout << x << endl; // 6
 }
-````
+```
 
 ---
 ### Parámetros por Referencia o Dirección
@@ -142,23 +140,23 @@ El valor se ve modificado porque se almacena en la misma dirección de memoria.
 
 ---
 ### Parámetros por Referencia o Dirección
-````javascript
+```cpp
 #include <iostream>
 using namespace std;
 
 void referencia(int& x);
 
 int main(){
-    int x=20;
-    cout<<"Antes de la llamada "<<x<<endl; //20
+    int x = 20;
+    cout << "Antes de la llamada " << x << endl; // 20
     referencia(x);
-    cout<<"Después de la llamada "<<x<<endl; //23
+    cout << "Después de la llamada " << x << endl; // 23
 }
 
 void referncia(int& x){
     x += 3;
 }
-````
+```
 
 ---
 ### Parámetros por Omisión o Defecto
@@ -170,21 +168,22 @@ La única restricción es que se deben incluir todas las variables desde la izqu
 
 ---
 ### Parámetros por Omisión o Defecto
-````javascript
+```cpp
 #include <iostream>
 using namespace std;
-
-void caracteres(int cant, char car='*'){
-    for(int i=0; i<cant; i++){
-        cout<<car;
-    }
-}
+void caracteres(int cant, char car='*');
 
 int main(){
-    caracteres(4); //Imprime ****
-    caracteres(8,'@') //Imprime @@@@@@@@
+    caracteres(4); // Imprime ****
+    caracteres(8,'@'); // Imprime @@@@@@@@
 }
-````
+
+void caracteres(int cant, char car){
+    for(int i=0; i<cant; i++){
+        cout << car;
+    }
+}
+```
 
 ---
 ### Reglas de Argumentos por Defecto
@@ -230,24 +229,24 @@ Las variables declaradas dentro del ámbito de una función tienen ámbito de bl
 
 ---
 ### Ámbito: Ejemplo
-````javascript
+```cpp
 #include <iostream>
 using namespace std;
 
-float PI=3.141592; //Ámbito de Programa o Ámbito Global
+float PI = 3.141592; // Ámbito de Programa o Ámbito Global
 
-float perimetro_circulo(float r){
-    return PI*r*2;    //r tiene ámbito de función
+float perimetro_circulo(float r) {
+    return PI * r * 2;    // r tiene ámbito de función
 }
 
-int main(){
-    float r;    //Ámbito de Función
-    cout<<"Ingrese un radio: ";
-    cin>>r;
-    
-    cout<<"El perimetro es "<<perimetro_circulo(r)<<endl;
+int main() {
+    float r;    // Ambito de Función
+    cout << "Ingrese un radio: ";
+    cin >> r;
+
+    cout << "El perimetro es " << perimetro_circulo(r) << endl;
 }
-````
+```
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?
