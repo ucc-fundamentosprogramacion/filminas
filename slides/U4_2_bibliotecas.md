@@ -44,17 +44,32 @@ coseno hiperbólico, exponencial, valor absoluto, logaritmo natural y base 10, s
 | atan | Calcula la arcotangente. |
 | atan2 | Calcula la arcotangente de dos parámetros. |
 | floor | Devuelve el menor entero no menor que el parámetro. |
+
+---
+### math.h
+| Nombre | Descripción |
+|--------|-------------|
 | ceil | Devuelve el mayor entero no mayor que el parámetro. |
 | cos | Calcula el coseno. |
 | cosh | Calcula el coseno hiperbólico. |
 | exp(double x) | Devuelve el valor del número e elevado a la potencia x. |
 | fabs | Devuelve el valor absoluto. |
+
+---
+### math.h
+| Nombre | Descripción |
+|--------|-------------|
 | fmod | Devuelve el resto de la división de flotantes |
 | frexp | Realiza la fracció y eleva al cuadrado. |
 | labs | Calcula el valor absoluto. |
 | ldexp | Devuelve tamaño del exponente de un valor en punto flotante. |
 | log | Calcula el logaritmo natural. |
 | log10 | Calcula el logaritmo en base 10 |
+
+---
+### math.h
+| Nombre | Descripción |
+|--------|-------------|
 | modf | Devuelve un valor en punto flotante íntegro y en partes. |
 | pow(x,y) | Eleva un valor dado a un exponente, xy |
 | sin | Calcula el seno |
@@ -77,6 +92,7 @@ Contiene funciones para:
 ---
 ### ctype.h
 Contiene funciones de manipulación de caracteres:
+
 | Funcion | Detalle |
 |---------|---------|
 | isalnum | Verifica si el caracter es alphanumeric |
@@ -84,10 +100,21 @@ Contiene funciones de manipulación de caracteres:
 | isblank | Verifica si el caracter es blank |
 | iscntrl | Verifica si el caracter es a control character |
 | isdigit | Verifica si el caracter es decimal digit |
+
+---
+### ctype.h
+| Funcion | Detalle |
+|---------|---------|
+| isdigit | Verifica si el caracter es decimal digit |
 | isgraph | Check if character has graphical representation |
 | islower | Verifica si el caracter es lowercase letter |
 | isprint | Verifica si el caracter es printable |
 | ispunct | Verifica si el caracter es a punctuation character |
+
+---
+### ctype.h
+| Funcion | Detalle |
+|---------|---------|
 | isspace | Verifica si el caracter es a white-space |
 | isupper | Verifica si el caracter es uppercase letter |
 | isxdigit | Verifica si el caracter es hexadecimal digit |
@@ -96,7 +123,7 @@ Contiene funciones de manipulación de caracteres:
 | toascii | Convierte de char a Ascii |
 
 ---
-### [time.h}(http://programavideojuegos.blogspot.com/2014/02/la-libreria-timeh.html)
+### [time.h](http://programavideojuegos.blogspot.com/2014/02/la-libreria-timeh.html)
 Contiene funciones para manipular fecha y hora del sistema.
 
 | Funcion | Detalle |
