@@ -14,4 +14,4 @@ Steps:
 3. Run reveal-md slides -w to render and watch directory for changes
 4. Run reveal-md slides/ --static to generate all html files in _static
 
-/play flawless
+:/play flawless:
