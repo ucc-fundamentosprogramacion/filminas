@@ -21,10 +21,14 @@ Para diferenciar los elementos de un arreglo se utilizan índices detrás del no
 ---
 ## Arreglo
 Si es arreglo se llama **a**, a[0] es el elemento que está en la posición **0**, a[1] está en la posición 1, a[i-1] está en la posición i-ésima.
-Los elementos vas de a[0], a[1],...,a[n-1]
+Los elementos van de a[0], a[1],...,a[n-1]
 
 ````javascript
 tipo nombreArray[numeroDeElementos];
+````
+Ejemplo: 
+````javascript
+char nombre[4];
 ````
 
 ---
@@ -119,6 +123,7 @@ int a[4][6];
 ---
 ## Array Bidimensionales
 | a[4][7] | C | O | L | U | M | N | A |
+|---------|---|---|---|---|---|---|---|
 | F | a[0][0] | a[0][1] | ... | ... | ... | a[0][5] | a[0][6] | 
 | I | ... | ... | ... | ... | ... | ... | ... |
 | L | ... | ... | ... | ... | ... | ... | ... |
