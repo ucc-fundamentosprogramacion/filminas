@@ -200,6 +200,7 @@ Existen diferentes tipos de operadores:
 ## Operadores Relacionales
 Sirven para realizar comparaciones de igualdad, desigualdad y relación de menor o mayor.
 
+<!-- .slide: style="font-size: 0.9em" -->
 | Operador | Descripción |
 |----------|-------------|
 | == | Igual a |
@@ -211,6 +212,7 @@ Sirven para realizar comparaciones de igualdad, desigualdad y relación de menor
 
 ---
 ## Operadores Relacionales
+<!-- .slide: style="font-size: 0.7em" -->
 | Expresión | Operador | Descripción |
 |-----------|----------|-------------|
 | a > b | > | true: si a es mayor que b <br> false: si a es menor que b |
@@ -228,6 +230,7 @@ Se utilizan para construir expresiones lógicas, combinando valores lógicos (tr
 
 ---
 ## Operadores Lógicos
+<!-- .slide: style="font-size: 0.8em" -->
 | Expresión | Nombre Operador | Operador | Resultado |
 |-----------|-----------------|----------|-----------|
 | !a | NOT | ! | true: si a es falso. <br> false: si a es verdadero |

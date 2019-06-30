@@ -44,6 +44,7 @@ pablo.cayuela@gmail.com
 
 ---
 ## Calendario
+<!-- .slide: style="font-size: 0.5em" -->
 | Semana | Unidad | Tema |
 |--------|--------|------|
 | 1 | 1 | Solución de Problemas usando la computadora <br> Diagramas de Flujo <br> Pseudocódigo |

@@ -126,6 +126,7 @@ Contiene funciones de manipulación de caracteres:
 ### [time.h](http://programavideojuegos.blogspot.com/2014/02/la-libreria-timeh.html)
 Contiene funciones para manipular fecha y hora del sistema.
 
+<!-- .slide: style="font-size: 0.8em" -->
 | Funcion | Detalle |
 |---------|---------|
 | clock_t clock (void) | Devuelve el número de pulsos de reloj desde que se inició el proceso |

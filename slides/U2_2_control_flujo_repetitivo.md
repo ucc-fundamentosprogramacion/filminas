@@ -66,7 +66,7 @@ FIN
 
 ---
 ## Trap While
-![Its a trap](images/U2_control_flujo/its_trap_flow.png)
+[![Its a trap](images/U2_control_flujo/its_trap_flow.png)](https://www.youtube.com/watch?v=wk-6DPrcMv4#t=14s)
 
 ---
 ## Do While
