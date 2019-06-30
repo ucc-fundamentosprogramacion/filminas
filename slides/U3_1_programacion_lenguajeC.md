@@ -421,6 +421,13 @@ Si las subexpresiones se encuentran anidadas por paréntesis, primero se evalúa
 ![Code Blocks](images/codeBlocks.png)
 
 [Code::Blocks](http://www.codeblocks.org/)
+---
+## Buenas Prácticas
+* Indentar correctamente el código (espaciado)
+* Probar el código de manera progresiva
+* Comentar el código
+* Primero plantear el problema en papel si es necesario
+* Nombres de variables transparentes y claros
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?
