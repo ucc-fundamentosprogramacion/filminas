@@ -22,10 +22,6 @@ Ing. Alejandra Bosio
 
 malejandra.bosio@gmail.com
 
-Ing. Martin Marcucci
-
-mmarcucci@ucc.edu.ar
-
 Ing. Pablo Cayuela
 
 pablo.cayuela@gmail.com
@@ -40,8 +36,6 @@ pablo.cayuela@gmail.com
 
 **Unidad 4:** Programación modular en C/C++
 
-**Unidad 5:** Arreglos
-
 ---
 ## Calendario
 <!-- .slide: style="font-size: 0.5em" -->
@@ -54,8 +48,7 @@ pablo.cayuela@gmail.com
 | 5,6 y 7 | 3 | Programación en Lenguaje C/C++ |
 | 8 | 1,2 y 3 | Repaso del 1er Parcial |
 | 9 |  | 1er PARCIAL |
-| 10 y 11 | 4 | Programación Modular |
-| 12 y 13 | 5 | Arreglos |
+| 10,11,12 y 13 | 4 | Programación Modular |
 | 14 |  | Repaso del 2do Parcial |
 | 15 |  | 2do PARCIAL |
 | 16 |  | Recuperatorios |
