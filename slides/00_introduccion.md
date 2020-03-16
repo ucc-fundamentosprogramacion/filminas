@@ -22,7 +22,7 @@ malejandra.bosio@gmail.com
 
 Ing. Pablo Cayuela
 
-pablo.cayuela@gmail.com
+1022283@ucc.edu.ar
 
 ---
 ## UNIDADES
@@ -33,8 +33,6 @@ pablo.cayuela@gmail.com
 **Unidad 3:** Programación en Lenguaje C/C++
 
 **Unidad 4:** Programación modular en C/C++
-
-**Unidad 5:** Arreglos
 
 ---
 ## Calendario
@@ -56,7 +54,6 @@ pablo.cayuela@gmail.com
 
 ---
 ## Forma de Evaluación
-* Carpeta de Trabajos prácticos
 * Parciales
 * Examen Final
 
@@ -65,8 +62,7 @@ pablo.cayuela@gmail.com
 * Asistencia del 70% en Clases Teórico-Prácticas
 * Parciales aprobados (nota mínima de 4)
 * Se puede recuperar 1 Parcial
-* Carpeta de Trabajos Prácticos Aprobada
-* Promocion de la parte Teórica (Promedio >= 8 y nota mínima 7)
+* Promocion: Promedio >= 8 y nota mínima 7
 
 ---
 ## [Libros](https://docs.google.com/forms/d/e/1FAIpQLSezpBBGuPAQHOfKVR-zgtZ4nlKHFDRS-L4u4JSzuaB6h1MzuQ/viewform)
@@ -80,20 +76,23 @@ de Osvaldo Cairó
 de Osvaldo Cairó
     
 ---
-## APP:
-[![soloLearn](images/soloLearn.png)](https://play.google.com/store/apps/details?id=com.sololearn&hl=es_419)
+## APPs:
+No es obligatorio usarlas, pero es material de consulta
 
-[SoloLearn](https://play.google.com/store/apps/details?id=com.sololearn&hl=es_419)
-    
+[![soloLearn](images/soloLearn.png)](https://play.google.com/store/apps/details?id=com.sololearn&hl=es_419)
+[![Aprende_Pseint](images/presentacion/aprende_pseint.png)](https://play.google.com/store/apps/details?id=com.col.aprendeaprogramar.romero.aprendeaprogramarcol&hl=es_AR)
+[![Pseudocode](images/presentacion/pseudocode.png)](https://play.google.com/store/apps/details?id=pe.diegoveloper.pseudocode&hl=es_AR)
+
+[SoloLearn](https://play.google.com/store/apps/details?id=com.sololearn&hl=es_419) - [Aprende Pseint](https://play.google.com/store/apps/details?id=com.col.aprendeaprogramar.romero.aprendeaprogramarcol&hl=es_AR) - [Pseudocode](https://play.google.com/store/apps/details?id=pe.diegoveloper.pseudocode&hl=es_AR)   
+---
+## Soft:
+[![PseInt](images/pseint.png)](http://pseint.sourceforge.net/)
+ 
 ---
 ## Soft:
 [![codeBlocks](images/codeBlocks.png)](http://www.codeblocks.org)
 
 [Code::Blocks](http://www.codeblocks.org)
-
----
-## Soft:
-[![PseInt](images/pseint.png)](http://pseint.sourceforge.net/)
 
 ---
 ## Aula Virtual

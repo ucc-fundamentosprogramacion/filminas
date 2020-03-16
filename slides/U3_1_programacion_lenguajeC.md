@@ -7,9 +7,7 @@ slideNumber: true
 # Programación Lenguaje C/C++
 <small>
 Created by <i class="fab fa-telegram"></i>
-[edme88]("https://t.me/edme88") & 
-<i class="fab fa-telegram"></i>
-[rmarku]("https://t.me/rmarku")
+[edme88]("https://t.me/edme88")
 </small>
 
 ---

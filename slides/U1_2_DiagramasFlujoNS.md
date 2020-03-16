@@ -7,9 +7,7 @@ slideNumber: true
 # Diagramas de Flujo y N-S
 <small>
 Created by <i class="fab fa-telegram"></i>
-[edme88]("https://t.me/edme88") & 
-<i class="fab fa-telegram"></i>
-[rmarku]("https://t.me/rmarku")
+[edme88]("https://t.me/edme88")
 </small>
 
 ---
@@ -106,11 +104,41 @@ La conexión puede ser a un símbolo que exprese lectura, proceso, decisión, im
 
 ---
 ### Diagramas N-S
-Como el diagrama de flujo, pero se omiten líneas de flujo y las cajas son contiguas.
+Como el diagrama de flujo, pero se omiten líneas de flujo (flujo siempre es descendente) y las cajas son contiguas.
     
 También conocido como diagrama de chaplin.
 
 ![Resolucion Problemas](images/U1_resolucion_problemas/s-n.png)
+
+---
+### Diagramas N-S
+También es conocido como **Estructurograma**, ya que sirve para representar la estructura del programa.
+
+Combina la descripción textual del pseudocódigo con la representación gráfica del diagrama de flujo
+
+---
+### Diagramas N-S: Caracteristicas
+* En la primera caja va el **Inicio**
+* La última instrucción es el **fin**
+* Todas las declaraciones de variables y funciones se realizan bajo el inicio
+
+---
+### Diagramas N-S: Estructuras de Decision
+![Condicion Doble](images/U1_resolucion_problemas/NS_condicion-doble.png)
+![Condicion Multiple](images/U1_resolucion_problemas/NS_condicion-multiple.png)
+
+* Doble
+* Multiple
+
+---
+### Diagramas N-S: Estructuras Iterativas
+![Condicion Desde-Hasta](images/U1_resolucion_problemas/NS_condicion-desde-hasta.png)
+![Condicion Hacer-Mientras](images/U1_resolucion_problemas/NS_hacer-mientras.png)
+![Condicion Repetir-Hasta](images/U1_resolucion_problemas/NS_repetir-hasta.png)
+
+* Desde-Hasta
+* Hacer-Mientras
+* Repetir-Hasta
 
 ---
 ![Miracle](images/U1_resolucion_problemas/miracle2.jpg)
