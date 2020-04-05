@@ -12,9 +12,8 @@ Created by <i class="fab fa-telegram"></i>
 
 ---
 ## Estructuras Repetitivas o Iterativas
-Este tipo de estructura de algoritmos que permite repetir una o varias acciones un número determinado de veces.
- 
-Se denominan BUCLES, LAZO o LOOP, y cada repetición del bucle se llama iteración o ciclo.
+Este tipo de estructura de algoritmos que permite repetir una o varias acciones un número determinado de veces 
+se denominan BUCLES, LAZO o LOOP, y cada repetición del bucle se llama iteración o ciclo.
 
 Todo bucle tiene que llevar asociada una condición, que es la que va a determinar cuándo se repite el bucle y cuando deja de repetirse.
    
@@ -43,9 +42,9 @@ Bah, no es para tanto, pero nunca va a terminar el programa xD
 Esta estructura repetitiva “mientras”, es en la que el cuerpo del bucle se repite siempre que se cumpla una determinada condición.
 
 ````javascript
-Mientras <cond> hacer
+Mientras <cond> Hacer
     <acciones>
-fin mientra
+Fin mientraS
 ````
 
 ---
@@ -65,6 +64,7 @@ FIN
 ---
 ## Trap While
 [![Its a trap](images/U2_control_flujo/its_trap_flow.png)](https://www.youtube.com/watch?v=wk-6DPrcMv4#t=14s)
+Si no hay condición de corte (si siempre se cumple el **condicional**) jamás se podrá salir del bucle.
 
 ---
 ## Do While
@@ -79,9 +79,9 @@ De esta forma garantizamos que las acciones dentro de este bucle sean llevadas a
 ---
 ## Do While
 ````javascript
-Hacer <acciones>
-Mientras <cond>
-Fin Mientras
+Repetir 
+     <acciones>
+Mientras Que <cond>
 ````
 
 ---
@@ -89,9 +89,10 @@ Fin Mientras
 ````javascript
 INICIO
     BOOLEANO llegadaColectivo=false;
-    HACER: esperar en la parada
+    REPETIR:
+            esperar en la parada
     MIENTRAS (llegadaColectivo == false)
-FIN_MIENTRAS FIN
+FIN
 ````
 
 ---
@@ -114,23 +115,24 @@ Podemos identificar tres componentes:
 ---
 ## For
 ````javascript
-Para (inicialización; condición de corte; incremento)
+Para varX=<valor_inicial> Hasta <valor_final> Con Paso <paso> Hacer
     <acciones>
-Fin para
+Fin Para
 ````
 
 ---
 ## For: Ejemplo
 ```javascript
 INICIO
-    PARA (ENTERO RUEDA = 1; RUEDA <= 4; RUEDA++)
-        inflar_rueda (RUEDA)
-FIN_PARA FIN
+    PARA RUEDA=1 Hasta 4 Con Paso 1 Hacer
+        Escribir "Inflar Rueda"
+    FIN_PARA 
+FIN
 ```
 
-Cuantas veces se llama a la función inflar_rueda?
-
 ---
+### Qué tengo que escribir eso en el pizarron 500 veces?
+No hay problema profe!
 ![Joke For](images/U2_control_flujo/joke_for.jpg)
 
 ---
