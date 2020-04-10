@@ -18,7 +18,43 @@ se denominan BUCLES, LAZO o LOOP, y cada repetición del bucle se llama iteraci�
 Todo bucle tiene que llevar asociada una condición, que es la que va a determinar cuándo se repite el bucle y cuando deja de repetirse.
    
 ---
+## Construcción de Lazos o Ciclos
+Frecuentemente debemos efectuar en programación cálculos recurrentes. Esta situación se presenta cuando una misma operación (o serie de operaciones) se debe repetir dentro de un programa.
+
+La misma se resuelve mediante el empleo de lazos o ciclos de programación. Es decir repetir una serie de cálculos un número finito de veces.
+
+---
+## Lazos
+Para la construcción de lazos se deben utilizar al menos un contador y una decisión. Con el contador se
+van registrando la cantidad de veces que se realiza la repetición y con la decisión se determina cuando se debe finalizar.
+
+---
 ![Flujo Ovejas](images/U2_control_flujo/flujo_ovejas.png)
+
+---
+## Contador
+Es una variable que cuenta. Generalmente se inicializa en cero antes de incializar un ciclo.
+````javascript
+cont++
+cont=cont+1
+````
+
+---
+## Acumulador
+Es una variable que almacena datos de una suma continua. 
+Su característica más común es que su valor suele ser siempre una suma o resta del valor actual con un dato nuevo.
+````javascript
+acum=acum+nota
+````
+
+---
+## Bandera
+Es una variable tipo lógica que se incializa en VERDADERO ó FALSO.
+Sirve para indicar que un determinado evento ocurrio.
+````javascript
+bandera=VERDADERO
+bandera=true
+````
 
 ---
 ![Warning](images/warning.png)
