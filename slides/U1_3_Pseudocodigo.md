@@ -71,5 +71,13 @@ Botón de Ejecutar en la barra de acceso rápido
 ![Pseint - Configurar Programa](images/U1_resolucion_problemas/pseint4.png)
 
 ---
+## Buenas Prácticas
+* Haz que tu código sea **Legible**
+* Coloca comentarios en el código
+* Prueba el funcionamiento de tu programa en varios casos distintos
+* Primero plantear el problema en papel si es necesario
+* Nombres de variables transparentes y claros
+
+---
 ## ¿Dudas, Preguntas, Comentarios?
 ![DUDAS](images/pregunta.gif)
