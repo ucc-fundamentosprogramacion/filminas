@@ -1,6 +1,6 @@
 ---
 title: Fundamentos de la Programación
-theme: black
+theme: sky
 slideNumber: true
 ---
 
@@ -32,6 +32,7 @@ Cómo lo definirian con sus palabras?
 
 ---
 ## Lenguaje de Programación: Definición
+<!-- .slide: style="font-size: 0.9em" -->
 Lenguaje que pueden ser entendido y procesado por una computadora.
 
 Conjunto de reglas sintácticas (especifica la formación de instrucciones válidas) y 
@@ -47,6 +48,7 @@ Clasificación según **tipo** de problema que son capaces de resolver:
 
 ---
 ## Programación Estructurada
+<!-- .slide: style="font-size: 0.9em" -->
 * Emplea un conjunto restringido de estructuras de control en cada nivel, instrucciones secuenciales, estructuras selectivas y estructuras repetitivas.
 * Cuando hay que resolver un problema de tipo algorítmico (que tienen una solución determinística), primero hay que desarrollar el algoritmo, que proporciona una solución muy general
 * Ejemplo: Pascal, C, Basic, Fortran, Cobol
@@ -154,6 +156,7 @@ Nombre que se les da a las casillas o celdas de memoria donde se almacenan los d
 
 ---
 ## Identificadores
+<!-- .slide: style="font-size: 0.9em" -->
 Reglas para los nombres de los identificadores:
 * El primer caracter debe ser una letra (a, b, c, z).
 * Los demás caracteres pueden ser letras (a,b,c,...,z), dígitos (0,1,2,...,9) o el símbolo especial: _ 
@@ -311,7 +314,7 @@ Ejemplo: int edad=20;
 
 ---
 ## Operador Aritmético
-
+<!-- .slide: style="font-size: 0.9em" -->
 Son operadores binarios (requieren siempre dos operandos) que realizan las operaciones aritméticas habituales entre números, constantes o variables.
 
 | Operador | Significado | 
@@ -324,6 +327,7 @@ Son operadores binarios (requieren siempre dos operandos) que realizan las opera
 
 ---
 ## Operador Aritmético Simplificado
+<!-- .slide: style="font-size: 0.9em" -->
 | Operador | Forma Simplificada | Ejemplo | Equivalencia |
 |----------|--------------------|---------|--------------|
 | + | += | X += 5; | X = X + 5; | 
@@ -338,6 +342,7 @@ Llevan a cabo diversas operaciones, tales como incrementar/decrementar un valor 
 
 ---
 ## Operadores Unitarios
+<!-- .slide: style="font-size: 0.8em" -->
 Los operadores unitarios requieren sólo un operando.
 
 | Operador | Descripción |
@@ -362,7 +367,7 @@ Sirven para realizar comparaciones de igualdad, desigualdad y relación de menor
 
 ---
 ## Operadores Lógicos
-<table style="font-size: .8em">
+<table style="font-size: 0.75em">
 <thead>
 <tr>
 <th>Expresión</th>
@@ -409,6 +414,7 @@ Si tenemos en una expresión más de un operador, debemos aplicar primero el ope
 
 ---
 ## Reglas Jerarquía de Operadores
+<!-- .slide: style="font-size: 0.8em" -->
 1. Si una expresión contiene subexpresiones entre paréntesis, éstas se evalúan primero; 
 respetando claro está la jerarquía de los operadores aritméticos en esta subexpresión. 
 Si las subexpresiones se encuentran anidadas por paréntesis, primero se evalúan las subexpresiones que se encuentran en el último nivel de anidamiento.

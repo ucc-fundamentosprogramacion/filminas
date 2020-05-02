@@ -1,10 +1,11 @@
 ---
 title: Fundamentos de la Programación
-theme: black
+theme: sky
 slideNumber: true
 ---
 
 # Estructura de Control de Flujo Repetitivo o Iterativo
+<!-- .slide: style="font-size: 0.8em" -->
 <small>
 Created by <i class="fab fa-telegram"></i>
 [edme88]("https://t.me/edme88")

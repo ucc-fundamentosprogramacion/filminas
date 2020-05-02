@@ -1,6 +1,6 @@
 ---
 title: Fundamentos de la Programación
-theme: black
+theme: sky
 slideNumber: true
 ---
 
@@ -66,6 +66,7 @@ coseno hiperbólico, exponencial, valor absoluto, logaritmo natural y base 10, s
 
 ---
 ### math.h
+<!-- .slide: style="font-size: 0.9em" -->
 | Nombre | Descripción |
 |--------|-------------|
 | modf | Devuelve un valor en punto flotante íntegro y en partes. |
@@ -89,6 +90,7 @@ Contiene funciones para:
 
 ---
 ### ctype.h
+<!-- .slide: style="font-size: 0.9em" -->
 Contiene funciones de manipulación de caracteres:
 
 | Funcion | Detalle |
@@ -101,6 +103,7 @@ Contiene funciones de manipulación de caracteres:
 
 ---
 ### ctype.h
+<!-- .slide: style="font-size: 0.9em" -->
 | Funcion | Detalle |
 |---------|---------|
 | isdigit | Verifica si el caracter es decimal digit |
@@ -111,6 +114,7 @@ Contiene funciones de manipulación de caracteres:
 
 ---
 ### ctype.h
+<!-- .slide: style="font-size: 0.9em" -->
 | Funcion | Detalle |
 |---------|---------|
 | isspace | Verifica si el caracter es a white-space |

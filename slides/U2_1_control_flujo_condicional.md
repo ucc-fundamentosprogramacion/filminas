@@ -1,6 +1,6 @@
 ---
 title: Fundamentos de la Programación
-theme: black
+theme: sky
 slideNumber: true
 ---
 
@@ -39,7 +39,8 @@ Las estructuras selectivas/alternativas pueden ser:
 ![Alternativa Simple](images/U2_control_flujo/alternativa_simple.png)
 
 ---
-## Alternativa Simple (si-entonces/if-then)
+## Alternativa Simple 
+## si-entonces/if-then
 Lleva a cabo una acción al cumplirse una determinada condición.
 
 La selección si-entonces evalúa la condición y:
@@ -68,7 +69,10 @@ FIN_SI FIN
 ![Alternativa Doble](images/U2_control_flujo/alternativa_doble.png)
 
 ---
-## Alternativa Doble (si-entonces-sino/if-then-else)
+## Alternativa Doble 
+## si-entonces-sino 
+## if-then-else
+<!-- .slide: style="font-size: 0.90em" -->
 Permite elegir dos opciones o alternativas posibles, de acuerdo al cumplimiento o no de una determinada condición:
 * Si la condición es verdadera, se ejecuta la operación1 
 * Si la condición es falsa, se ejecuta la operación2
@@ -98,14 +102,18 @@ FIN
 ![Alternativa Multiple](images/U2_control_flujo/alternativa_multiple.png)
 
 ---
-## Alternativa Múltiple (según sea, caso de/case)
+## Alternativa Múltiple 
+## según sea / caso de /case
+<!-- .slide: style="font-size: 0.9em" -->
 Se utiliza cuando existen más de dos alternativas para elegir.
     
 Esto podría solucionarse por medio de estructuras alternativas simples o dobles, anidadas o en cascada.
 Esto puede plantear serios problemas de escritura del algoritmo, de comprensión y de legibilidad, si el número de alternativas es grande.
 
 ---
-## Alternativa Múltiple (según sea, caso de/case)
+## Alternativa Múltiple 
+## según sea / caso de /case
+<!-- .slide: style="font-size: 0.9em" -->
 En esta estructura se evalúa una condición o expresión que puede tomar n valores. Según el valor que la expresión tenga en cada momento se ejecutan las acciones correspondientes al valor.
 
 ---
@@ -233,7 +241,7 @@ Se utilizan para construir expresiones lógicas, combinando valores lógicos (tr
 |-----------|-----------------|----------|-----------|
 | !a | NOT | ! | true: si a es falso. <br> false: si a es verdadero |
 | a && b | AND | && | true: si a y b son verdaderos. <br> false: si a es falso, o si b es falso, o si a y b son falsos |
-| a !! b | OR | !! | true: si a es verdadero, o si b es verdadero, o si a y b son verdaderos. <br> false: si a y b son falsos |
+| a ll b | OR | ll | true: si a es verdadero, o si b es verdadero, o si a y b son verdaderos. <br> false: si a y b son falsos |
 
 ---
 ## Expresión

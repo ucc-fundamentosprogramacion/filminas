@@ -1,6 +1,6 @@
 ---
 title: Fundamentos de la Programación
-theme: black
+theme: sky
 slideNumber: true
 ---
 
@@ -51,12 +51,12 @@ else{
 ## Alternativa Múltiple: C/C++
 ````javascript
 switch(selector){
-    case <valor>: <acción>;
+    case valor: acción;
          break; //Evita evaluar los otros casos
-    case <valor2>: <acción2>;
+    case valor2: acción2;
          break;
     ....
-    default: <acciónN>;
+    default: acciónN;
          break;
 }
 ````
