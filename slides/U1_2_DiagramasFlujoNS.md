@@ -1,6 +1,6 @@
 ---
 title: Fundamentos de la Programación
-theme: black
+theme: sky
 slideNumber: true
 ---
 
@@ -76,7 +76,7 @@ A partir del mismo se escribe un programa en algún lenguaje de programación.
 ![Etapas Flow](images/U1_resolucion_problemas/etapas_flow.png)
 
 ---
-## Diagrama de Flujo Básico
+### Diagrama de Flujo Básico
 ![Etapas Diagrama](images/U1_resolucion_problemas/etapas_diagrama_flujo.png)
 
 ---
@@ -97,6 +97,7 @@ La conexión puede ser a un símbolo que exprese lectura, proceso, decisión, im
 
 ---
 ### Reglas de DF
+<!-- .slide: style="font-size: 0.8em" -->
 * Si el diagrama de flujo requiriera más de una hoja para su construcción, debemos utilizar los conectores adecuados y enumerar las páginas convenientemente.
 * No puede llegar más de una línea a un símbolo.
 
@@ -131,7 +132,7 @@ Combina la descripción textual del pseudocódigo con la representación gráfic
 * Multiple
 
 ---
-### Diagramas N-S: Estructuras Iterativas
+#### Diagramas N-S: Estructuras Iterativas
 ![Condicion Desde-Hasta](images/U1_resolucion_problemas/NS_condicion-desde-hasta.png)
 ![Condicion Hacer-Mientras](images/U1_resolucion_problemas/NS_hacer-mientras.png)
 ![Condicion Repetir-Hasta](images/U1_resolucion_problemas/NS_repetir-hasta.png)

@@ -1,10 +1,10 @@
 ---
 title: Fundamentos de la Programación
-theme: black
+theme: sky
 slideNumber: true
 ---
 
-# Resolución de Problemas con Computadoras
+## Resolución de Problemas con Computadoras
 <small>
 Created by <i class="fab fa-telegram"></i>
 [edme88]("https://t.me/edme88")
@@ -42,7 +42,7 @@ Capacidad de:
 ¿Usan algun método?
     
 ---
-## Metodología para la solución de Problemas basados en la Computadora
+### Metodología para la solución de Problemas basados en la Computadora
 1. Análisis del problema
 2. Diseño del algoritmo
 3. Codificación
@@ -83,6 +83,7 @@ Se genera el programa.exe que puede ser ejecutado.
 
 ---
 ## 6- Prueba y Depuración
+<!-- .slide: style="font-size: 0.9em" -->
 Descubrir, localizar y corregir los errores que hacen que un programa no se ejecute o que cuando lo hace obtiene resultados erróneos.
 
 Tipos de Errores:
@@ -139,6 +140,7 @@ Aun si todos encuentran la solución correcta  algunos serán mejores que otros.
 
 ---
 ## Características de los Algortimos
+<!-- .slide: style="font-size: 0.9em" -->
 * **Correcto:** resuelve el problema
 * **Eficiente:** en uso de recursos y tiempo
 * **Preciso:** no ambiguo, la actividad a realizar  en cada paso esta determinada completamente.

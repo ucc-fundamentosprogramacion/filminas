@@ -1,10 +1,10 @@
 ---
 title: Fundamentos de la Programación
-theme: black
+theme: sky
 slideNumber: true
 ---
 
-# Fundamentos de la Programación
+## Fundamentos de la Programación
 <small>
 Created by <i class="fab fa-telegram"></i>
 [edme88]("https://t.me/edme88")

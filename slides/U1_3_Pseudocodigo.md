@@ -1,10 +1,10 @@
 ---
 title: Fundamentos de la Programación
-theme: black
+theme: sky
 slideNumber: true
 ---
 
-# Pseudocódigo
+## Pseudocódigo
 <small>
 Created by <i class="fab fa-telegram"></i>
 [edme88]("https://t.me/edme88")
@@ -56,6 +56,7 @@ El PSeInt presenta la siguiente pantalla
 
 ---
 ## Pseint: Ejecutar Programa
+<!-- .slide: style="font-size: 0.8em" -->
 Botón de Ejecutar en la barra de acceso rápido
 ![Pseint - Ejecutar Programa](images/U1_resolucion_problemas/pseint2.png)
 
@@ -65,6 +66,7 @@ Botón de Ejecutar en la barra de acceso rápido
 
 ---
 ## Pseint: Configuración
+<!-- .slide: style="font-size: 0.8em" -->
 1. En Configurar > Opciones del Lenguaje (perfiles)...
 2. Personalizar
 3. Seleccionar checkbox según imagen
