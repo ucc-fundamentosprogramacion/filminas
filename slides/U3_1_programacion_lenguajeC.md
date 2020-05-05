@@ -70,11 +70,14 @@ Clasificación según **tipo** de problema que son capaces de resolver:
 
 ---
 ## Programación Lógica
-* basado en la definición de relaciones lógicas.
+* Está basado en el desarrollo de programas especificando o "declarando" un conjunto de condiciones, proposiciones, 
+afirmaciones, restricciones, ecuaciones o transformaciones que describen el problema y detallan su solución.
+
 * Ejemplo: Prolog
 
 ---
 ## Lenguaje de Programación: Tipos II
+También puede clasificarse según **el nivel**:
 * Lenguaje Máquina
 * Lenguaje de bajo nivel (ensamblador)
 * Lenguajes de alto nivel
@@ -115,11 +118,11 @@ Conjunto de líneas de texto escritas por un programador en algún lenguaje de p
 El compilador traducirá el código fuente a código máquina, también llamado código objeto, siempre y cuando, el propio compilador no detecte ningún error en dicho código fuente.
 
 ---
-## Código Objeto
-Código que resulta de la compilación del código fuente. Puede ser en lenguaje máquina o bytecode, y puede distribuirse en varios archivos que corresponden a cada código fuente compilado.
+![Joke Compiling](images/U3_programacion/joke_compiling.jpg)
 
 ---
-![Joke Compiling](images/U3_programacion/joke_compiling.jpg)
+## Código Objeto
+Código que resulta de la compilación del código fuente. Puede ser en lenguaje máquina o bytecode, y puede distribuirse en varios archivos que corresponden a cada código fuente compilado.
 
 ---
 ## Proceso de Enlace
