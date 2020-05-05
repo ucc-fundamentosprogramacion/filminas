@@ -98,6 +98,10 @@ Sus instrucciones son fácilmente comprendida por los programadores, y no depend
 Algunos lenguajes: C, C++, Java, Python, VisualBasic, C#, JavaScript
 
 ---
+## Procesos de edición, compilación, enlazado
+![Edicion-Compilacion-Enlazado](images/U3_programacion/compilacion.png)
+
+---
 ## Proceso de Edición
 
 Durante la fase de edición, el programador debe convertir el algoritmo que haya diseñado en instrucciones escritas en un lenguaje de programación específico. Para ello, se debe hacer uso de un editor de textos, con el cual se obtendrá el llamado código fuente del programa.
