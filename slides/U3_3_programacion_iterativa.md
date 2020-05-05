@@ -4,7 +4,7 @@ theme: sky
 slideNumber: true
 ---
 
-# Estructura Iterativa
+## Estructura Iterativa
 <small>
 Created by <i class="fab fa-telegram"></i>
 [edme88]("https://t.me/edme88")

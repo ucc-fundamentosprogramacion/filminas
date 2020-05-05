@@ -5,6 +5,7 @@ slideNumber: true
 ---
 
 # Estructura de Control de Flujo Condicional
+<!-- .slide: style="font-size: 0.9em" -->
 <small>
 Created by <i class="fab fa-telegram"></i>
 [edme88]("https://t.me/edme88")
