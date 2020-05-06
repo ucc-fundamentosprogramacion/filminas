@@ -70,6 +70,15 @@ cout << "Hola";
 ````
 
 ---
+## Main
+La función main sirve como punto de partida para la ejecución del programa. 
+````javascript
+int main(){
+    
+}
+````
+
+---
 ## Escribir
 ````javascript
 Escribir "Hola Mundo!"
