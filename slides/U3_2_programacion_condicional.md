@@ -62,5 +62,9 @@ switch(selector){
 ````
 
 ---
+## Ejercicios
+Resuelve nuevamente los ejercicios del **Trabajo Practico II: Estructura Condicional**, del 3 al 33 
+
+---
 ## ¿Dudas, Preguntas, Comentarios?
 ![DUDAS](images/pregunta.gif)

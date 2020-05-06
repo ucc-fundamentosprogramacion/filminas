@@ -54,5 +54,9 @@ for(int i=0; i < 100; i++){
 ````
 
 ---
+## Ejercicios
+Resuelve nuevamente los ejercicios del **Trabajo Practico III: Estructura Iterativa**, del 2 al 42 
+
+---
 ## ¿Dudas, Preguntas, Comentarios?
 ![DUDAS](images/pregunta.gif)
