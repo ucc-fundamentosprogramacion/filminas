@@ -123,5 +123,38 @@ long numEntero4;
 * Realizar un **build & play** si se realizaron cambios
 
 ---
+## Ejercicios
+Resuelve nuevamente los ejercicios del **Trabajo Practico I: Estructura Secuencial**, del 1 al 14 
+
+---
+## Librerias o Bibliotecas
+Archivos que podemos incluir o importar en nuestro programa.
+
+Estos archivos contienen especificaciones de de diferentes funcionalidades ya construidas y utilizables que podemos
+agregar a nuestro programa
+````javascript
+#include <math.h>
+````
+
+---
+## [Math.h](http://www.cplusplus.com/reference/cmath/)
+<!-- .slide: style="font-size: 0.8em" -->
+Contiene algunas funcionalidades como:
+* atan: arco tangente **atan(double x)** x en radianes
+* pow: potencia. **pow(double base, double exponente)**
+* sqrt: raiz cuadrada **sqrt(double x)**
+* abs: valor absoluto **abs(double/float x)**
+* sin: seno **sin(double/float x)** x en radianes
+* cos: coseno **cos(double/float x)** x en radianes
+* tan: tangente **tan(double/float x)** x en radianes
+
+Tambien constantes:
+* M_PI
+
+---
+## Ejercicios
+Resuelve nuevamente los ejercicios del **Trabajo Practico I: Estructura Secuencial**, del 15 al 22 
+
+---
 ## ¿Dudas, Preguntas, Comentarios?
 ![DUDAS](images/pregunta.gif)
