@@ -81,5 +81,9 @@ Botón de Ejecutar en la barra de acceso rápido
 * Nombres de variables transparentes y claros
 
 ---
+## Primera Clase
+![Pseint - Ver Diagrama](images/U1_resolucion_problemas/primera-clase.jpeg)
+
+---
 ## ¿Dudas, Preguntas, Comentarios?
 ![DUDAS](images/pregunta.gif)

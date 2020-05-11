@@ -4,7 +4,7 @@ theme: sky
 slideNumber: true
 ---
 
-# Comenzar en C
+# Comenzar en C++
 <small>
 Created by <i class="fab fa-telegram"></i>
 [edme88]("https://t.me/edme88")
@@ -80,20 +80,22 @@ int main(){
 
 ---
 ## Escribir
+En pseudo código:
 ````javascript
 Escribir "Hola Mundo!"
 ````
-Es lo mismo que
+En C++:
 ````javascript
 cout<<"Hola Mundo!"<<endl;
 ````
 
 ---
 ## Leer
+En pseudo código:
 ````javascript
 Leer num1
 ````
-Es lo mismo que
+En C++:
 ````javascript
 cin>>num1;
 ````
@@ -117,6 +119,10 @@ long numEntero4;
 ![Code Blocks](images/U3_programacion/code_blocks_3.png)
 
 ---
+#### Comenzando con un nuevio lenguaje...
+![Comenzando con un nuevo lenguaje](images/U3_programacion/lets-compile.png)
+
+---
 ## A tener en cuenta...
 * Guardar con extensión **.cpp**
 * Emplear **;** al final de cada oración
@@ -130,7 +136,7 @@ Resuelve nuevamente los ejercicios del **Trabajo Practico I: Estructura Secuenci
 ## Librerias o Bibliotecas
 Archivos que podemos incluir o importar en nuestro programa.
 
-Estos archivos contienen especificaciones de de diferentes funcionalidades ya construidas y utilizables que podemos
+Estos archivos contienen especificaciones de diferentes funcionalidades ya construidas y utilizables que podemos
 agregar a nuestro programa
 ````javascript
 #include <math.h>

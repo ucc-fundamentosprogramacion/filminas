@@ -61,7 +61,7 @@ Clasificación según **tipo** de problema que son capaces de resolver:
 
 ---
 ## Programación Simbólica
-* Búsqueda heurística  
+* Búsqueda heurística (orientados a reducir la cantidad de búsqueda requerida para encontrar una solución) 
 * Base de conocimientos estructurada en una memoria global de trabajo
 * Orientada hacia el procesamiento simbólico
 * Procesamiento muy interactivo
