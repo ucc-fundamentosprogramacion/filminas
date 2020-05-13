@@ -12,6 +12,17 @@ Created by <i class="fab fa-telegram"></i>
 
 ---
 ## Code Blocks
+Descargar el Code::Blocks del siguiente link: [http://www.codeblocks.org/downloads/26](http://www.codeblocks.org/downloads/26)
+![Code::Blocks](images/U3_programacion/Descargar_code.png)
+Asegurate de que sea la versión que incluye el **mingw** que incluye el compilador.
+
+---
+## Alternativa: Codeboard.io
+Puedes crearte una cuenta de [https://codeboard.io](https://codeboard.io)
+![Code Board](images/U3_programacion/codeboard.png)
+
+---
+## Code Blocks
 ![Code Blocks](images/U3_programacion/code_blocks_1.png)
 
 ---
