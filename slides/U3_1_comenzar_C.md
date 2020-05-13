@@ -11,6 +11,17 @@ Created by <i class="fab fa-telegram"></i>
 </small>
 
 ---
+## Entorno de Desarrollo
+* Code::Blocks
+* C-Lion
+* Zinjal
+* Visual Studio
+* Code Board
+* NetBeans
+* Eclipse
+etc, etc...
+
+---
 ## Code Blocks
 Descargar el Code::Blocks del siguiente link: [http://www.codeblocks.org/downloads/26](http://www.codeblocks.org/downloads/26)
 ![Code::Blocks](images/U3_programacion/Descargar_code.png)

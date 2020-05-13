@@ -138,6 +138,12 @@ Archivo binario, cuyo contenido se interpreta por la computadora como un program
 ![Codigo Fase](images/U3_programacion/codigo_fases.png)
 
 ---
+## Ventajas de C++
+* Tiene un alto rendimiento.
+* Es un lenguaje que se está actualizando, y, por lo tanto, a pesar de tener más de 20 años es moderno.
+* Es multiplataforma.
+
+---
 ## Tipo de Datos
 Los datos a procesar por una computadora pueden clasificarse en:
 * **Simples o escalares:** enteros, reales, caracteres, booleanos
