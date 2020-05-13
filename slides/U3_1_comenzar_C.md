@@ -200,7 +200,7 @@ Archivos que podemos incluir o importar en nuestro programa.
 Estos archivos contienen especificaciones de diferentes funcionalidades ya construidas y utilizables que podemos
 agregar a nuestro programa
 ````javascript
-#include <math.h>
+#include <cmath>
 ````
 
 ---

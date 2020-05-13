@@ -17,24 +17,24 @@ Permiten reutilizar funciones presumiblemente comprobadas, ahorrando tiempo de d
 ---
 ### Bibliotecas: Ejemplos
 Algunos ejemplos de bibliotecas son:
-* stdio.h
-* math.h
+* cstdio
+* cmath
 * iostream
-* stdlib.h o cstdlib
-* ctype.h
-* time.h
+* cstdlib
+* cctype
+* ctime
 
 ---
-### stdio.h
+### cstdio
 Biblioteca "Standard Input Output Header" de entrada/salida, que incluye funciones printf y scanf necesarias para escribir y leer. (se usa en C)
 
 ---
-### math.h
+### cmath
 Biblioteca estándar con operaciones matemáticas básicas: arcocoseno, arcoseno, arcotangente, coseno,
 coseno hiperbólico, exponencial, valor absoluto, logaritmo natural y base 10, seno, seno hiperbólico, raíz cuadrada, tangente, tangente hiperbólica.
 
 ---
-### math.h
+### cmath
 | Nombre | Descripción |
 |--------|-------------|
 | acos | Calcula el arcocoseno. |
@@ -44,7 +44,7 @@ coseno hiperbólico, exponencial, valor absoluto, logaritmo natural y base 10, s
 | floor | Devuelve el menor entero no menor que el parámetro. |
 
 ---
-### math.h
+### cmath
 | Nombre | Descripción |
 |--------|-------------|
 | ceil | Devuelve el mayor entero no mayor que el parámetro. |
@@ -54,7 +54,7 @@ coseno hiperbólico, exponencial, valor absoluto, logaritmo natural y base 10, s
 | fabs | Devuelve el valor absoluto. |
 
 ---
-### math.h
+### cmath
 | Nombre | Descripción |
 |--------|-------------|
 | fmod | Devuelve el resto de la división de flotantes |
@@ -65,7 +65,7 @@ coseno hiperbólico, exponencial, valor absoluto, logaritmo natural y base 10, s
 | log10 | Calcula el logaritmo en base 10 |
 
 ---
-### math.h
+### cmath
 <!-- .slide: style="font-size: 0.9em" -->
 | Nombre | Descripción |
 |--------|-------------|
@@ -78,7 +78,7 @@ coseno hiperbólico, exponencial, valor absoluto, logaritmo natural y base 10, s
 | tanh | Calcula la tangente hiperbólica |
 
 ---
-### stdlib.h o cstdlib
+### cstdlib
 Contiene funciones para:
 * Conversión de caracteres a: float, int, long, double
 * Números Aleatorios
@@ -89,7 +89,7 @@ Contiene funciones para:
 * Matemáticas: división 
 
 ---
-### ctype.h
+### cctype
 <!-- .slide: style="font-size: 0.9em" -->
 Contiene funciones de manipulación de caracteres:
 
@@ -102,7 +102,7 @@ Contiene funciones de manipulación de caracteres:
 | isdigit | Verifica si el caracter es decimal digit |
 
 ---
-### ctype.h
+### cctype
 <!-- .slide: style="font-size: 0.9em" -->
 | Funcion | Detalle |
 |---------|---------|
@@ -113,7 +113,7 @@ Contiene funciones de manipulación de caracteres:
 | ispunct | Verifica si el caracter es a punctuation character |
 
 ---
-### ctype.h
+### cctype
 <!-- .slide: style="font-size: 0.9em" -->
 | Funcion | Detalle |
 |---------|---------|
@@ -125,7 +125,7 @@ Contiene funciones de manipulación de caracteres:
 | toascii | Convierte de char a Ascii |
 
 ---
-### [time.h](http://programavideojuegos.blogspot.com/2014/02/la-libreria-timeh.html)
+### [ctime](http://programavideojuegos.blogspot.com/2014/02/la-libreria-timeh.html)
 Contiene funciones para manipular fecha y hora del sistema.
 
 <!-- .slide: style="font-size: 0.8em" -->
