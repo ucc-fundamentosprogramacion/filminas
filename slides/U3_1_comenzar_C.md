@@ -204,7 +204,7 @@ agregar a nuestro programa
 ````
 
 ---
-## [Math.h](http://www.cplusplus.com/reference/cmath/)
+## [cmath](http://www.cplusplus.com/reference/cmath/)
 <!-- .slide: style="font-size: 0.8em" -->
 Contiene algunas funcionalidades como:
 * atan: arco tangente **atan(double x)** x en radianes
