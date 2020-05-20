@@ -119,6 +119,10 @@ while(condicion);
 En las **acciones** suele haber alguna operación que afecte la condición (para llegar a una condición de corte).
 
 ---
+#### While vs. Do While
+![While - Do While](images/U3_programacion/correcaminos.jpg)
+
+---
 ## For
 Permite ejecutar un conjunto de acciones para cada elemento de una lista, o para cada paso de un conjunto de  elementos.
 
@@ -140,13 +144,13 @@ for(int i=0; i < 100; i++){
 ````
 
 ---
-## Ejercicios
-Resuelve nuevamente los ejercicios del **Trabajo Practico III: Estructura Iterativa**, del 2 al 42 
+#### - Jaimito, escribi 500 veces "No arrojare aviones de papel en clase"
+#### - Si, no hay problema Profe!
+![Joke For](images/U2_control_flujo/joke_for.jpg)
 
 ---
-### Qué tengo que escribir eso en el pizarron 500 veces?
-No hay problema profe!
-![Joke For](images/U2_control_flujo/joke_for.jpg)
+## Ejercicios
+Resuelve nuevamente los ejercicios del **Trabajo Practico III: Estructura Iterativa**, del 2 al 42 
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?
