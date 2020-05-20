@@ -71,12 +71,27 @@ Bah, no es para tanto, pero nunca va a terminar el programa xD
 * For (para)
 
 ---
+## Operadores Condicionales o Relacionales
+Sirven para realizar comparaciones de igualdad, desigualdad y relación de menor o mayor.
+
+<!-- .slide: style="font-size: 0.8em" -->
+| Operador | Descripción |
+|----------|-------------|
+| == | Igual a |
+| != | No igual a |
+| > | Mayor que |
+| >= | Mayor o igual que |
+| < | Menor que |
+| <= | Menor o igual que |
+
+---
 ## While
-Esta estructura repetitiva “mientras”, es en la que el cuerpo del bucle se repite siempre que se cumpla una determinada condición.
 ![Control Repetitivo](images/U2_control_flujo/while.png)
 
 ---
 ## While: C/C++
+Esta estructura repetitiva “mientras”, es en la que el cuerpo del bucle se repite siempre que se cumpla una determinada condición.
+
 ````javascript
 while(condición){
     acciones;
@@ -89,6 +104,8 @@ Esta estructura es muy similar a la anterior, sólo que a diferencia del while e
 
 De esta forma garantizamos que las acciones dentro de este bucle sean llevadas a cabo, aunque sea una vez independientemente del valor de la condición.
 
+---
+## Do While
 ![Do While](images/U2_control_flujo/do_while.png)
 
 ---
