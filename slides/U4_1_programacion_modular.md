@@ -4,7 +4,7 @@ theme: sky
 slideNumber: true
 ---
 
-# Programación Modular
+## Programación Modular
 <small>
 Created by <i class="fab fa-telegram"></i>
 [edme88]("https://t.me/edme88")
@@ -97,6 +97,10 @@ double promedio(double x1, double x2){
     return (x1+x2)/2;
 }
 ```
+
+---
+### Ejercicios
+Resuelve los ejercicios del **Trabajo Practico IV: Programación Modular** 
 
 ---
 ### Parámetros de una Función
@@ -232,8 +236,12 @@ Las variables declaradas dentro del ámbito de una función tienen ámbito de bl
 using namespace std;
 
 float PI = 3.141592; // Ámbito de Programa o Ámbito Global
+static int i; // Ámbito de Archivo Fuente
 
 float perimetro_circulo(float r) {
+    for(int j=0;j<10;j++){ // Ámbito de Bloque
+        cout<<"Hola Mundo!!!"<<endl;
+    }
     return PI * r * 2;    // r tiene ámbito de función
 }
 
