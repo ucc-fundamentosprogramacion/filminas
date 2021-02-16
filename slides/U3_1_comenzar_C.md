@@ -12,6 +12,12 @@ Created by <i class="fab fa-telegram"></i>
 
 ---
 ## Entorno de Desarrollo
+Es una herramienta que nos permite desarrollar nuestro programa.
+
+Cuenta con un editor de texto y compilador.
+
+---
+## Entorno de Desarrollo
 * Code::Blocks
 * C-Lion
 * Zinjal

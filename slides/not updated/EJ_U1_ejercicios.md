@@ -50,7 +50,7 @@ Se debe distinguir el valor que toma cada una de ellas a medida que se realizan 
 Escribir un algoritmo quepermita realizar una suma de dos números enteros. El usuariodeberá ingresar  primero  un  número,  luego  el  siguiente  número,  y  el  sistema  arrojará  el  resultado correspondiente.
 
 ---
-![Prueba de Escritorio](images/U1_resolucion_problemas/ej_pruebaEscritorio.png)
+![Prueba de Escritorio](../images/U1_resolucion_problemas/ej_pruebaEscritorio.png)
     
 ---
 ### TP1: Ejercicio 1
@@ -139,4 +139,4 @@ ax2+bx+c=0 las raíces se calculan a partir de la fórmula x=(-b±(b^2-4ac)^(1/2
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?
-![DUDAS](images/pregunta.gif)
+![DUDAS](../images/pregunta.gif)

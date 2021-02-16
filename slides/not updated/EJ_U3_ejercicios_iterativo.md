@@ -23,8 +23,8 @@ van registrando la cantidad de veces que se realiza la repetición y con la deci
 
 ---
 ### DF Creación programa
-![Ejemplo Lazo](images/tp5/ejemplo_lazo.png)
+![Ejemplo Lazo](../images/tp5/ejemplo_lazo.png)
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?
-![DUDAS](images/pregunta.gif)
+![DUDAS](../images/pregunta.gif)

@@ -35,5 +35,55 @@ Esta estructura de control es la más simple, permite que las instrucciones que 
 ![Diagrama Flujo Secuencial](images/U1_resolucion_problemas/diagrama_flujo_secuencial.png)
 
 ---
+#### Ejemplo de Estructura Secuencial
+````javascript
+Algoritmo calculo_raices
+	Definir a,b,c,det,x1,x2 como real
+	Escribir "Ingrese a:"
+	Leer a
+	Escribir "Ingrese b:"
+	Leer b
+	Escribir "Ingrese c:"
+	Leer c
+	det=b*b-4*a*c
+	x1=(-b+RAIZ(det))/(2*a)
+	x2=(-b-RAIZ(det))/(2*a)
+	Escribir "Las raices son ", x1," y ", x2
+FinAlgoritmo
+````
+
+---
+## Estructura Secuencial: Acciones
+* Asignación
+* Operaciones Aritméticas
+* Lectura
+* Escritura
+
+---
+## Operador de Asignación
+Se utiliza para asignar un valor a una variable o a una constante.
+
+El signo que representa la asignación es el **=** y este operador indica que el valor a la derecha del = será asignado a lo que está a la izquierda del mismo.
+
+Ejemplo: int edad=20;
+
+---
+## Operador Aritmético
+<!-- .slide: style="font-size: 0.9em" -->
+Son operadores binarios (requieren siempre dos operandos) que realizan las operaciones aritméticas habituales entre números, constantes o variables.
+
+| Operador | Significado | 
+|----------|-------------|
+| + | Suma |
+| - | Resta |
+| * | Producto |
+| / | División |
+| % | Resto de División entera |
+
+---
+## Ejercicios
+Resuelve los ejercicios del **Trabajo Practico I: Diagramas de Flujo y Pseudocódigo de Estructura Secuencial**, del 1 al 22 
+
+---
 ## ¿Dudas, Preguntas, Comentarios?
 ![DUDAS](images/pregunta.gif)

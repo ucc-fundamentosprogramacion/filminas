@@ -27,7 +27,7 @@ Existen 1000 unidades de un determinado producto. Mientras existan más de 200 s
 Si la cantidad baja de 200 debe notificarse un alerta.
 
 ---
-![Flor Entrega](images/tp3/flow_entrega.png)
+![Flor Entrega](../images/tp3/flow_entrega.png)
 
 ---
 ### TP3: Pseudocodigo - Ejercicio 2
@@ -136,4 +136,4 @@ La diferencia entre la serie y ∏ debe ser menor a 0,0005. El programa debe imp
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?
-![DUDAS](images/pregunta.gif)
+![DUDAS](../images/pregunta.gif)

@@ -55,8 +55,8 @@ Capacidad de:
 ---
 ## 1-Análisis del problema
 * Comprender la naturaleza del problema
-* Conocer los datos involucrados
-* Determinar la información deseada como resultado del proceso
+* Conocer los datos involucrados (datos de entrada, cálculos y fórmulas, datos de salida)
+* Determinar la información deseada como resultado del proceso (requerimiento)
 
 ---
 ## 2- Diseño del Algoritmo
@@ -66,8 +66,9 @@ Se puede expresar en forma gráfica mediante un diagrama de flujo ó en forma es
 
 ---
 ## 3- Codificación
-Expresar el diagrama de flujo ó pseudocódigo en un lenguaje de alto nivel
-Escribir la solución del problema en  una  serie de instrucciones detalladas, en un código reconocible por la computadora.
+Expresar el diagrama de flujo ó pseudocódigo en un lenguaje de alto nivel.
+
+Escribir la solución del problema en  una  serie de instrucciones detalladas, en un código reconocible por la computadora (Lenguaje de programación).
 
 ---
 ## 4- Prueba de escritorio

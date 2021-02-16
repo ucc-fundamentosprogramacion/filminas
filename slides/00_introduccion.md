@@ -14,7 +14,7 @@ Created by <i class="fab fa-telegram"></i>
 ## Profes
 Ing. Agustina Edmé Aliciardi
 
-&#101;&#100;&#109;&#101;&#97;&#108;&#105;&#99;&#105;&#97;&#114;&#100;&#105;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;
+0919281@ucc.edu.ar
 
 Ing. Alejandra Bosio 
 
@@ -97,6 +97,11 @@ No es obligatorio usarlas, pero es material de consulta
 ---
 ## Aula Virtual
 [![Campus Virtual](images/presentacion/CampusVirtual.png)](https://campusvirtual.ucc.edu.ar/course/view.php?id=1545)
+
+---
+#### No teman hacer preguntas, y no se queden con dudas!!!
+![Hablando de Programación](images/presentacion/hablando_programacion.png)
+
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?

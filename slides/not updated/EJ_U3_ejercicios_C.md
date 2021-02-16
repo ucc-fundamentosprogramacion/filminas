@@ -12,7 +12,7 @@ Created by <i class="fab fa-telegram"></i>
 
 ---
 ### DF Creación programa
-![Flow Creacion Programa](images/tp3/flujo_creacion_programa.png)
+![Flow Creacion Programa](../images/tp3/flujo_creacion_programa.png)
 
 ---
 ## Contador
@@ -69,8 +69,8 @@ int main() {
 ````
     
 ---
-![Proyecto](images/U3_programacion/proyecto.jpg)
+![Proyecto](../images/U3_programacion/proyecto.jpg)
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?
-![DUDAS](images/pregunta.gif)
+![DUDAS](../images/pregunta.gif)

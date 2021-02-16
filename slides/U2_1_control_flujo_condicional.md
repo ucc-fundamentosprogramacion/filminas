@@ -66,6 +66,10 @@ FIN_SI FIN
 ```` 
 
 ---
+## Ejercicios
+Resuelve los ejercicios del **Trabajo Practico II: Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 3 al 8 
+
+---
 ## Alternativa Doble
 ![Alternativa Doble](images/U2_control_flujo/alternativa_doble.png)
 
@@ -99,6 +103,10 @@ FIN
 ````    
 
 ---
+## Ejercicios
+Resuelve los ejercicios del **Trabajo Practico II: Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 9 al 18 
+
+---
 ## Alternativa Múltiple
 ![Alternativa Multiple](images/U2_control_flujo/alternativa_multiple.png)
 
@@ -119,7 +127,7 @@ En esta estructura se evalúa una condición o expresión que puede tomar n valo
 
 ---
 ## Alternativa Múltiple
-### Pseudpocódigo
+### Pseudocódigo
 
 ````javascript
 Según sea <expresión>
@@ -132,7 +140,7 @@ FIN Según
 
 ---
 ## Alternativa Múltiple
- Ejemplo en Pseudpocódigo
+ Ejemplo en Pseudocódigo
  
  ````javascript
 INICIO
@@ -152,7 +160,7 @@ Cómo sería el pseudocódigo?
 
 ---
 ## Alternativa Doble
-Ejemplo en Pseudpocódigo
+Ejemplo en Pseudocódigo
 ````javascript
 INICIO
   ENTERO posicionDeLlegada = 3
@@ -176,6 +184,10 @@ FIN
 ````
 
 ---
+## Ejercicios
+Resuelve los ejercicios del **Trabajo Practico II: Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 19 al 22 
+
+---
 ## Estructuras Selectivas en Cascada
 Luego de tomar una decisión y marcar el camino correspondiente a seguir, es necesario tomar otra decisión.
 
@@ -190,6 +202,10 @@ Luego de tomar una decisión y marcar el camino correspondiente a seguir, es nec
 ---
 ## Cascada: Ejemplo
 ![Alertiva Cascada3](images/U2_control_flujo/alternativa_cascada3.png)
+
+---
+## Ejercicios
+Resuelve los ejercicios del **Trabajo Practico II: Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 23 al 29 
 
 ---
 ## Operadores
@@ -249,6 +265,10 @@ Se utilizan para construir expresiones lógicas, combinando valores lógicos (tr
 Es una secuencia de operaciones y operandos que especifica un cálculo.
 
 Ejemplo: 3 + 5. En esta expresión, el símbolo más (+) es el operador de suma, y los números 3 y 5 se llaman operandos.
+
+---
+## Ejercicios
+Resuelve los ejercicios del **Trabajo Practico II: Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 30 al 33 
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?

@@ -105,6 +105,10 @@ FIN
 Si no hay condición de corte (si siempre se cumple el **condicional**) jamás se podrá salir del bucle.
 
 ---
+## Ejercicios
+Resuelve los ejercicios del **Trabajo Practico III: Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 2 al 5 
+
+---
 ## Do While
 ![Do While](images/U2_control_flujo/do_while.png)
 
@@ -132,6 +136,10 @@ INICIO
     MIENTRAS (llegadaColectivo == false)
 FIN
 ````
+
+---
+## Ejercicios
+Resuelve los ejercicios del **Trabajo Practico III: Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 6 al 9 
 
 ---
 ## For
@@ -169,9 +177,17 @@ FIN
 ```
 
 ---
+## Ejercicios
+Resuelve los ejercicios del **Trabajo Practico III: Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 10 al 18 
+
+---
 ### Qué tengo que escribir eso en el pizarron 500 veces?
 No hay problema profe!
 ![Joke For](images/U2_control_flujo/joke_for.jpg)
+
+---
+## Ejercicios
+Resuelve los ejercicios del **Trabajo Practico III: Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 19 al 42 
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?

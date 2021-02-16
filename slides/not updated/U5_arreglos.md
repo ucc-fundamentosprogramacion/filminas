@@ -38,14 +38,14 @@ Colección finita, homogénea y ordenada de elementos.
 
 ---
 ## Arreglo 
-![Arreglo Unidimensional](images/U5_arreglos/arreglo_unidimensional.png)
+![Arreglo Unidimensional](../images/U5_arreglos/arreglo_unidimensional.png)
 
 ---
 ## Arreglo: Partes
 * **Componentes:** Elementos que lo forman.
 * **Índice:** Índice de elemento
 
-![Arreglo Partes](images/U5_arreglos/arreglo_partes.png)
+![Arreglo Partes](../images/U5_arreglos/arreglo_partes.png)
 
 ---
 ## Arreglo 
@@ -75,7 +75,7 @@ int meses[12]={ENE, FEB, MAR, ABR, MAY, JUN, JUL, AGO, SEP, OCT, NOV, DIC};
 * Ordenación
 * Búsqueda
 
-![Arreglo Partes](images/U5_arreglos/arreglo_partes.png)
+![Arreglo Partes](../images/U5_arreglos/arreglo_partes.png)
 
 ---
 ## Operación: Lectura
@@ -156,4 +156,4 @@ float calcula(float a[], int n);
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?
-![DUDAS](images/pregunta.gif)
+![DUDAS](../images/pregunta.gif)
