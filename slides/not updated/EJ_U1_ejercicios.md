@@ -60,9 +60,6 @@ Explique qué hacen los siguientes diagramas de flujo que posee una estructura s
 Tradúzcalo a Pseudocódigo y realice pruebas de escritorio.
 
 ---
-![Ej Flow](../images/tp1/ej_flow.png)
-
----
 ### TP4: Ejercicio 1
 Dada una determinada temperatura en grados Farenheit, muestre por pantalla el valor de la misma en grados Celsius.
 
