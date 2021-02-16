@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <title>Fundamentos de la Programación</title>
-    <link rel="stylesheet" href="./css/reveal.css" />
-    <link rel="stylesheet" href="./css/theme/black.css" id="theme" />
-    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
-    <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print" />
-    <link rel="stylesheet" href="./_assets/slides/css/filminas.css" />
+    <link rel="stylesheet" href="./../css/reveal.css" />
+    <link rel="stylesheet" href="./../css/theme/black.css" id="theme" />
+    <link rel="stylesheet" href="./../css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="./../css/print/paper.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="./../_assets/slides/css/filminas.css" />
 
   </head>
   <body>
@@ -27,9 +27,6 @@ Created by <i class="fab fa-telegram"></i>
 Disenar el digrama de flujo y realizar una prueba de escritorio.
 
 Permita leer dos números desde el teclado (ancho y alto de un rectángulo); mostrar el perímetro y el área por pantalla.
-
-</script></section><section  data-markdown><script type="text/template">
-![Flow Sim](images/tp1/flow_sim.png)
 
 </script></section><section  data-markdown><script type="text/template">
 ## Pruebas de Escritorio  
@@ -62,7 +59,7 @@ Se debe distinguir el valor que toma cada una de ellas a medida que se realizan 
 Escribir un algoritmo quepermita realizar una suma de dos números enteros. El usuariodeberá ingresar  primero  un  número,  luego  el  siguiente  número,  y  el  sistema  arrojará  el  resultado correspondiente.
 
 </script></section><section  data-markdown><script type="text/template">
-![Prueba de Escritorio](images/U1_resolucion_problemas/ej_pruebaEscritorio.png)
+![Prueba de Escritorio](../images/U1_resolucion_problemas/ej_pruebaEscritorio.png)
     
 </script></section><section  data-markdown><script type="text/template">
 ### TP1: Ejercicio 1
@@ -73,9 +70,6 @@ Determinar la hipotenusa de un triángulo rectángulo conocidas las longitudes d
 Explique qué hacen los siguientes diagramas de flujo que posee una estructura secuencial.
 
 Tradúzcalo a Pseudocódigo y realice pruebas de escritorio.
-
-</script></section><section  data-markdown><script type="text/template">
-![Ej Flow](images/tp1/ej_flow.png)
 
 </script></section><section  data-markdown><script type="text/template">
 ### TP4: Ejercicio 1
@@ -151,11 +145,11 @@ ax2+bx+c=0 las raíces se calculan a partir de la fórmula x=(-b±(b^2-4ac)^(1/2
 
 </script></section><section  data-markdown><script type="text/template">
 ## ¿Dudas, Preguntas, Comentarios?
-![DUDAS](images/pregunta.gif)
+![DUDAS](../images/pregunta.gif)
 </script></section></div>
     </div>
 
-    <script src="./js/reveal.js"></script>
+    <script src="./../js/reveal.js"></script>
 
     <script>
       function extend() {
@@ -173,12 +167,12 @@ ax2+bx+c=0 las raíces se calculan a partir de la fórmula x=(-b±(b^2-4ac)^(1/2
 
       // Optional libraries used to extend on reveal.js
       var deps = [
-        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
-        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
-        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-        { src: './plugin/zoom-js/zoom.js', async: true },
-        { src: './plugin/notes/notes.js', async: true },
-        { src: './plugin/math/math.js', async: true }
+        { src: './../plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './../plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
+        { src: './../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: './../plugin/zoom-js/zoom.js', async: true },
+        { src: './../plugin/notes/notes.js', async: true },
+        { src: './../plugin/math/math.js', async: true }
       ];
 
       // default options to init reveal.js
@@ -197,7 +191,7 @@ ax2+bx+c=0 las raíces se calculan a partir de la fórmula x=(-b±(b^2-4ac)^(1/2
       var options = extend(defaultOptions, {"controls":true,"progress":true,"slideNumber":true}, queryOptions);
     </script>
 
-    <script src="./_assets/slides/js/init.js"></script>
+    <script src="./../_assets/slides/js/init.js"></script>
 
     <script>
       Reveal.initialize(options);

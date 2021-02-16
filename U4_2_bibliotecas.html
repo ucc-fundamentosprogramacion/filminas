@@ -16,7 +16,7 @@
     <div class="reveal">
       <div class="slides"><section  data-markdown><script type="text/template">
 
-# Bibliotecas
+# Bibliotecas o Librerias
 <small>
 Created by <i class="fab fa-telegram"></i>
 [edme88]("https://t.me/edme88")
@@ -24,24 +24,63 @@ Created by <i class="fab fa-telegram"></i>
 
 </script></section><section  data-markdown><script type="text/template">
 ### Bibliotecas
+Las bibliotecas contienen el código objeto de muchos programas que permiten hacer cosas comunes, como leer el teclado, 
+escribir en la pantalla, manejar números, realizar funciones matemáticas, etc.
+
 Permiten reutilizar funciones presumiblemente comprobadas, ahorrando tiempo de desarrollo e incrementando la fiabilidad del programa.
+
+</script></section><section  data-markdown><script type="text/template">
+### Bibliotecas
+Las bibliotecas están clasificadas por el tipo de trabajos que hacen, hay bibliotecas de entrada y salida, matemáticas, 
+de manejo de memoria, de manejo de textos y como imaginarás existen muchísimas librerías disponibles y todas con una 
+función especifica.
+
+</script></section><section  data-markdown><script type="text/template">
+### Bibliotecas
+Las librerías no son únicamente archivos externos creados por otros, también es posible crear nuestras propias librerías 
+y utilizarlas en nuestros programas. Las librerías pueden tener varias extensiones diferentes, las más comunes son: 
+.lib, .bpl, .a, .dll, .h y algunas más ya no tan comunes.
+
+</script></section><section  data-markdown><script type="text/template">
+### Bibliotecas
+La declaración de librerías, se debe hacer al principio de todo nuestro código, antes de la declaración de cualquier función o línea de código, debemos indicarle al compilador que librerías usar, para el saber que términos estaran correctos en la escritura de nuestro código y cuáles no. La sintaxis es la siguiente: #include <nombre de la librería> 
 
 </script></section><section  data-markdown><script type="text/template">
 ### Bibliotecas: Ejemplos
 Algunos ejemplos de bibliotecas son:
-* cstdio
-* cmath
-* iostream
-* cstdlib
-* cctype
-* ctime
+* <a href="#/6">iostream</a>
+* <a href="#/8">cstdio</a>
+* <a href="#/9">cmath</a>
+* <a href="#/14">cstdlib</a>
+* <a href="#/16">cctype</a>
+* <a href="#/19">ctime</a>
+* <a href="#/20">string</a>
 
 </script></section><section  data-markdown><script type="text/template">
-### cstdio
-Biblioteca "Standard Input Output Header" de entrada/salida, que incluye funciones printf y scanf necesarias para escribir y leer. (se usa en C)
+### [iostream](http://www.cplusplus.com/reference/iolibrary/)
+Se emplea para operaciones de entrada/salida. Su nombre es el acrónimo de **I**nput/**O**utput **Stream**.
+El flujo de entrada y salida de datosno se encuentra definida dentro de la sintaxis básica y se provee por
+medio de librerías de funciones especializadas como iostream.
 
 </script></section><section  data-markdown><script type="text/template">
-### cmath
+### iostream
+* cin: Flujo de entrada
+* cout: Flujo de salida
+* cerr: Flujo de error no almacenado
+* clog: Flujo de error almacenado
+Todos los objetos derivados de iostream hacen parte del espacio de nombres std.
+
+</script></section><section  data-markdown><script type="text/template">
+### [cstdio](http://www.cplusplus.com/reference/cstdio/?kw=cstdio)
+Biblioteca "Standard Input Output Header" de entrada/salida, que incluye funciones necesarias para escribir y leer. (se usa en C)
+* printf: imprimir salidas de datos
+* scanf: utilizado para introducir datos de entrada
+* puts: imprime una cadena de caracteres
+* getc: devuelve un caracter desde un fichero
+* ferror: comprueba el indicador de errores
+
+</script></section><section  data-markdown><script type="text/template">
+### [cmath](http://www.cplusplus.com/reference/cmath/?kw=cmath)
 Biblioteca estándar con operaciones matemáticas básicas: arcocoseno, arcoseno, arcotangente, coseno,
 coseno hiperbólico, exponencial, valor absoluto, logaritmo natural y base 10, seno, seno hiperbólico, raíz cuadrada, tangente, tangente hiperbólica.
 
@@ -90,18 +129,28 @@ coseno hiperbólico, exponencial, valor absoluto, logaritmo natural y base 10, s
 | tanh | Calcula la tangente hiperbólica |
 
 </script></section><section  data-markdown><script type="text/template">
-### cstdlib
+### [cstdlib](http://www.cplusplus.com/reference/cstdlib/?kw=cstdlib)
+<!-- .slide: style="font-size: 0.9em" -->
+Standard library. Contiene los prototipos de funciones de C para gestión de memoria dinámica, control de procesos y otras.
+
 Contiene funciones para:
 * Conversión de caracteres a: float, int, long, double
 * Números Aleatorios
 * Memoria 
 * Control de procesos
 * Ordenación 
-* Búsqueda 
-* Matemáticas: división 
+* Búsqueda
 
 </script></section><section  data-markdown><script type="text/template">
-### cctype
+### cstdlib
+* atof: ascii to float, cadena de caracteres a coma flotante
+* rand: genera un numero pseudo-aleatorio
+* free: liberan memoria devolviéndola al heap
+* system: ejecutar un comando externo
+* exit: terminar ejecución del programa
+
+</script></section><section  data-markdown><script type="text/template">
+### [cctype](http://www.cplusplus.com/reference/cctype/?kw=cctype)
 <!-- .slide: style="font-size: 0.9em" -->
 Contiene funciones de manipulación de caracteres:
 
@@ -146,6 +195,17 @@ Contiene funciones para manipular fecha y hora del sistema.
 | clock_t clock (void) | Devuelve el número de pulsos de reloj desde que se inició el proceso |
 | double difftime(time_t, time t) | Recibe dos variables de tipo time_t, calcula su diferencia y devuelve el resultado (double) expresado en segundos. |
 | etc | etc |
+
+</script></section><section  data-markdown><script type="text/template">
+### [string](http://www.cplusplus.com/reference/string/string/?kw=string)
+Contiene la definición de macros, constantes, funciones y tipos y algunas operaciones de manipulación de memoria.
+
+Las funciones para cadenas de caracteres sólo trabajan con conjuntos de caracteres ASCII o extensiones ASCII compatibles.
+
+* strcpy: copia una cadena en otra
+* strcat: añade una cadena al final de otra.
+* strrev: invierte una cadena
+* strstr: busca una cadena dentro de otra.
 
 </script></section><section  data-markdown><script type="text/template">
 ### Generar Numeros Aleatorios
