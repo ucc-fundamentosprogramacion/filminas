@@ -17,9 +17,6 @@ Disenar el digrama de flujo y realizar una prueba de escritorio.
 Permita leer dos números desde el teclado (ancho y alto de un rectángulo); mostrar el perímetro y el área por pantalla.
 
 ---
-![Flow Sim](images/tp1/flow_sim.png)
-
----
 ## Pruebas de Escritorio  
 Sirve para validar un algoritmo utilizando datos reales cómo ejemplo, para comprobar si se obtiene el resultado deseado.
     
@@ -63,7 +60,7 @@ Explique qué hacen los siguientes diagramas de flujo que posee una estructura s
 Tradúzcalo a Pseudocódigo y realice pruebas de escritorio.
 
 ---
-![Ej Flow](images/tp1/ej_flow.png)
+![Ej Flow](../images/tp1/ej_flow.png)
 
 ---
 ### TP4: Ejercicio 1
