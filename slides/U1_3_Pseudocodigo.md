@@ -37,9 +37,11 @@ FinProceso
 ````
 ---
 ## Pseudocódigo: Ventajas
+<!-- .slide: style="font-size: 0.9em" -->
 * Comunicar y representar ideas que puedan ser entendidas por programadores que conozcan distintos lenguajes.
 * El programador puede concentrarse en la lógica y estructuras de control y no preocuparse de las reglas de un lenguaje de programación específico.
-
+* Ocupa menos espacio papel que un diagrama de flujo.
+* Es más fácil pasar de pseudocódigo a un lenguaje de programación.
 ---
 ## Pseudocódigo: Ejercicio
 Traducir el anterior Pseudocódigo a un diagrama de flujo.
@@ -81,8 +83,15 @@ Botón de Ejecutar en la barra de acceso rápido
 * Nombres de variables transparentes y claros
 
 ---
-## Primera Clase
 ![Pseint - Ver Diagrama](images/U1_resolucion_problemas/primera-clase.jpeg)
+
+---
+## Ejercicios
+<!-- .slide: style="font-size: 0.8em" -->
+Empleando **diagramas de flujo** prueba resolver algunos de los siguientes ejercicios:
+* **Trabajo Practico I: Diagramas de Flujo y Pseudocódigo de Estructura Secuencial**, del 1 al 22 
+* **Trabajo Practico II: Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 1 al 33 
+* **Trabajo Practico III: Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 1 al 42 
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?

@@ -54,9 +54,17 @@ Capacidad de:
 
 ---
 ## 1-Análisis del problema
+Asegurarse de que el problema está bien definido y se comprende claramente.
+
 * Comprender la naturaleza del problema
 * Conocer los datos involucrados (datos de entrada, cálculos y fórmulas, datos de salida)
 * Determinar la información deseada como resultado del proceso (requerimiento)
+
+---
+## 1-Análisis del problema
+* ¿Con qué datos cuento?
+* ¿Qué hago con esos datos?
+* ¿Qué se desea obtener?
 
 ---
 ## 2- Diseño del Algoritmo
@@ -68,13 +76,17 @@ Se puede expresar en forma gráfica mediante un diagrama de flujo ó en forma es
 ## 3- Codificación
 Expresar el diagrama de flujo ó pseudocódigo en un lenguaje de alto nivel.
 
-Escribir la solución del problema en  una  serie de instrucciones detalladas, en un código reconocible por la computadora (Lenguaje de programación).
+Escribir la solución del problema en  una  serie de instrucciones detalladas, en un código reconocible por la computadora o
+**Programa** (empleando un Lenguaje de programación).
 
 ---
 ## 4- Prueba de escritorio
 Consiste en simular manualmente las operaciones que se indican en el programa. 
 Mediante una tabla se hace una traza de los valores que van tomando las variables hasta obtener los resultados.
 Se puede aplicar en programas de poca complejidad.
+
+---
+![Prueba de Escritorio](../images/U1_resolucion_problemas/ej_pruebaEscritorio.png)
 
 ---
 ## 5- Compilación y Ejecución
@@ -84,7 +96,8 @@ Se genera el programa.exe que puede ser ejecutado.
 
 ---
 ## 6- Prueba y Depuración
-<!-- .slide: style="font-size: 0.9em" -->
+<!-- .slide: style="font-size: 0.8em" -->
+Verificar que el programa funciona de manera correcta. 
 Descubrir, localizar y corregir los errores que hacen que un programa no se ejecute o que cuando lo hace obtiene resultados erróneos.
 
 Tipos de Errores:
@@ -96,6 +109,16 @@ Tipos de Errores:
 ## 7- Interpretación de los Resultados
 El usuario debe interpretar los resultados para ver si realmente son la solución del mismo. 
 
+Se debe comprobar que el programa cumple los requerimientos.
+
+---
+## 8- Documentación y Mantenimiento
+Guía que sirve como ayuda para usar un programa o facilitar futuras modificaciones. 
+
+Se divide en:
+* Documentación para el usuario final
+* Documentación técnica
+
 ---
 ## 8- Documentación y Mantenimiento
 Documentación para el usuario final:
@@ -103,7 +126,8 @@ Documentación para el usuario final:
 * Descripción de los datos requeridos y los resultados obtenidos
 * Descripción de los comandos y funciones
 * Descripción de los mensajes de error 
-* Limitaciones del programa 
+* Limitaciones del programa
+* Manual de usuario 
 
 ---
 ## 8- Documentación y Mantenimiento
@@ -113,6 +137,11 @@ Documentación técnica:
 * Diagramas de flujo, descripción de las variables y módulos, etc
 
 ---
+## 8- Documentación y Mantenimiento
+El mantenimiento se realiza cuando se detecta la necesidad de realizar un cambio o ajuste al programa para que siga trabajando
+de manera correcta.
+
+---
 ## Introducción a los Algoritmos
 ¿Qué les parece que es un algoritmo?
     
@@ -120,7 +149,8 @@ Documentación técnica:
     
 ---
 ## Algoritmo: Concepto
-Es un método para resolver un problema, que consiste en la realización de un conjunto de pasos, procedimientos o acciones lógicamente ordenados tal que, partiendo de ciertos datos de entrada, permite obtener ciertos resultados que conforman la solución del problema.
+Es un método para resolver un problema, que consiste en la realización de un conjunto de pasos, procedimientos o acciones 
+lógicamente ordenados tal que, partiendo de ciertos datos de entrada, permite obtener ciertos resultados que conforman la solución del problema.
     
 Un determinado problema puede resolverse mediante más de un algoritmo.
 Aun si todos encuentran la solución correcta  algunos serán mejores que otros.
@@ -144,9 +174,10 @@ Aun si todos encuentran la solución correcta  algunos serán mejores que otros.
 <!-- .slide: style="font-size: 0.9em" -->
 * **Correcto:** resuelve el problema
 * **Eficiente:** en uso de recursos y tiempo
-* **Preciso:** no ambiguo, la actividad a realizar  en cada paso esta determinada completamente.
+* **Preciso:** no ambiguo, la actividad a realizar  en cada paso debe ser clara.
 * **Determinista:** debe comportarse del mismo modo ante las mismas condiciones. Si se sigue dos veces en el mismo entorno, el resultado obtenido es el mismo.
 * **Finito:** Tiene fin tras un número determinado de pasos.
+* **Legible:** Fácil de leer y comprender
 
 ---
 ## Herramientas para la representación de un Algoritmo

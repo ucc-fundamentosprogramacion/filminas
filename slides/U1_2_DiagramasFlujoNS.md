@@ -145,5 +145,13 @@ Combina la descripción textual del pseudocódigo con la representación gráfic
 ![Miracle](images/U1_resolucion_problemas/miracle2.jpg)
 
 ---
+## Ejercicios
+<!-- .slide: style="font-size: 0.8em" -->
+Empleando **diagramas de flujo** prueba resolver algunos de los siguientes ejercicios:
+* **Trabajo Practico I: Diagramas de Flujo y Pseudocódigo de Estructura Secuencial**, del 1 al 22 
+* **Trabajo Practico II: Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 1 al 33 
+* **Trabajo Practico III: Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 1 al 42 
+
+---
 ## ¿Dudas, Preguntas, Comentarios?
 ![DUDAS](images/pregunta.gif)
