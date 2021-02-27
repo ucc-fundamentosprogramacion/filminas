@@ -40,7 +40,17 @@ Capacidad de:
 ¿Cómo resuelven un problema (cotidiano)? <br> (Ej. atarse los cordones, cocinar un plato)
     
 ¿Usan algun método?
-    
+
+---
+#### Ejemplo de como se puede plantear una solución...
+##### Sheldon: Diagrama de flujo para hacer amigos
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7MAeSbiLRPo?start=106" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+#### Ejemplo de como se puede plantear una solución...
+##### Sheldon: Diagrama de flujo para hacer amigos
+![Sheldon explicando diagrama de flujo](images/U1_resolucion_problemas/sheldon.jpg)
+
 ---
 ### Metodología para la solución de Problemas basados en la Computadora
 1. Análisis del problema
