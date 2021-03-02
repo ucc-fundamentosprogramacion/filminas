@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <title>Fundamentos de la Programación</title>
-    <link rel="stylesheet" href="./css/reveal.css" />
-    <link rel="stylesheet" href="./css/theme/sky.css" id="theme" />
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/sky.css" id="theme" />
     <link rel="stylesheet" href="./css/highlight/zenburn.css" />
-    <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print" />
     <link rel="stylesheet" href="./_assets/slides/css/filminas.css" />
 
   </head>
@@ -49,9 +49,11 @@ FinProceso
 ````
 </script></section><section  data-markdown><script type="text/template">
 ## Pseudocódigo: Ventajas
+<!-- .slide: style="font-size: 0.9em" -->
 * Comunicar y representar ideas que puedan ser entendidas por programadores que conozcan distintos lenguajes.
 * El programador puede concentrarse en la lógica y estructuras de control y no preocuparse de las reglas de un lenguaje de programación específico.
-
+* Ocupa menos espacio papel que un diagrama de flujo.
+* Es más fácil pasar de pseudocódigo a un lenguaje de programación.
 </script></section><section  data-markdown><script type="text/template">
 ## Pseudocódigo: Ejercicio
 Traducir el anterior Pseudocódigo a un diagrama de flujo.
@@ -93,8 +95,15 @@ Botón de Ejecutar en la barra de acceso rápido
 * Nombres de variables transparentes y claros
 
 </script></section><section  data-markdown><script type="text/template">
-## Primera Clase
 ![Pseint - Ver Diagrama](images/U1_resolucion_problemas/primera-clase.jpeg)
+
+</script></section><section  data-markdown><script type="text/template">
+## Ejercicios
+<!-- .slide: style="font-size: 0.8em" -->
+Empleando **diagramas de flujo** prueba resolver algunos de los siguientes ejercicios:
+* **Trabajo Practico I: Diagramas de Flujo y Pseudocódigo de Estructura Secuencial**, del 1 al 22 
+* **Trabajo Practico II: Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 1 al 33 
+* **Trabajo Practico III: Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 1 al 42 
 
 </script></section><section  data-markdown><script type="text/template">
 ## ¿Dudas, Preguntas, Comentarios?
@@ -102,8 +111,13 @@ Botón de Ejecutar en la barra de acceso rápido
 </script></section></div>
     </div>
 
-    <script src="./js/reveal.js"></script>
+    <script src="./dist/reveal.js"></script>
 
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
     <script>
       function extend() {
         var target = {};
@@ -118,16 +132,6 @@ Botón de Ejecutar en la barra de acceso rápido
         return target;
       }
 
-      // Optional libraries used to extend on reveal.js
-      var deps = [
-        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
-        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
-        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-        { src: './plugin/zoom-js/zoom.js', async: true },
-        { src: './plugin/notes/notes.js', async: true },
-        { src: './plugin/math/math.js', async: true }
-      ];
-
       // default options to init reveal.js
       var defaultOptions = {
         controls: true,
@@ -135,11 +139,17 @@ Botón de Ejecutar en la barra de acceso rápido
         history: true,
         center: true,
         transition: 'default', // none/fade/slide/convex/concave/zoom
-        dependencies: deps
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
       };
 
       // options from URL query string
-      var queryOptions = Reveal.getQueryHash() || {};
+      var queryOptions = Reveal().getQueryHash() || {};
 
       var options = extend(defaultOptions, {"controls":true,"progress":true,"slideNumber":true}, queryOptions);
     </script>

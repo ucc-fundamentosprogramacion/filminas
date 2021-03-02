@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
     <title>Fundamentos de la Programación</title>
-    <link rel="stylesheet" href="./css/reveal.css" />
-    <link rel="stylesheet" href="./css/theme/sky.css" id="theme" />
+    <link rel="shortcut icon" href="./favicon.ico"/>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/sky.css" id="theme" />
     <link rel="stylesheet" href="./css/highlight/zenburn.css" />
-    <link rel="stylesheet" href="./css/print/paper.css" type="text/css" media="print" />
     <link rel="stylesheet" href="./_assets/slides/css/filminas.css" />
 
   </head>
@@ -52,7 +52,17 @@ Capacidad de:
 ¿Cómo resuelven un problema (cotidiano)? <br> (Ej. atarse los cordones, cocinar un plato)
     
 ¿Usan algun método?
-    
+
+</script></section><section  data-markdown><script type="text/template">
+#### Ejemplo de como se puede plantear una solución...
+##### Sheldon: Diagrama de flujo para hacer amigos
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7MAeSbiLRPo?start=106" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</script></section><section  data-markdown><script type="text/template">
+#### Ejemplo de como se puede plantear una solución...
+##### Sheldon: Diagrama de flujo para hacer amigos
+![Sheldon explicando diagrama de flujo](images/U1_resolucion_problemas/sheldon.jpg)
+
 </script></section><section  data-markdown><script type="text/template">
 ### Metodología para la solución de Problemas basados en la Computadora
 1. Análisis del problema
@@ -66,9 +76,17 @@ Capacidad de:
 
 </script></section><section  data-markdown><script type="text/template">
 ## 1-Análisis del problema
+Asegurarse de que el problema está bien definido y se comprende claramente.
+
 * Comprender la naturaleza del problema
 * Conocer los datos involucrados (datos de entrada, cálculos y fórmulas, datos de salida)
 * Determinar la información deseada como resultado del proceso (requerimiento)
+
+</script></section><section  data-markdown><script type="text/template">
+## 1-Análisis del problema
+* ¿Con qué datos cuento?
+* ¿Qué hago con esos datos?
+* ¿Qué se desea obtener?
 
 </script></section><section  data-markdown><script type="text/template">
 ## 2- Diseño del Algoritmo
@@ -80,13 +98,17 @@ Se puede expresar en forma gráfica mediante un diagrama de flujo ó en forma es
 ## 3- Codificación
 Expresar el diagrama de flujo ó pseudocódigo en un lenguaje de alto nivel.
 
-Escribir la solución del problema en  una  serie de instrucciones detalladas, en un código reconocible por la computadora (Lenguaje de programación).
+Escribir la solución del problema en  una  serie de instrucciones detalladas, en un código reconocible por la computadora o
+**Programa** (empleando un Lenguaje de programación).
 
 </script></section><section  data-markdown><script type="text/template">
 ## 4- Prueba de escritorio
 Consiste en simular manualmente las operaciones que se indican en el programa. 
 Mediante una tabla se hace una traza de los valores que van tomando las variables hasta obtener los resultados.
 Se puede aplicar en programas de poca complejidad.
+
+</script></section><section  data-markdown><script type="text/template">
+![Prueba de Escritorio](images/U1_resolucion_problemas/pruebaEscritorio.png)
 
 </script></section><section  data-markdown><script type="text/template">
 ## 5- Compilación y Ejecución
@@ -96,7 +118,8 @@ Se genera el programa.exe que puede ser ejecutado.
 
 </script></section><section  data-markdown><script type="text/template">
 ## 6- Prueba y Depuración
-<!-- .slide: style="font-size: 0.9em" -->
+<!-- .slide: style="font-size: 0.8em" -->
+Verificar que el programa funciona de manera correcta. 
 Descubrir, localizar y corregir los errores que hacen que un programa no se ejecute o que cuando lo hace obtiene resultados erróneos.
 
 Tipos de Errores:
@@ -108,6 +131,16 @@ Tipos de Errores:
 ## 7- Interpretación de los Resultados
 El usuario debe interpretar los resultados para ver si realmente son la solución del mismo. 
 
+Se debe comprobar que el programa cumple los requerimientos.
+
+</script></section><section  data-markdown><script type="text/template">
+## 8- Documentación y Mantenimiento
+Guía que sirve como ayuda para usar un programa o facilitar futuras modificaciones. 
+
+Se divide en:
+* Documentación para el usuario final
+* Documentación técnica
+
 </script></section><section  data-markdown><script type="text/template">
 ## 8- Documentación y Mantenimiento
 Documentación para el usuario final:
@@ -115,7 +148,8 @@ Documentación para el usuario final:
 * Descripción de los datos requeridos y los resultados obtenidos
 * Descripción de los comandos y funciones
 * Descripción de los mensajes de error 
-* Limitaciones del programa 
+* Limitaciones del programa
+* Manual de usuario 
 
 </script></section><section  data-markdown><script type="text/template">
 ## 8- Documentación y Mantenimiento
@@ -125,6 +159,11 @@ Documentación técnica:
 * Diagramas de flujo, descripción de las variables y módulos, etc
 
 </script></section><section  data-markdown><script type="text/template">
+## 8- Documentación y Mantenimiento
+El mantenimiento se realiza cuando se detecta la necesidad de realizar un cambio o ajuste al programa para que siga trabajando
+de manera correcta.
+
+</script></section><section  data-markdown><script type="text/template">
 ## Introducción a los Algoritmos
 ¿Qué les parece que es un algoritmo?
     
@@ -132,7 +171,8 @@ Documentación técnica:
     
 </script></section><section  data-markdown><script type="text/template">
 ## Algoritmo: Concepto
-Es un método para resolver un problema, que consiste en la realización de un conjunto de pasos, procedimientos o acciones lógicamente ordenados tal que, partiendo de ciertos datos de entrada, permite obtener ciertos resultados que conforman la solución del problema.
+Es un método para resolver un problema, que consiste en la realización de un conjunto de pasos, procedimientos o acciones 
+lógicamente ordenados tal que, partiendo de ciertos datos de entrada, permite obtener ciertos resultados que conforman la solución del problema.
     
 Un determinado problema puede resolverse mediante más de un algoritmo.
 Aun si todos encuentran la solución correcta  algunos serán mejores que otros.
@@ -156,9 +196,10 @@ Aun si todos encuentran la solución correcta  algunos serán mejores que otros.
 <!-- .slide: style="font-size: 0.9em" -->
 * **Correcto:** resuelve el problema
 * **Eficiente:** en uso de recursos y tiempo
-* **Preciso:** no ambiguo, la actividad a realizar  en cada paso esta determinada completamente.
+* **Preciso:** no ambiguo, la actividad a realizar  en cada paso debe ser clara.
 * **Determinista:** debe comportarse del mismo modo ante las mismas condiciones. Si se sigue dos veces en el mismo entorno, el resultado obtenido es el mismo.
 * **Finito:** Tiene fin tras un número determinado de pasos.
+* **Legible:** Fácil de leer y comprender
 
 </script></section><section  data-markdown><script type="text/template">
 ## Herramientas para la representación de un Algoritmo
@@ -172,8 +213,13 @@ Aun si todos encuentran la solución correcta  algunos serán mejores que otros.
 </script></section></div>
     </div>
 
-    <script src="./js/reveal.js"></script>
+    <script src="./dist/reveal.js"></script>
 
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
     <script>
       function extend() {
         var target = {};
@@ -188,16 +234,6 @@ Aun si todos encuentran la solución correcta  algunos serán mejores que otros.
         return target;
       }
 
-      // Optional libraries used to extend on reveal.js
-      var deps = [
-        { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
-        { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector('[data-markdown]'); } },
-        { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-        { src: './plugin/zoom-js/zoom.js', async: true },
-        { src: './plugin/notes/notes.js', async: true },
-        { src: './plugin/math/math.js', async: true }
-      ];
-
       // default options to init reveal.js
       var defaultOptions = {
         controls: true,
@@ -205,11 +241,17 @@ Aun si todos encuentran la solución correcta  algunos serán mejores que otros.
         history: true,
         center: true,
         transition: 'default', // none/fade/slide/convex/concave/zoom
-        dependencies: deps
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
       };
 
       // options from URL query string
-      var queryOptions = Reveal.getQueryHash() || {};
+      var queryOptions = Reveal().getQueryHash() || {};
 
       var options = extend(defaultOptions, {"controls":true,"progress":true,"slideNumber":true}, queryOptions);
     </script>
