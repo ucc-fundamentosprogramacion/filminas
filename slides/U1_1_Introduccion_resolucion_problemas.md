@@ -96,7 +96,7 @@ Mediante una tabla se hace una traza de los valores que van tomando las variable
 Se puede aplicar en programas de poca complejidad.
 
 ---
-![Prueba de Escritorio](../images/U1_resolucion_problemas/ej_pruebaEscritorio.png)
+![Prueba de Escritorio](images/U1_resolucion_problemas/pruebaEscritorio.png)
 
 ---
 ## 5- Compilación y Ejecución
