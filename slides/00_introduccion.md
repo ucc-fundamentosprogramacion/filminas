@@ -43,14 +43,14 @@ Ing. Pablo Cayuela
 | 2 | 1 | Diagramas de Flujo <br> Pseudocódigo |
 | 3 | 2 | Programación Estructurada |
 | 4 | 2 | Estructuras de Control Selectivas |
-| 5 | 2 | Estructuras de Control Iterativas |
-| 6 y 7 | 2 | Repaso |
-| 8 |  | 1er PARCIAL |
-| 9, 10, 11 | 3 | Programación en Lenguaje C/C++ |
-| 12 y 13 | 4 | Programación Modular |
-| 14 |  | Repaso del 2do Parcial |
-| 15 |  | 2do PARCIAL |
-| 16 |  | Recuperatorios |
+| 5 y 6 | 2 | Estructuras de Control Iterativas |
+| 7 | 1 y 2 | 1er PARCIAL |
+| 8 | 3 | Programación en Lenguaje C/C++ |
+| 9 | 3 | C++: Control Selectivas |
+| 10 | 3 | C++: Control Iterativas |
+| 11 | 4 | Programación Modular |
+| 12 | 3 y 4 | Repaso |
+| 13 | 3 y 4 | 2do PARCIAL |
 
 ---
 ## Forma de Evaluación
