@@ -65,7 +65,7 @@ Ing. Pablo Cayuela
 * Promocion: Promedio >= 8 y nota mínima 7
 
 ---
-## [Libros](https://docs.google.com/forms/d/e/1FAIpQLSezpBBGuPAQHOfKVR-zgtZ4nlKHFDRS-L4u4JSzuaB6h1MzuQ/viewform)
+## Libros
 
 ![Libro](images/book.png)
 
@@ -74,22 +74,28 @@ de Osvaldo Cairó
     
 “Fundamentos de Programación. Piensa en C.” <br>
 de Osvaldo Cairó
+
+---
+## eLibros
+["Fundamentos de Programación con la STL"](https://elibro.net/es/ereader/bibliotecas-ucc/48145?page=39) <br>
+de Antonio Garrido Carrillo
     
 ---
 ## APPs:
 No es obligatorio usarlas, pero es material de consulta
 
 [![soloLearn](images/soloLearn.png)](https://play.google.com/store/apps/details?id=com.sololearn&hl=es_419)
-[![Aprende_Pseint](images/presentacion/aprende_pseint.png)](https://play.google.com/store/apps/details?id=com.col.aprendeaprogramar.romero.aprendeaprogramarcol&hl=es_AR)
 [![Pseudocode](images/presentacion/pseudocode.png)](https://play.google.com/store/apps/details?id=pe.diegoveloper.pseudocode&hl=es_AR)
 
-[SoloLearn](https://play.google.com/store/apps/details?id=com.sololearn&hl=es_419) - [Aprende Pseint](https://play.google.com/store/apps/details?id=com.col.aprendeaprogramar.romero.aprendeaprogramarcol&hl=es_AR) - [Pseudocode](https://play.google.com/store/apps/details?id=pe.diegoveloper.pseudocode&hl=es_AR)   
+[SoloLearn](https://play.google.com/store/apps/details?id=com.sololearn&hl=es_419) - [Pseudocode](https://play.google.com/store/apps/details?id=pe.diegoveloper.pseudocode&hl=es_AR)   
 ---
 ## Soft:
+Para escribir *Pseudocódigo* y crear *diagramas de flujo*
 [![PseInt](images/pseint.png)](http://pseint.sourceforge.net/)
  
 ---
 ## Soft:
+Para programar en *C++*
 [![codeBlocks](images/codeBlocks.png)](http://www.codeblocks.org)
 
 [Code::Blocks](http://www.codeblocks.org)
