@@ -5,10 +5,9 @@ slideNumber: true
 ---
 
 # Programación Lenguaje C/C++
-<small>
+
 Created by <i class="fab fa-telegram"></i>
-[edme88]("https://t.me/edme88")
-</small>
+[edme88](https://t.me/edme88)
 
 ---
 ## Conceptos básicos

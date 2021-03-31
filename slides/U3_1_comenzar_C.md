@@ -5,10 +5,9 @@ slideNumber: true
 ---
 
 # Comenzar en C++
-<small>
+
 Created by <i class="fab fa-telegram"></i>
-[edme88]("https://t.me/edme88")
-</small>
+[edme88](https://t.me/edme88)
 
 ---
 ## Entorno de Desarrollo
@@ -197,7 +196,7 @@ y falso en otro caso:
 
 ---
 ## Ejercicios
-Resuelve nuevamente los ejercicios del **Trabajo Practico I: Estructura Secuencial**, del 1 al 14 
+Resuelve nuevamente los ejercicios del **[Trabajo Practico I](https://ucc-fundamentosprogramacion.github.io/GTP/TP1_ejercicios.html#/1): Estructura Secuencial**, del 1 al 14 
 
 ---
 ## Librerias o Bibliotecas
@@ -226,7 +225,7 @@ Tambien constantes:
 
 ---
 ## Ejercicios
-Resuelve nuevamente los ejercicios del **Trabajo Practico I: Estructura Secuencial**, del 15 al 22 
+Resuelve nuevamente los ejercicios del **[Trabajo Practico I](https://ucc-fundamentosprogramacion.github.io/GTP/TP1_ejercicios.html#/1): Estructura Secuencial**, del 15 al 22 
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?

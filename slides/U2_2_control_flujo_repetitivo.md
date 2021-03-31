@@ -6,10 +6,9 @@ slideNumber: true
 
 # Estructura de Control de Flujo Repetitivo o Iterativo
 <!-- .slide: style="font-size: 0.8em" -->
-<small>
+
 Created by <i class="fab fa-telegram"></i>
-[edme88]("https://t.me/edme88")
-</small>
+[edme88](https://t.me/edme88)
 
 ---
 ## Estructuras Repetitivas o Iterativas
@@ -106,7 +105,7 @@ Si no hay condición de corte (si siempre se cumple el **condicional**) jamás s
 
 ---
 ## Ejercicios
-Resuelve los ejercicios del **Trabajo Practico III: Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 2 al 5 
+Resuelve los ejercicios del **[Trabajo Practico III](https://ucc-fundamentosprogramacion.github.io/GTP/TP3_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 2 al 5 
 
 ---
 ## Do While
@@ -139,7 +138,7 @@ FIN
 
 ---
 ## Ejercicios
-Resuelve los ejercicios del **Trabajo Practico III: Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 6 al 9 
+Resuelve los ejercicios del **[Trabajo Practico III](https://ucc-fundamentosprogramacion.github.io/GTP/TP3_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 6 al 9 
 
 ---
 ## For
@@ -178,7 +177,7 @@ FIN
 
 ---
 ## Ejercicios
-Resuelve los ejercicios del **Trabajo Practico III: Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 10 al 18 
+Resuelve los ejercicios del **[Trabajo Practico III](https://ucc-fundamentosprogramacion.github.io/GTP/TP3_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 10 al 18 
 
 ---
 ### Qué tengo que escribir eso en el pizarron 500 veces?
@@ -187,7 +186,7 @@ No hay problema profe!
 
 ---
 ## Ejercicios
-Resuelve los ejercicios del **Trabajo Practico III: Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 19 al 42 
+Resuelve los ejercicios del **[Trabajo Practico III](https://ucc-fundamentosprogramacion.github.io/GTP/TP3_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 19 al 42 
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?

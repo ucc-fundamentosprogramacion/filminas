@@ -5,10 +5,9 @@ slideNumber: true
 ---
 
 # Estructura Condicional o Selectiva
-<small>
+
 Created by <i class="fab fa-telegram"></i>
-[edme88]("https://t.me/edme88")
-</small>
+[edme88](https://t.me/edme88)
 
 ---
 ## Estructuras Selectivas
@@ -139,7 +138,7 @@ Sirven para realizar comparaciones de igualdad, desigualdad y relación de menor
 
 ---
 ## Ejercicios
-Resuelve nuevamente los ejercicios del **Trabajo Practico II: Estructura Condicional**, del 3 al 33 
+Resuelve nuevamente los ejercicios del **[Trabajo Practico II](https://ucc-fundamentosprogramacion.github.io/GTP/TP2_ejercicios.html#/1): Estructura Condicional**, del 3 al 33 
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?

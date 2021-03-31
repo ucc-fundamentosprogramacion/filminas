@@ -5,10 +5,9 @@ slideNumber: true
 ---
 
 ## Programación Modular
-<small>
+
 Created by <i class="fab fa-telegram"></i>
-[edme88]("https://t.me/edme88")
-</small>
+[edme88](https://t.me/edme88)
 
 ---
 ### Funciones
@@ -100,7 +99,7 @@ double promedio(double x1, double x2){
 
 ---
 ### Ejercicios
-Resuelve los ejercicios del **Trabajo Practico IV: Programación Modular** 
+Resuelve los ejercicios del **[Trabajo Practico IV](https://ucc-fundamentosprogramacion.github.io/GTP/TP4_ejercicios.html#/1): Programación Modular** 
 
 ---
 ### Parámetros de una Función

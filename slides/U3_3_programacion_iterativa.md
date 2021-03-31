@@ -5,10 +5,9 @@ slideNumber: true
 ---
 
 # Estructura Iterativa
-<small>
+
 Created by <i class="fab fa-telegram"></i>
-[edme88]("https://t.me/edme88")
-</small>
+[edme88](https://t.me/edme88)
 
 ---
 ## Estructuras Repetitivas o Iterativas
@@ -150,7 +149,7 @@ for(int i=0; i < 100; i++){
 
 ---
 ## Ejercicios
-Resuelve nuevamente los ejercicios del **Trabajo Practico III: Estructura Iterativa**, del 2 al 42 
+Resuelve nuevamente los ejercicios del **[Trabajo Practico III](https://ucc-fundamentosprogramacion.github.io/GTP/TP3_ejercicios.html#/1): Estructura Iterativa**, del 2 al 42 
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?

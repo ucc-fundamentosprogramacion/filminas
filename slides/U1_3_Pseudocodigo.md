@@ -5,10 +5,9 @@ slideNumber: true
 ---
 
 ## Pseudocódigo
-<small>
+
 Created by <i class="fab fa-telegram"></i>
-[edme88]("https://t.me/edme88")
-</small>
+[edme88](https://t.me/edme88)
 
 ---
 ## Pseudocódigo
@@ -89,9 +88,9 @@ Botón de Ejecutar en la barra de acceso rápido
 ## Ejercicios
 <!-- .slide: style="font-size: 0.8em" -->
 Empleando **diagramas de flujo** prueba resolver algunos de los siguientes ejercicios:
-* **Trabajo Practico I: Diagramas de Flujo y Pseudocódigo de Estructura Secuencial**, del 1 al 22 
-* **Trabajo Practico II: Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 1 al 33 
-* **Trabajo Practico III: Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 1 al 42 
+* **[Trabajo Practico I](https://ucc-fundamentosprogramacion.github.io/GTP/TP1_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructura Secuencial**, del 1 al 22 
+* **[Trabajo Practico II](https://ucc-fundamentosprogramacion.github.io/GTP/TP2_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 1 al 33 
+* **[Trabajo Practico III](https://ucc-fundamentosprogramacion.github.io/GTP/TP3_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 1 al 42 
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?

@@ -6,7 +6,8 @@ slideNumber: true
 
 ## Resolución de Problemas con Computadoras
 
-Created by [edme88](https://t.me/edme88)
+Created by <i class="fab fa-telegram"></i>
+[edme88](https://t.me/edme88)
 
 ---
 ## Computadora

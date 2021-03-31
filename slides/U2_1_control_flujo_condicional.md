@@ -6,10 +6,9 @@ slideNumber: true
 
 # Estructura de Control de Flujo Condicional
 <!-- .slide: style="font-size: 0.9em" -->
-<small>
+
 Created by <i class="fab fa-telegram"></i>
-[edme88]("https://t.me/edme88")
-</small>
+[edme88](https://t.me/edme88)
 
 ---
 ## Estructura de un Programa
@@ -67,7 +66,7 @@ FIN_SI FIN
 
 ---
 ## Ejercicios
-Resuelve los ejercicios del **Trabajo Practico II: Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 3 al 8 
+Resuelve los ejercicios del **[Trabajo Practico II](https://ucc-fundamentosprogramacion.github.io/GTP/TP2_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 3 al 8 
 
 ---
 ## Alternativa Doble
@@ -104,7 +103,7 @@ FIN
 
 ---
 ## Ejercicios
-Resuelve los ejercicios del **Trabajo Practico II: Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 9 al 18 
+Resuelve los ejercicios del **[Trabajo Practico II](https://ucc-fundamentosprogramacion.github.io/GTP/TP2_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 9 al 18 
 
 ---
 ## Alternativa Múltiple
@@ -185,7 +184,7 @@ FIN
 
 ---
 ## Ejercicios
-Resuelve los ejercicios del **Trabajo Practico II: Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 19 al 22 
+Resuelve los ejercicios del **[Trabajo Practico II](https://ucc-fundamentosprogramacion.github.io/GTP/TP2_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 19 al 22 
 
 ---
 ## Estructuras Selectivas en Cascada
@@ -205,7 +204,7 @@ Luego de tomar una decisión y marcar el camino correspondiente a seguir, es nec
 
 ---
 ## Ejercicios
-Resuelve los ejercicios del **Trabajo Practico II: Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 23 al 29 
+Resuelve los ejercicios del **[Trabajo Practico II](https://ucc-fundamentosprogramacion.github.io/GTP/TP2_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 23 al 29 
 
 ---
 ## Operadores
@@ -268,7 +267,7 @@ Ejemplo: 3 + 5. En esta expresión, el símbolo más (+) es el operador de suma,
 
 ---
 ## Ejercicios
-Resuelve los ejercicios del **Trabajo Practico II: Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 30 al 33 
+Resuelve los ejercicios del **[Trabajo Practico II](https://ucc-fundamentosprogramacion.github.io/GTP/TP2_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 30 al 33 
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?

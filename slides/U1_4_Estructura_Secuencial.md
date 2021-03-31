@@ -5,10 +5,9 @@ slideNumber: true
 ---
 
 # Estructura Secuencial
-<small>
+
 Created by <i class="fab fa-telegram"></i>
-[edme88]("https://t.me/edme88")
-</small>
+[edme88](https://t.me/edme88)
 
 ---
 ## Estructura de un Programa
@@ -82,7 +81,7 @@ Son operadores binarios (requieren siempre dos operandos) que realizan las opera
 
 ---
 ## Ejercicios
-Resuelve los ejercicios del **Trabajo Practico I: Diagramas de Flujo y Pseudocódigo de Estructura Secuencial**, del 1 al 22 
+Resuelve los ejercicios del **[Trabajo Practico I](https://ucc-fundamentosprogramacion.github.io/GTP/TP1_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructura Secuencial**, del 1 al 22 
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?
