@@ -148,9 +148,9 @@ Combina la descripción textual del pseudocódigo con la representación gráfic
 ## Ejercicios
 <!-- .slide: style="font-size: 0.8em" -->
 Empleando **diagramas de flujo** prueba resolver algunos de los siguientes ejercicios:
-* **Trabajo Practico I: Diagramas de Flujo y Pseudocódigo de Estructura Secuencial**, del 1 al 22 
-* **Trabajo Practico II: Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 1 al 33 
-* **Trabajo Practico III: Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 1 al 42 
+* **[Trabajo Práctico I](https://ucc-fundamentosprogramacion.github.io/GTP/TP1_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructura Secuencial**, del 1 al 22 
+* **[Trabajo Práctico II](https://ucc-fundamentosprogramacion.github.io/GTP/TP2_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructuras Condicionales**, del 1 al 33 
+* **[Trabajo Práctico III](https://ucc-fundamentosprogramacion.github.io/GTP/TP3_ejercicios.html#/1): Diagramas de Flujo y Pseudocódigo de Estructuras Iterativas**, del 1 al 42 
 
 ---
 ## ¿Dudas, Preguntas, Comentarios?

@@ -5,10 +5,9 @@ slideNumber: true
 ---
 
 ## Fundamentos de la Programación
-<small>
-Created by <i class="fab fa-telegram"></i>
-[edme88]("https://t.me/edme88")
-</small>
+
+Created by [edme88](https://t.me/edme88)
+
 
 ---
 ## Profes
@@ -18,7 +17,7 @@ Ing. Agustina Edmé Aliciardi
 
 Ing. Alejandra Bosio 
 
-malejandra.bosio@gmail.com
+8001919@ucc.edu.ar
 
 Ing. Pablo Cayuela
 
@@ -91,11 +90,13 @@ No es obligatorio usarlas, pero es material de consulta
 ---
 ## Soft:
 Para escribir *Pseudocódigo* y crear *diagramas de flujo*
+
 [![PseInt](images/pseint.png)](http://pseint.sourceforge.net/)
  
 ---
 ## Soft:
 Para programar en *C++*
+
 [![codeBlocks](images/codeBlocks.png)](http://www.codeblocks.org)
 
 [Code::Blocks](http://www.codeblocks.org)
