@@ -74,6 +74,13 @@ Botón de Ejecutar en la barra de acceso rápido
 ![Pseint - Configurar Programa](images/U1_resolucion_problemas/pseint4.png)
 
 ---
+#### Tienes problemas instalando PSeint?
+Puedes intentar emplear la app online [rollApp](https://www.rollapp.com/app/pseint) 
+
+(solo requiere que te crees una cuenta)
+![rollApp](images/U1_resolucion_problemas/rollApp.png)
+
+---
 ## Buenas Prácticas
 * Haz que tu código sea **Legible**
 * Coloca comentarios en el código
