@@ -67,8 +67,14 @@ El signo que representa la asignación es el **=** y este operador indica que el
 Ejemplo: int edad=20;
 
 ---
+## Operador de Asignación
+![Meme Gato](images/U1_resolucion_problemas/asignar_variable.png)
+
+**int** cantidad=10;
+
+---
 ## Operador Aritmético
-<!-- .slide: style="font-size: 0.9em" -->
+<!-- .slide: style="font-size: 0.8em" -->
 Son operadores binarios (requieren siempre dos operandos) que realizan las operaciones aritméticas habituales entre números, constantes o variables.
 
 | Operador | Significado | 
@@ -78,6 +84,30 @@ Son operadores binarios (requieren siempre dos operandos) que realizan las opera
 | * | Producto |
 | / | División |
 | % | Resto de División entera |
+
+Nota: El **%** no aplica a divisiones de números decimales (emplear Enteros)
+
+---
+#### Ejemplo de Operadores Aritméticos
+````javascript
+Algoritmo operaciones_matemagicas
+	Definir num1,num2, sum, rest, multi, div, resto como Entero
+	Escribir "Ingrese num1:"
+	Leer num1
+	Escribir "Ingrese num2:"
+	Leer num2
+	sum=num1+num2
+	rest=num1-num2
+	multi=num1*num2
+	div=num1/num2
+	resto=num1%num2
+	Escribir "La suma es: ", sum
+	Escribir "La resta es: ", rest
+	Escribir "La multiplicación es: ", multi
+	Escribir "La división es: ", div
+	Escribir "El resto es: ", resto
+FinAlgoritmo
+````
 
 ---
 ## Ejercicios
