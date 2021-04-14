@@ -49,9 +49,9 @@ La selección si-entonces evalúa la condición y:
 
 ---
 ## Alternativa Simple
-| En Espanol | En Inglés |
+| En Español | En Inglés |
 |------------|-----------|
-| Si <condicion> <br> Entonces <acción S1> <br> Fin_Si | If <condicion> <br> Then <acción S1> <br> End_If |
+| Si <code>condicion</code> <br> Entonces <code>acción S1</code> <br> Fin_Si | If <code>condicion</code> <br> Then <code>acción S1</code> <br> End_If |
 
 ---
 ## Alternativa Simple
@@ -63,6 +63,7 @@ INICIO
         puede manejar un auto
 FIN_SI FIN
 ```` 
+
 
 ---
 ## Ejercicios
@@ -85,7 +86,7 @@ Permite elegir dos opciones o alternativas posibles, de acuerdo al cumplimiento 
 ## Alternativa Doble
 | En Espanol | En Inglés |
 |------------|-----------|
-| Si <condicion> <br> Entonces <acción S1> <br> sino <acción S2> <br> Fin_Si | If <condicion> <br> Then <acción S1> <br> else <acción S2> <br> End_If |
+| Si <code>condicion</code> <br> Entonces <code>acción S1</code> <br> sino <code>acción S2</code> <br> Fin_Si | If <code>condicion</code> <br> Then <code>acción S1</code> <br> else <code>acción S2</code> <br> End_If |
 
 ---
 ## Alternativa Doble
