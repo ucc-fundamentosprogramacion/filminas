@@ -95,7 +95,7 @@ Ejemplo de lenguaje assembler: MOV AL, 61h
 
 ---
 ## Lenguaje de Alto Nivel
-Sus instrucciones son fácilmente comprendida por los programadores, y no dependen del diseno del hardware o de la computadora que soportan.
+Sus instrucciones son fácilmente comprendida por los programadores, y no dependen del diseño del hardware o de la computadora que soportan.
 
 Algunos lenguajes: C, C++, Java, Python, VisualBasic, C#, JavaScript
 
@@ -229,7 +229,7 @@ De acuerdo al tipo de dato, será la cantidad de bytes que ocupa dicha variable 
 | double | 8 bytes | 2.3E-308 a 1.7E+308 | Igual que Float pero con mayor precisión (hasta 15 digitos decimales) y mayor rango |
 | long | 4 bytes | -2,147,483,648 a 2,147,483,647 | Guarda numeros enteros con mayor capacidad de almacenamiento que int |
 | long double | 10 bytes | 3.4E-4932 to 1.1E+4932 | Mucho mayor precisión en calculo decimal, incluso mayor que double (hasta 19 digitos decimales) |
-| boolean | 1 byte | true(&gt0) o false(0) | Valor lógico verdadero o falso. |
+| boolean | 1 byte | true(1) o false(0) | Valor lógico verdadero o falso. |
 
 ---
 ### Variables: Ejemplo
@@ -241,17 +241,151 @@ int main(){
    double doubleType;
    char charType;
    long longType;
-   
+
    // Sizeof operator is used to evaluate the size of a variable
-   cout<<"Size of int: " %ld bytes\n",sizeof(integerType));
+   printf("Size of int: %ld bytes\n",sizeof(integerType));
    printf("Size of float: %ld bytes\n",sizeof(floatType));
    printf("Size of double: %ld bytes\n",sizeof(doubleType));
    printf("Size of char: %ld byte\n",sizeof(charType));
    printf("Size of long: %ld byte\n",sizeof(longType));
-   
+
    return 0;
 }
 ````
+
+---
+### Variable: Char
+<!-- .slide: style="font-size: 0.5em" -->
+<table>
+<tr>	<td>	0	</td>	<td>	NUL	</td>	
+	<td>	1	</td>	<td>		</td>	
+	<td>	2	</td>	<td>		</td>	
+	<td>	3	</td>	<td>		</td>	
+	<td>	4	</td>	<td>		</td>	
+	<td>	5	</td>	<td>		</td>	
+	<td>	6	</td>	<td>		</td>	
+	<td>	7	</td>	<td>		</td>	
+	<td>	8	</td>	<td>		</td>	
+	<td>	9	</td>	<td>	TAB	</td>	
+	<td>	10	</td>	<td>	LF	</td>	</tr>
+<tr>	<td>	11	</td>	<td>		</td>	
+	<td>	12	</td>	<td>		</td>	
+	<td>	13	</td>	<td>		</td>	
+	<td>	14	</td>	<td>		</td>	
+	<td>	15	</td>	<td>		</td>	
+	<td>	16	</td>	<td>		</td>	
+	<td>	17	</td>	<td>		</td>	
+	<td>	18	</td>	<td>		</td>	
+	<td>	19	</td>	<td>		</td>	
+	<td>	20	</td>	<td>		</td>	</tr>
+<tr>	<td>	21	</td>	<td>		</td>	
+	<td>	22	</td>	<td>		</td>	
+	<td>	23	</td>	<td>		</td>	
+	<td>	24	</td>	<td>		</td>	
+	<td>	25	</td>	<td>		</td>	
+	<td>	26	</td>	<td>		</td>	
+	<td>	27	</td>	<td>		</td>	
+	<td>	28	</td>	<td>		</td>	
+	<td>	29	</td>	<td>		</td>	
+	<td>	30	</td>	<td>		</td>	</tr>
+<tr>	<td>	31	</td>	<td>		</td>	
+	<td>	32	</td>	<td>	Tecla espaciadora	</td>	
+	<td>	33	</td>	<td>	!	</td>	
+	<td>	34	</td>	<td>	"	</td>	
+	<td>	35	</td>	<td>	#	</td>	
+	<td>	36	</td>	<td>	$	</td>	
+	<td>	37	</td>	<td>	7	</td>	
+	<td>	38	</td>	<td>	&	</td>	
+	<td>	39	</td>	<td>	'	</td>	
+	<td>	40	</td>	<td>	(	</td>	</tr>
+<tr>	<td>	41	</td>	<td>	)	</td>	
+	<td>	42	</td>	<td>	*	</td>	
+	<td>	43	</td>	<td>	+	</td>	
+	<td>	44	</td>	<td>	,	</td>	
+	<td>	45	</td>	<td>	-	</td>	
+	<td>	46	</td>	<td>	.	</td>	
+	<td>	47	</td>	<td>	/	</td>	
+	<td>	48	</td>	<td>	0	</td>	
+	<td>	49	</td>	<td>	1	</td>	
+	<td>	50	</td>	<td>	2	</td>	</tr>
+<tr>	<td>	51	</td>	<td>	3	</td>	
+	<td>	52	</td>	<td>	4	</td>	
+	<td>	53	</td>	<td>	5	</td>	
+	<td>	54	</td>	<td>	6	</td>	
+	<td>	55	</td>	<td>	7	</td>	
+	<td>	56	</td>	<td>	8	</td>	
+	<td>	57	</td>	<td>	9	</td>	
+	<td>	58	</td>	<td>	:	</td>	
+	<td>	59	</td>	<td>	;	</td>	
+	<td>	60	</td>	<td>	 %lt;	</td>	</tr>
+<tr>	<td>	61	</td>	<td>	=	</td>	
+	<td>	62	</td>	<td>	>	</td>	
+	<td>	63	</td>	<td>	?	</td>	
+	<td>	64	</td>	<td>	@	</td>	
+	<td>	65	</td>	<td>	A	</td>	
+	<td>	66	</td>	<td>	B	</td>	
+	<td>	67	</td>	<td>	C	</td>	
+	<td>	68	</td>	<td>	D	</td>	
+	<td>	69	</td>	<td>	E	</td>	
+	<td>	70	</td>	<td>	F	</td>	</tr>
+<tr>	<td>	71	</td>	<td>	G	</td>	
+	<td>	72	</td>	<td>	H	</td>	
+	<td>	73	</td>	<td>	I	</td>	
+	<td>	74	</td>	<td>	J	</td>	
+	<td>	75	</td>	<td>	K	</td>	
+	<td>	76	</td>	<td>	L	</td>	
+	<td>	77	</td>	<td>	M	</td>	
+	<td>	78	</td>	<td>	N	</td>	
+	<td>	79	</td>	<td>	O	</td>	
+	<td>	80	</td>	<td>	P	</td>	</tr>
+<tr>	<td>	81	</td>	<td>	Q	</td>	
+	<td>	82	</td>	<td>	R	</td>	
+	<td>	83	</td>	<td>	S	</td>	
+	<td>	84	</td>	<td>	T	</td>	
+	<td>	85	</td>	<td>	U	</td>	
+	<td>	86	</td>	<td>	V	</td>	
+	<td>	87	</td>	<td>	W	</td>	
+	<td>	88	</td>	<td>	X	</td>	
+	<td>	89	</td>	<td>	Y	</td>	
+	<td>	90	</td>	<td>	Z	</td>	</tr>
+<tr>	<td>	91	</td>	<td>	[	</td>	
+	<td>	92	</td>	<td>	\	</td>	
+	<td>	93	</td>	<td>	 	</td>	
+	<td>	94	</td>	<td>	^	</td>	
+	<td>	95	</td>	<td>	_	</td>	
+	<td>	96	</td>	<td>	`	</td>	
+	<td>	97	</td>	<td>	a	</td>	
+	<td>	98	</td>	<td>	b	</td>	
+	<td>	99	</td>	<td>	c	</td>	
+	<td>	100	</td>	<td>	 	</td>	</tr>
+<tr>	<td>	101	</td>	<td>	e	</td>	
+	<td>	102	</td>	<td>	f	</td>	
+	<td>	103	</td>	<td>	g	</td>	
+	<td>	104	</td>	<td>	h	</td>	
+	<td>	105	</td>	<td>	i	</td>	
+	<td>	106	</td>	<td>	j	</td>	
+	<td>	107	</td>	<td>	k	</td>	
+	<td>	108	</td>	<td>	l	</td>	
+	<td>	109	</td>	<td>	m	</td>	
+	<td>	110	</td>	<td>	n	</td>	</tr>
+<tr>	<td>	111	</td>	<td>	o	</td>	
+	<td>	112	</td>	<td>	p	</td>	
+	<td>	113	</td>	<td>	q	</td>	
+	<td>	114	</td>	<td>	r	</td>	
+	<td>	115	</td>	<td>	s	</td>	
+	<td>	116	</td>	<td>	t	</td>	
+	<td>	117	</td>	<td>	u	</td>	
+	<td>	118	</td>	<td>	v	</td>	
+	<td>	119	</td>	<td>	w	</td>	
+	<td>	120	</td>	<td>	x	</td>	</tr>
+<tr>	<td>	121	</td>	<td>	y	</td>	
+	<td>	122	</td>	<td>	z	</td>	
+	<td>	123	</td>	<td>	{	</td>	
+	<td>	124	</td>	<td>	|	</td>	
+	<td>	125	</td>	<td>	}	</td>	
+	<td>	126	</td>	<td>	~	</td>	
+	<td>	127	</td>	<td>		</td>	</tr>
+</table>
 
 ---
 ## Variables
@@ -294,7 +428,7 @@ const int edad=24;
 #define edad 24;
 ````
 
----
+<!---
 ## Constantes enum
 ````javascript
 enum{va0, va1, va2, va3} //define 4 constantes enteras
@@ -304,7 +438,7 @@ enum{va0, va1, va2, va3} //define 4 constantes enteras
    const int va2=2;
    const int va3=3;
 ````
-
+-->
 ---
 ## Operadores
 Son símbolos especiales que sirven para ejecutar una determinada operación, devolviendo el resultado de la misma.
@@ -419,7 +553,7 @@ Si tenemos en una expresión más de un operador, debemos aplicar primero el ope
 ## Jerarquía de Operadores
 * Paréntesis () //Operador asociativo
 * !, ++, --
-* * , / y %
+* /, * y %
 * +, -
 * ==, !=, &lt, &gt, &lt= &gt=
 * && , ||
