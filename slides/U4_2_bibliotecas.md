@@ -46,7 +46,7 @@ Algunos ejemplos de bibliotecas son:
 ---
 ### [iostream](http://www.cplusplus.com/reference/iolibrary/)
 Se emplea para operaciones de entrada/salida. Su nombre es el acrónimo de **I**nput/**O**utput **Stream**.
-El flujo de entrada y salida de datosno se encuentra definida dentro de la sintaxis básica y se provee por
+El flujo de entrada y salida de datos no se encuentra definida dentro de la sintaxis básica y se provee por
 medio de librerías de funciones especializadas como iostream.
 
 ---
