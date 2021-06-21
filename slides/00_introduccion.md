@@ -57,11 +57,22 @@ Ing. Pablo Cayuela
 * Examen Final
 
 ---
-## Regularidad y Promoción
+## Regularidad
 * Asistencia del 70% en Clases Teórico-Prácticas
 * Parciales aprobados (nota mínima de 4)
 * Se puede recuperar 1 Parcial
-* Promocion: Promedio >= 8 y nota mínima 7
+
+---
+## Promoción
+* Asistencia del 70% en Clases Teórico-Prácticas
+* Promedio >= 8 y nota mínima 7
+* No se puede recuperar NINGUN Parcial
+
+---
+## Notas
+![Libro](images/presentacion/notasFacultad.png)
+
+<small>Tener en cuenta que un 60%=4, 70%=5.5, 80%=7, 90%=8.5</small>
 
 ---
 ## Libros
