@@ -11,17 +11,57 @@ Created by [edme88](https://t.me/edme88)
 
 ---
 ## Profes
+
+Ing. Eduardo De Lima
+
+1938033@ucc.edu.ar
+
+<small> Cátedra A (Ing. Industrial A-E) </small> <br>
+<small> Cátedra G (Ing. Industrial F-G) </small>
+
+
+Ing. Nicolás Rodriguez
+
+<small> Cátedra B (Ing. en Sistemas) </small>
+
+---
+## Profes
 Ing. Agustina Edmé Aliciardi
 
-0919281@ucc.edu.ar
+agustina.aliciardi@ucc.edu.ar
 
-Ing. Alejandra Bosio 
-
-8001919@ucc.edu.ar
+<small> Cátedra C (Ing. Mecánica) </small>
 
 Ing. Pablo Cayuela
 
 1022283@ucc.edu.ar
+
+<small> Cátedra D (Ing. Industrial M-Z) </small> <br>
+<small> Cátedra E (Ing. en Sistemas) </small>
+
+---
+## Profes
+Ing. Nicolás Grupe
+
+1507101@ucc.edu.ar
+
+<small> Cátedra F (Ing. en Sistemas) </small>
+<small> Cátedra H (Ing. Civil) </small>
+
+Ing. Laura Pognante
+
+1514362@ucc.edu.ar
+
+Ing. Nicolás Kolbelt
+
+1502060@ucc.edu.ar
+
+<small> Cátedra I </small>
+
+---
+## Profes
+Ing. Benajmín Marcolongo
+<small> Cátedra J (Ing. en Computación - Ing. Electrónica - Lic. en Bioinformática) </small>
 
 ---
 ## UNIDADES
@@ -70,7 +110,7 @@ Ing. Pablo Cayuela
 
 ---
 ## Notas
-![Libro](images/presentacion/notasFacultad.png)
+![Notas](images/presentacion/notasFacultad.png)
 
 <small>Tener en cuenta que un 60%=4, 70%=5.5, 80%=7, 90%=8.5</small>
 
@@ -114,7 +154,7 @@ Para programar en *C++*
 
 ---
 ## Aula Virtual
-[![Campus Virtual](images/presentacion/CampusVirtual.png)](https://campusvirtual.ucc.edu.ar/course/view.php?id=1545)
+[![Campus Virtual](images/presentacion/moodle.png)](https://campusvirtual.ucc.edu.ar/course/view.php?id=6713)
 
 ---
 #### No teman hacer preguntas, y no se queden con dudas!!!

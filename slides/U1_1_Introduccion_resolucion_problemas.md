@@ -44,6 +44,7 @@ Capacidad de:
 #### Ejemplo de como se puede plantear una solución...
 ##### Sheldon: Diagrama de flujo para hacer amigos
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7MAeSbiLRPo?start=106" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [Link al Video](https://www.youtube.com/embed/7MAeSbiLRPo?start=106)
 
 ---
@@ -181,7 +182,7 @@ Aun si todos encuentran la solución correcta  algunos serán mejores que otros.
 
 ---
 ## Características de los Algortimos
-<!-- .slide: style="font-size: 0.9em" -->
+<!-- .slide: style="font-size: 0.85em" -->
 * **Correcto:** resuelve el problema
 * **Eficiente:** en uso de recursos y tiempo
 * **Preciso:** no ambiguo, la actividad a realizar  en cada paso debe ser clara.
