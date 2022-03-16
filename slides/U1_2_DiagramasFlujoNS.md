@@ -41,9 +41,9 @@ A partir del mismo se escribe un programa en algún lenguaje de programación.
 
 ---
 ## Simbolos de Diagrama de Flujo
-<!-- .slide: style="font-size: 0.8em" -->
+<!-- .slide: style="font-size: 0.7em" -->
 | Simbolo | Explicación |
-|---------|-------------|
+|--------------------------------------------------------|-------------------------------------------------|
 | ![Si-No](images/U1_resolucion_problemas/sim_si-no.png) | Condición, dependiendo del resultado de la evaluación de la misma se sigue por una de las ramas o caminos alternativos. Se utiliza para if, while, do while. |
 | ![sino](images/U1_resolucion_problemas/sim_sino.png) | Selectiva  doble si  entonces/sino. Condición. El resultado es verdadero se continúa por el camino de la Izquerda, y si es falso por el camino de la derecha. Se utiliza para if else. |
 
@@ -70,6 +70,13 @@ A partir del mismo se escribe un programa en algún lenguaje de programación.
 |---------|-------------|
 | ![Conexion Paginas](images/U1_resolucion_problemas/sim_conexionEntrePaginas.png) | Expresar conexión entre páginas diferentes |
 | ![Continuar](images/U1_resolucion_problemas/sim_continuar.png) | Expresar un módulo de un problema. Para continuar con el flujo normal del diagrama debemos primero resolver el subproblema que enuncia en su Interior |
+
+---
+## Simbolos de Diagrama de Flujo
+<!-- .slide: style="font-size: 0.8em" -->
+A tener en cuenta: A veces entre un autor y otro los símbolos utilizados pueden variar un poco. 
+
+Por ejemplo, al comenzar con Pseint verás que "escribir/impresión" varia con respecto a las anteriores diapositivas.
 
 ---
 ## Diagrama de Flujo Básico
@@ -129,7 +136,7 @@ Combina la descripción textual del pseudocódigo con la representación gráfic
 ![Condicion Multiple](images/U1_resolucion_problemas/NS_condicion-multiple.png)
 
 * Doble
-* Multiple
+* Múltiple
 
 ---
 #### Diagramas N-S: Estructuras Iterativas

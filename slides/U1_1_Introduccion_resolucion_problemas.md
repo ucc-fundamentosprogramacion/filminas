@@ -114,7 +114,7 @@ Descubrir, localizar y corregir los errores que hacen que un programa no se ejec
 Tipos de Errores:
 * de Sintaxis: Uso incorrecto de reglas del lenguaje;
 * de Ejecución: Operaciones correctas sintácticamente, pero que no pueden ser ejecutadas.
-* Lógicos: No se obtienen los resultados deseados por problemas en el algorimo.
+* Lógicos: No se obtienen los resultados deseados por problemas en el algoritmo.
 
 ---
 ## 7- Interpretación de los Resultados
