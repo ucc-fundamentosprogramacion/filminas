@@ -555,7 +555,7 @@ Si tenemos en una expresión más de un operador, debemos aplicar primero el ope
 * !, ++, --
 * /, * y %
 * +, -
-* ==, !=, &lt, &gt, &lt= &gt=
+* ==, !=, <, >, <=, >=
 * && , ||
 * +=, -=, *=, /=, %=
 
