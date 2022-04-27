@@ -139,16 +139,28 @@ cin>>num1;
 
 ---
 ## Declarar variables
+En pseudo código:
+````javascript
+Definir numEntero1, numEntero2, numEntero4 Como Entero
+Definir numComa4, numComa8, numComa9 Como Real
+Definir letra como Caracter
+Definir bandera como Logico
+````
+En C++:
 ````javascript
 int numEntero2;
+shor numEntero1;
+long numEntero4;
 float numComa4;
 double numComa8;
+long double numComa9;
 char letra;
-long numEntero4;
+bool bandera;
 ````
 
 ---
 ## Code Blocks: Guardar
+Es MUY IMPORTANTE incluir la extension ".cpp"
 ![Code Blocks](images/U3_programacion/code_blocks_2.png)
 
 ---
@@ -189,9 +201,9 @@ Hay que tener mucho cuidado con esto, el programa compilara, pero el comportamie
     * bool flag = true;
 * **==** es un operador de comparación, devolverá verdadero cuando las expresiones a la derecha y a la izquierda valgan lo mismo, 
 y falso en otro caso:
-    * a == b **true** si a y b tienen el mismo valor almacenado, **false** en otro caso.
-    * (a>3) == (c<4) **true** si a es mayor que 3 y c es menor que 4 simultáneamente, **falso** en otro caso
-    * a == 3 **true** si a tiene almacenado el valor 3, **falso** en otro caso.
+    * if(a == b) {...} **true** si a y b tienen el mismo valor almacenado, **false** en otro caso.
+    * if((a>3) == (c<4)){...} **true** si a es mayor que 3 y c es menor que 4 simultáneamente, **falso** en otro caso
+    * if(a == 3){...} **true** si a tiene almacenado el valor 3, **falso** en otro caso.
 
 
 ---

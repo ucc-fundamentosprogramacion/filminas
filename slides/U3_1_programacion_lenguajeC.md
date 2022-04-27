@@ -41,9 +41,15 @@ semánticas(especifica el significado de estas instrucciones), que hacen posible
 ## Lenguaje de Programación: Tipos
 Clasificación según **tipo** de problema que son capaces de resolver:
 * **Programación estructurada:** Pascal, C, Basic, Fortran, Cobol
-* **Programación orientada a objetos:** C++, Smalltalk, Java
+* **Programación orientada a objetos:** C++, Smalltalk, Java, Python
 * **Programación Simbólica:** Lisp 
 * **Programación Lógica:** Prolog
+
+---
+## Lenguajes más usados
+[Lenguajes mas usados: Statista](https://www.statista.com/statistics/793628/worldwide-developer-survey-most-used-languages/)
+
+[![Michi](images/michi.png)](images/gatitos/IntroProg_1.jpeg)
 
 ---
 ## Programación Estructurada
@@ -56,7 +62,7 @@ Clasificación según **tipo** de problema que son capaces de resolver:
 ## Programación Orientada a Objetos
 * Los programas se estructuran en base a un conjunto de objetos que interactúan entre si para obtener el comportamiento deseado del sistema.
 
-* Ejemplo: C++, Smalltalk, Java
+* Ejemplo: C++, Smalltalk, Java, Python
 
 ---
 ## Programación Simbólica
@@ -428,17 +434,8 @@ const int edad=24;
 #define edad 24;
 ````
 
-<!---
-## Constantes enum
-````javascript
-enum{va0, va1, va2, va3} //define 4 constantes enteras
-   /*Es lo mismo que realizar esto*/
-   const int va0=0;
-   const int va1=1;
-   const int va2=2;
-   const int va3=3;
-````
--->
+[![Michi](images/michi.png)](images/gatitos/IntroProg_1.jpeg)
+
 ---
 ## Operadores
 Son símbolos especiales que sirven para ejecutar una determinada operación, devolviendo el resultado de la misma.
@@ -513,6 +510,10 @@ Sirven para realizar comparaciones de igualdad, desigualdad y relación de menor
 | <= | Menor o igual que |
 
 ---
+### Operadores Condicionales o Relacionales
+[![Michi](images/michi.png)](images/gatitos/IntroProg_2.jpeg)
+
+---
 ## Operadores Lógicos
 <table style="font-size: 0.75em">
 <thead>
@@ -544,6 +545,10 @@ Sirven para realizar comparaciones de igualdad, desigualdad y relación de menor
 </tr>
 </tbody>
 </table>
+
+---
+### Operadores Lógicos
+[![Michi](images/michi.png)](images/gatitos/IntroProg_3.jpeg)
 
 ---
 ## Jerarquía de Operadores

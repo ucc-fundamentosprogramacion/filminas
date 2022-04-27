@@ -43,6 +43,8 @@ cont=cont+1
 ## Acumulador
 Es una variable que almacena datos de una suma continua. 
 Su característica más común es que su valor suele ser siempre una suma o resta del valor actual con un dato nuevo.
+
+Generalmente se inicializa en cero.
 ````javascript
 acum=acum+nota
 ````
