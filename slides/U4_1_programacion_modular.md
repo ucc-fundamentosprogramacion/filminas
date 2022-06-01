@@ -20,7 +20,7 @@ En C/C++ todas las funciones son globales, es decir, se pueden llamar desde cual
 ### Funciones
 Permiten dividir un proyecto grande en módulos pequeños y manejables, donde cada función realice una tarea determinada.
 
-Cuando se ejecuta la sentebcia **return** o termina el código de la función, se retorna al punto en que fue llamada por el programa.
+Cuando se ejecuta la sentencia **return** o termina el código de la función, se retorna al punto en que fue llamada por el programa.
 
 ---
 ### Estructura de una Función
@@ -99,7 +99,7 @@ double promedio(double x1, double x2){
 
 ---
 ### Ejercicios
-Resuelve los ejercicios del **[Trabajo Practico IV](https://ucc-fundamentosprogramacion.github.io/GTP/TP4_ejercicios.html#/1): Programación Modular** 
+Resuelve los ejercicios del **[Trabajo Practico IV](https://ucc-fundamentosprogramacion.github.io/GTP/TP5_ejercicios.html#/1): Programación Modular** 
 
 ---
 ### Parámetros de una Función
